@@ -33,7 +33,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
-img, video { max-width: 100%; display: block; }
+img, video { max-width: 100%; height: auto; display: block; }
 a { color: var(--navy); text-underline-offset: 3px; }
 a:hover { color: var(--red); }
 h1, h2, h3 { font-family: var(--font-display); font-weight: 800; line-height: 1.12; letter-spacing: -0.015em; margin: 0; }
@@ -50,7 +50,7 @@ p { margin: 0; }
 .site-header { background: var(--surface); border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; padding-top: 12px; padding-bottom: 12px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text); }
-.brand img { width: 54px; height: 54px; object-fit: contain; }
+.brand img { width: 56px; height: auto; flex: none; }
 .brand strong { display: block; font-family: var(--font-display); font-size: 19px; line-height: 1.15; }
 .brand span { display: block; font-size: 14px; color: var(--muted); }
 .nav { display: flex; flex-wrap: wrap; gap: 2px; }
@@ -108,7 +108,7 @@ p { margin: 0; }
 .news article { display: flex; flex-direction: column; gap: 10px; }
 .kicker { font-size: 14px; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: .05em; }
 .training { display: flex; flex-wrap: wrap; gap: 28px; align-items: center; }
-.training img { width: 200px; flex: 0 0 auto; }
+.training img { width: 200px; height: auto; flex: 0 0 auto; }
 .training .tiles { flex: 1 1 460px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
 .tile { background: var(--soft); border-radius: 12px; padding: 18px; }
 .tile b { display: block; font-family: var(--font-display); font-size: 22px; margin: 2px 0; }
@@ -171,7 +171,7 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .site-footer b { color: #fff; display: block; margin-bottom: 6px; }
 .site-footer a { color: var(--on-dark); }
 .site-footer a:hover { color: var(--gold); }
-.site-footer .logo { background: #fff; border-radius: 12px; padding: 10px; width: 170px; margin-bottom: 10px; }
+.site-footer .logo { background: #fff; border-radius: 12px; padding: 10px; width: 170px; height: auto; box-sizing: content-box; margin-bottom: 10px; }
 .site-footer .bottom { border-top: 1px solid #2B3956; display: flex; flex-wrap: wrap; gap: 8px 18px; padding-top: 16px; padding-bottom: 26px; font-size: 15px; }
 .site-footer .bottom span { margin-left: auto; }
 
