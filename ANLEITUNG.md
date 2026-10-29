@@ -134,7 +134,6 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [x] Impressum vollständig.
 - [x] Link zur Schulhomepage in der Fußzeile.
 - [x] Rätsel-Rallye übernommen (Ergebnisse über Microsoft Forms der Schule).
-- [ ] Ehrentafel: Endstände 2022/23 und 2024/25 bestätigen (derzeit „vorläufig“).
 - [x] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos).
 - [ ] Archiv-Texte stichprobenartig gegenlesen (Formatierung aus der Übernahme).
 - [x] Ehrentafel der Jahresmeister:innen ab 2021/22.

@@ -1,27 +1,120 @@
 {
  "hinweis": "Jahresmeister:innen der Schach-Jahresmeisterschaft am Gymnasium Lienz. Neues Schuljahr oben einfügen. 'vorlaeufig': true = Endstand noch nicht bestätigt.",
  "jahre": [
-  {"jahr": "2025/26", "bericht": "2025-26/jahresmeisterschaft-2025-26", "plaetze": [
-    {"platz": 1, "name": "Simon Stocker", "punkte": 105},
-    {"platz": 2, "name": "Konstantin Stadler", "punkte": 84},
-    {"platz": 3, "name": "Valentin Steininger", "punkte": 82},
-    {"platz": 3, "name": "Luis Frey", "punkte": 82}]},
-  {"jahr": "2024/25", "bericht": "2024-25/jahresmeisterschaft-2024-25", "vorlaeufig": true, "plaetze": [
-    {"platz": 1, "name": "Markus Amon", "punkte": 135},
-    {"platz": 2, "name": "Emil Vergeiner", "punkte": 118},
-    {"platz": 3, "name": "Konstantin Stadler", "punkte": 99},
-    {"platz": 3, "name": "Luis Frey", "punkte": 99}]},
-  {"jahr": "2023/24", "bericht": "2023-24/jahresmeisterschaft-2023-24", "plaetze": [
-    {"platz": 1, "name": "Sebastian Ortner", "punkte": 123},
-    {"platz": 2, "name": "Ernesto Squasi", "punkte": 108},
-    {"platz": 3, "name": "Rafaela Theurl", "punkte": 94}]},
-  {"jahr": "2022/23", "bericht": "2022-23/jahresmeisterschaft-2022-23", "vorlaeufig": true, "plaetze": [
-    {"platz": 1, "name": "Sebastian Ortner", "punkte": 100},
-    {"platz": 2, "name": "Ernesto Squasi", "punkte": 93},
-    {"platz": 3, "name": "Rafaela Theurl", "punkte": 92}]},
-  {"jahr": "2021/22", "bericht": "2021-22/jahresmeisterschaft-2021-22", "plaetze": [
-    {"platz": 1, "name": "Sebastian Ortner", "punkte": 98},
-    {"platz": 2, "name": "Rafaela Theurl", "punkte": 87},
-    {"platz": 3, "name": "Naomi Uprimny", "punkte": 86}]}
+  {
+   "jahr": "2025/26",
+   "bericht": "2025-26/jahresmeisterschaft-2025-26",
+   "plaetze": [
+    {
+     "platz": 1,
+     "name": "Simon Stocker",
+     "punkte": 105
+    },
+    {
+     "platz": 2,
+     "name": "Konstantin Stadler",
+     "punkte": 84
+    },
+    {
+     "platz": 3,
+     "name": "Valentin Steininger",
+     "punkte": 82
+    },
+    {
+     "platz": 3,
+     "name": "Luis Frey",
+     "punkte": 82
+    }
+   ]
+  },
+  {
+   "jahr": "2024/25",
+   "bericht": "2024-25/jahresmeisterschaft-2024-25",
+   "plaetze": [
+    {
+     "platz": 1,
+     "name": "Markus Amon",
+     "punkte": 135
+    },
+    {
+     "platz": 2,
+     "name": "Emil Vergeiner",
+     "punkte": 118
+    },
+    {
+     "platz": 3,
+     "name": "Konstantin Stadler",
+     "punkte": 99
+    },
+    {
+     "platz": 3,
+     "name": "Luis Frey",
+     "punkte": 99
+    }
+   ]
+  },
+  {
+   "jahr": "2023/24",
+   "bericht": "2023-24/jahresmeisterschaft-2023-24",
+   "plaetze": [
+    {
+     "platz": 1,
+     "name": "Sebastian Ortner",
+     "punkte": 123
+    },
+    {
+     "platz": 2,
+     "name": "Ernesto Squasi",
+     "punkte": 108
+    },
+    {
+     "platz": 3,
+     "name": "Rafaela Theurl",
+     "punkte": 94
+    }
+   ]
+  },
+  {
+   "jahr": "2022/23",
+   "bericht": "2022-23/jahresmeisterschaft-2022-23",
+   "plaetze": [
+    {
+     "platz": 1,
+     "name": "Sebastian Ortner",
+     "punkte": 100
+    },
+    {
+     "platz": 2,
+     "name": "Ernesto Squasi",
+     "punkte": 93
+    },
+    {
+     "platz": 3,
+     "name": "Rafaela Theurl",
+     "punkte": 92
+    }
+   ]
+  },
+  {
+   "jahr": "2021/22",
+   "bericht": "2021-22/jahresmeisterschaft-2021-22",
+   "plaetze": [
+    {
+     "platz": 1,
+     "name": "Sebastian Ortner",
+     "punkte": 98
+    },
+    {
+     "platz": 2,
+     "name": "Rafaela Theurl",
+     "punkte": 87
+    },
+    {
+     "platz": 3,
+     "name": "Naomi Uprimny",
+     "punkte": 86
+    }
+   ]
+  }
  ]
 }
