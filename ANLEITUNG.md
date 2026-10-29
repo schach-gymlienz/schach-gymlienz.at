@@ -28,6 +28,10 @@ archiv.html / bericht.html   Turnierarchiv (Übersicht mit Filter) und Einzelber
 data/jahresmeisterschaft-2026-27.json   alle Ergebnisse der Jahresmeisterschaft
 data/archiv.json           alle Turnierberichte (Text, Bilder, Kategorie) seit 2017/18
 assets/archiv/<schuljahr>/ Fotos und PDFs der Berichte, assets/archiv/vorschau/ Vorschaubilder
+taktik.html                Schach-Rätsel-Rallye
+data/ehrentafel.json       Jahresmeister:innen (Ehrentafel auf Jahresmeisterschaft und Archiv)
+assets/js/rallye.js        Rallye-Logik, Konfiguration ganz oben (Freischaltcode, MS-Forms-Link)
+assets/rallye/             Schachbrett-Bibliotheken, Figuren, Rätsel-Pools (alles lokal)
 tools/import_termin.py     wandelt Swiss-Manager-Exporte in die JSON-Daten um
 ```
 
@@ -62,6 +66,17 @@ Vergangene Termine wieder herausnehmen. `class="day gold"` hebt einen Eintrag ge
 - Dateiname: `reel-<anlass>-<schuljahr>-<nr>.mp4`, z. B. `reel-jm-2026-27-termin2.mp4`, dazu ein Vorschaubild `.jpg` mit gleichem Namen in `assets/img/`.
 - Im HTML `<video ... preload="none" poster="...">` verwenden (lädt erst beim Abspielen).
 
+### Ehrentafel ergänzen (am Schuljahresende)
+In `data/ehrentafel.json` **oben** in `jahre` einen Eintrag mit Schuljahr, Plätzen 1–3 und Punkten ergänzen, optional `"bericht"` (Archiv-ID). `"vorlaeufig": true` zeigt „vorläufig“ an, solange der Endstand nicht bestätigt ist.
+
+### Rätsel-Rallye
+- Ursprünglich von Prof. Amon für die alte Seite entwickelt; jetzt läuft alles lokal (keine CDNs).
+- Lehrkräfte geben statt eines Namens Kommandos ein: `Lehrer` (neuer Freischaltcode), `Update Gabel Mittel` usw. Die Einstellung gilt nur im jeweiligen Browser.
+- Direktlink für eine Stunde: `taktik.html?pool=gabel&level=mittel`.
+- Ergebnisse gehen über ein vorausgefülltes **Microsoft-Forms-Formular der Schule** an die Lehrkräfte (Link in `MS_FORMS_TEMPLATE`).
+- Rätsel-Pools: `assets/rallye/pools/<thema>.js` (je 500 Lichess-Rätsel, CC0).
+- Achtung: Freischaltcode und Prüfsummen-Geheimnis stehen im öffentlichen Quelltext – sie verhindern nur zufällige, keine gezielten Manipulationen.
+
 ### Neuer Turnierbericht
 1. Fotos verkleinern (max. 1400 px breit, JPEG) und nach `assets/archiv/<schuljahr>/<kurzname>-01.jpg` usw. legen; ein Vorschaubild (560 px) nach `assets/archiv/vorschau/<schuljahr>_<kurzname>.jpg`.
 2. In `data/archiv.json` **ganz oben** in `berichte` einen Eintrag ergänzen:
@@ -95,7 +110,7 @@ Das Archiv wurde im Oktober 2026 automatisch von der alten Jimdo-Seite übernomm
 | `--green` | #3FA34D | nur sparsam: Raute, Siege in der Kreuztabelle |
 
 **Schrift:** Inter (Fließtext) und Inter Display ExtraBold (Überschriften), lokal eingebunden.
-**Keine externen Schriften, Skripte oder Einbettungen** (Google Fonts, YouTube, Analytics …) – sonst muss die Datenschutzerklärung angepasst werden.
+**Keine externen Schriften, Skripte oder Einbettungen** (Google Fonts, YouTube, Analytics, CDNs …) – sonst muss die Datenschutzerklärung angepasst werden. Einzige Ausnahme: das Microsoft-Forms-Formular der Rallye, das sich erst beim Abgeben öffnet.
 
 **Bausteine** (CSS-Klassen, wiederverwenden statt neu erfinden):
 `card`, `card-dark`, `btn btn-gold`, `btn btn-navy`, `btn btn-soft`, `pill pill-red`, `pill pill-gold`, `kicker`, `rule`, `section`, `section-head`, `row` + `grow`/`side`, `table.ranking`.
@@ -118,10 +133,11 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 
 - [x] Impressum vollständig.
 - [x] Link zur Schulhomepage in der Fußzeile.
-- [ ] Rätsel-Rallye von der alten Jimdo-Seite übernehmen (Ergebnisse sollen gespeichert werden).
+- [x] Rätsel-Rallye übernommen (Ergebnisse über Microsoft Forms der Schule).
+- [ ] Ehrentafel: Endstände 2022/23 und 2024/25 bestätigen (derzeit „vorläufig“).
 - [x] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos).
 - [ ] Archiv-Texte stichprobenartig gegenlesen (Formatierung aus der Übernahme).
-- [ ] Ehrentafel der Jahresmeister:innen (Endstände liegen im Archiv nur als Bilder vor).
+- [x] Ehrentafel der Jahresmeister:innen ab 2021/22.
 - [ ] Teilnehmer:innen-Seite des aktuellen Schuljahres.
 
 ## 6. Für Claude (KI-Assistent)

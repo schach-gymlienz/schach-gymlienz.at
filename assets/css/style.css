@@ -212,3 +212,43 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .ext-links { margin: 0 0 14px; padding-left: 20px; font-size: 15px; }
 .report-nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-weight: 600; }
 @media (max-width: 640px) { .text-img figure { float: none; width: 100%; margin: 10px 0; } }
+
+/* ---------- Ehrentafel ---------- */
+.honor { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.honor-year { background: var(--surface); border: 1px solid var(--line); border-top: 5px solid var(--gold); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.honor-head { display: flex; justify-content: space-between; align-items: center; }
+.honor-jahr { font-family: var(--font-display); font-weight: 800; font-size: 20px; }
+.honor-note { font-size: 12px; font-weight: 700; color: #7A520A; background: var(--gold-soft); padding: 2px 8px; border-radius: 999px; }
+.honor-champ { display: flex; align-items: center; gap: 10px; font-size: 18px; }
+.honor-champ strong { flex: 1; }
+.honor-rest { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
+.honor-rest li { display: flex; align-items: center; gap: 8px; }
+.honor-rest .rank { width: 24px; height: 24px; font-size: 13px; }
+
+/* ---------- Rätsel-Rallye ---------- */
+.rally-wrap { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.rally-card, .rally-quiz { flex: 999 1 460px; min-width: 0; max-width: 640px; }
+.rally-card { display: flex; flex-direction: column; gap: 14px; }
+.rally-card h2 { font-size: 28px; }
+.rally-card h3 { font-size: 18px; }
+.rally-btn { width: 100%; text-align: center; font: inherit; font-weight: 700; cursor: pointer; }
+.rally-msg { padding: 12px 14px; border-radius: 10px; font-size: 15px; line-height: 1.45; }
+.rally-info { background: #E1E9F7; color: #1B2A4A; }
+.rally-ok { background: #E3F1E6; color: #1E5A2C; }
+.rally-bad { background: #F7E3E4; color: #8A1C22; }
+.rally-progress { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; padding: 12px 14px; border-radius: 10px; background: var(--navy); color: #fff; margin-bottom: 10px; font-variant-numeric: tabular-nums; }
+.rally-urgent { color: var(--gold); font-weight: 700; }
+.rally-quiz .rally-msg { margin-bottom: 12px; }
+.rally-board { width: 100%; max-width: 560px; touch-action: none; user-select: none; -webkit-user-select: none; }
+.rally-board * { touch-action: none; }
+.rally-final { font-family: var(--font-display); font-size: 40px; font-weight: 800; text-align: center; padding: 16px; border-radius: 12px; background: var(--gold-soft); color: #4E3A10; }
+.rally-detail { margin: 0; padding-left: 22px; line-height: 1.7; }
+.rally-good { color: #1E5A2C; }
+.rally-badtxt { color: #8A1C22; }
+.rally-help { border-top: 1px solid var(--line); padding-top: 12px; font-size: 15px; }
+.rally-help summary { cursor: pointer; font-weight: 700; }
+.rally-help ul { margin: 6px 0 8px; padding-left: 22px; }
+.rally-help p { margin: 8px 0; }
+.rally-wrap .side { max-width: 380px; }
+[hidden] { display: none !important; }
+.rally-card .field { flex: none; }

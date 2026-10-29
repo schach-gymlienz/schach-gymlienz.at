@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rätsel-Rallye – Taktik-Training · Schach am Gymnasium Lienz</title>
+<meta name="description" content="Schach-Rätsel-Rallye für den Unterricht: 10 Taktikrätsel, 2 Minuten pro Rätsel, Ergebnis direkt an die Lehrkraft.">
+<link rel="icon" href="assets/img/emblem-schachteam.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- KOPFZEILE (auf allen Seiten gleich) -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/img/emblem-schachteam.png" alt="" width="56" height="54">
+      <span><strong>Schach am Gym Lienz</strong><span>BG/BRG Lienz · Schulschach Osttirol</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a href="index.html">Start</a>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a>
+      <a href="index.html#training">Training</a>
+      <a href="archiv.html">Archiv</a>
+      <a href="taktik.html" aria-current="page">Taktik</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhalt">
+  <link rel="stylesheet" href="assets/rallye/lib/chessboard-1.0.0.css">
+  <section class="hero page-hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="pill pill-red">Taktik-Training</span>
+        <h1>Schach-Rätsel-Rallye</h1>
+        <div class="rule" aria-hidden="true"><span></span></div>
+        <p class="small">10 Rätsel · 2 Minuten pro Rätsel · nur der erste Zug zählt · 1 Punkt pro richtiger Lösung</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap rally-wrap">
+      <!-- Startbildschirm -->
+      <div id="lpr-start" class="card rally-card">
+        <h2>Los geht's!</h2>
+        <p class="muted">Du bekommst <strong>10 Schachrätsel</strong> und hast <strong>2 Minuten pro Rätsel</strong>. <strong>Nur der erste Zug zählt</strong> – überlege also gut!</p>
+        <label class="field" for="lpr-name">Dein Name<input id="lpr-name" type="text" maxlength="40" autocomplete="off" placeholder="Vorname Nachname"></label>
+        <label class="field" for="lpr-code">Freischaltcode (sagt deine Lehrkraft)<input id="lpr-code" type="text" maxlength="40" autocomplete="off"></label>
+        <div id="lpr-start-error" class="rally-msg" role="status" hidden></div>
+        <button id="lpr-start-btn" type="button" class="btn btn-gold rally-btn">Rallye starten</button>
+        <div id="lpr-pool-badge" class="muted small"></div>
+        <details class="rally-help">
+          <summary>Für Lehrkräfte: Themen &amp; Schwierigkeitsstufen</summary>
+          <p><strong>Update &lt;Thema&gt; &lt;Stufe&gt;</strong> statt eines Namens eingeben tauscht den Rätsel-Pool, z. B. <em>Update Gabel Mittel</em>. <strong>Lehrer</strong> erzeugt einen neuen Freischaltcode. Beides bleibt nur in diesem Browser gespeichert.</p>
+          <ul>
+            <li><em>Matt-Muster:</em> Matt1, Matt2, Grundreihe, Erstickt</li>
+            <li><em>Doppelangriffe:</em> Gabel, Spieß, Abzug</li>
+            <li><em>Bindung &amp; Lenkung:</em> Fesselung, Ablenkung, Hinlenkung</li>
+            <li><em>Endspiel:</em> Endspiel, Turmendspiel, Bauernendspiel</li>
+          </ul>
+          <p><strong>Stufen:</strong> Leicht (Rating 600–1100), Mittel (1100–1600), Schwer (1600–2200). Ohne Stufe = alle gemischt.</p>
+          <p><strong>Direktlink</strong> für eine Stunde: <code>taktik.html?pool=gabel&amp;level=mittel</code></p>
+        </details>
+      </div>
+
+      <!-- Rätsel -->
+      <div id="lpr-quiz" class="rally-quiz" hidden>
+        <div class="rally-progress"><span id="lpr-counter"><b>Rätsel 1 / 10</b></span><span id="lpr-timer">Zeit: 2:00</span><span id="lpr-score">Punkte: 0</span></div>
+        <div id="lpr-status" class="rally-msg rally-info" role="status" aria-live="polite">Du bist am Zug – finde den besten Zug!</div>
+        <div id="lpr-board" class="rally-board"></div>
+      </div>
+
+      <!-- Ende -->
+      <div id="lpr-end" class="card rally-card" hidden>
+        <h2>Rallye beendet!</h2>
+        <div id="lpr-final-score" class="rally-final">0 / 10</div>
+        <h3>Übersicht</h3>
+        <ol id="lpr-detail" class="rally-detail"></ol>
+        <button id="lpr-submit-btn" type="button" class="btn btn-navy rally-btn">Ergebnis an die Lehrkraft abgeben</button>
+        <p class="muted small" style="text-align:center">Es öffnet sich ein Formular der Schule (Microsoft Forms) mit deinem Ergebnis. Dort nur noch auf <strong>Senden</strong> klicken.</p>
+        <div id="lpr-submit-msg" class="rally-msg rally-info" hidden></div>
+        <button id="lpr-again-btn" type="button" class="btn btn-soft rally-btn">Neue Rallye</button>
+      </div>
+
+      <aside class="card side">
+        <h3 style="margin-bottom:10px">Noch mehr Training</h3>
+        <p class="muted small" style="margin-bottom:12px">Jeden Tag ein neues Rätsel gibt es auf lichess.org – kostenlos und ohne Anmeldung.</p>
+        <a class="btn btn-soft" href="https://lichess.org/training/daily" rel="noopener">Tagesrätsel auf lichess.org</a>
+        <p class="muted small" style="margin-top:16px">Rätsel: Lichess-Rätseldatenbank (CC0). Figuren: Wikimedia Commons, CC BY-SA 3.0. <a href="assets/rallye/LIZENZEN.txt">Lizenzen</a></p>
+      </aside>
+    </div>
+  </section>
+  <script src="assets/rallye/lib/jquery-3.7.1.min.js"></script>
+  <script src="assets/rallye/lib/chess-0.10.3.js"></script>
+  <script src="assets/rallye/lib/chessboard-1.0.0.js"></script>
+  <script src="assets/js/rallye.js"></script>
+</main>
+
+<!-- FUSSZEILE (auf allen Seiten gleich) -->
+<footer class="site-footer" id="kontakt">
+  <div class="wrap cols">
+    <div>
+      <img class="logo" src="assets/img/logo-schachteam.png" alt="Logo: Schachteam Gymnasium Lienz BG/BRG" width="170" height="160">
+      <b>Schach am Gymnasium Lienz</b>
+      Gymnasium Lienz BG/BRG<br>Maximilianstraße 11, 9900 Lienz
+    </div>
+    <div>
+      <b>Kontakt</b>
+      <a href="mailto:info@schach-gymlienz.at">info@schach-gymlienz.at</a><br>
+      Prof. Mag. Christopher Stadler, RS – Fortgeschrittene<br>
+      Prof. Mag. Hannes Amon – Anfänger:innen
+    </div>
+    <div>
+      <b>Links</b>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a><br>
+      <a href="archiv.html">Turnierarchiv</a><br>
+      <a href="https://www.gymlienz.at/" rel="noopener">Homepage des Gymnasium Lienz</a>
+
+    </div>
+  </div>
+  <div class="wrap bottom">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <span>© Schachteam Gymnasium Lienz BG/BRG</span>
+  </div>
+</footer>
+</body>
+</html>
