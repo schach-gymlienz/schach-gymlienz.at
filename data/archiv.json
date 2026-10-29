@@ -1,6 +1,69 @@
 {
  "berichte": [
   {
+   "id": "2025-26/bundesfinale-maedchen",
+   "jahr": "2025/26",
+   "titel": "Schulschach Bundesfinale Mädchen 2026",
+   "kategorie": "Bundesfinale",
+   "vorschau": "assets/archiv/vorschau/2025-26_bundesfinale-maedchen.jpg",
+   "auszug": "Die jüngste Mannschaft im Feld: Unsere vier Erstklässlerinnen vertraten Tirol beim Bundesfinale der Mädchen in Steinach am Brenner und erreichten Platz 10.",
+   "bilder": 4,
+   "quelle": "https://gym-schach.jimdofree.com/bundesfinale-m%C3%A4dchen/",
+   "bloecke": [
+    {
+     "t": "img",
+     "i": [
+      {
+       "src": "assets/archiv/2025-26/bundesfinale-maedchen-01.jpg",
+       "alt": "Siegerehrung beim Bundesfinale der Mädchen 2026"
+      }
+     ],
+     "c": "v. l. Anita Stuto, Elena Manhart, Julia Kendlbacher und Evie Squasi bei der Siegerehrung, zusammen mit Betreuerin Stefanie Joas."
+    },
+    {
+     "t": "p",
+     "x": [
+      "Vom 31. Mai bis 3. Juni durften unsere vier Schachspielerinnen aus dem Gymnasium ein ganz besonderes Erlebnis mit nach Hause nehmen: die Teilnahme am Bundesfinale der Mädchen im Schulschach in Steinach am Brenner. Für Tirol gingen Julia Kendlbacher (Brett 1), Elena Manhart (Brett 2), Evie Squasi (Brett 3) und Anita Stuto (Brett 4) als gemeinsame Schulmannschaft an den Start.",
+      "Dass unser Team überhaupt dabei sein durfte, verdankte es dem Sieg beim Landesfinale, damals noch mit Hava Nuraliyeva am ersten Brett. Ihr Fehlen war diesmal deutlich spürbar: Jede Spielerin musste eine Position weiter vorne übernehmen und sich damit noch stärkeren Gegnerinnen stellen. Eine echte Herausforderung, der sich die Mädchen aber mutig gestellt haben.",
+      "Besonders bemerkenswert: Unsere Mannschaft war die jüngste im gesamten Teilnehmerfeld. Alle vier Spielerinnen besuchen die erste Klasse – und spielten hier gegen die besten Schulteams aus ganz Österreich, die jeweils ihre Bundesländer vertreten durften. Trotz dieser schwierigen Ausgangslage ließen sich die Mädchen nicht entmutigen.",
+      "Natürlich war das Turnier sportlich anspruchsvoll, und am Ende landeten sie am 10. Platz. Doch das Ergebnis erzählt nur einen kleinen Teil der Geschichte. Die Mädchen haben in diesen Tagen wertvolle Erfahrung, neue Eindrücke und viele spannende Partien gesammelt, aus denen sie lernen konnten.",
+      "Neben dem Schach kam auch das Gemeinschaftserlebnis nicht zu kurz. Die gemeinsame Zeit im JUFA Steinach, das Rahmenprogramm und die vielen kleinen Momente abseits des Schachbretts machten die Tage zu etwas ganz Besonderem.",
+      "Und das vielleicht Schönste aus schulischer Sicht: Da alle vier noch ganz am Anfang ihrer Schulzeit stehen, haben sie noch drei weitere Chancen, beim Bundesfinale anzutreten, dann mit der Erfahrung dieses Jahres im Gepäck."
+     ]
+    },
+    {
+     "t": "img",
+     "i": [
+      {
+       "src": "assets/archiv/2025-26/bundesfinale-maedchen-02.jpg",
+       "alt": "Eröffnung des Bundesfinales"
+      }
+     ],
+     "c": "Elena Manhart liest bei der Eröffnung die Grußworte des Bildungsministers Christoph Wiederkehr vor."
+    },
+    {
+     "t": "img",
+     "i": [
+      {
+       "src": "assets/archiv/2025-26/bundesfinale-maedchen-03.jpg",
+       "alt": "Schlussrunde gegen das Europagymnasium Klagenfurt"
+      }
+     ],
+     "c": "In der Schlussrunde spielten wir gegen unsere „Nachbarn“, das Europagymnasium Klagenfurt."
+    },
+    {
+     "t": "img",
+     "i": [
+      {
+       "src": "assets/archiv/2025-26/bundesfinale-maedchen-04.jpg",
+       "alt": "Die Mannschaft beim Rahmenprogramm"
+      }
+     ],
+     "c": "Als Teil des Rahmenprogramms besuchten wir die Ausstellung „Tunnelwelten“ zum Brenner-Basistunnel."
+    }
+   ]
+  },
+  {
    "id": "2025-26/jahresmeisterschaft-2025-26",
    "jahr": "2025/26",
    "titel": "Jahresmeisterschaft 2025/26",

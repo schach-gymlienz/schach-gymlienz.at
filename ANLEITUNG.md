@@ -29,6 +29,8 @@ data/jahresmeisterschaft-2026-27.json   alle Ergebnisse der Jahresmeisterschaft
 data/archiv.json           alle Turnierberichte (Text, Bilder, Kategorie) seit 2017/18
 assets/archiv/<schuljahr>/ Fotos und PDFs der Berichte, assets/archiv/vorschau/ Vorschaubilder
 taktik.html                Schach-Rätsel-Rallye
+ueber-uns.html             Chronik seit 1978/79, Erfolge bei Landes-/Bundesfinali, Anmeldung, Unterlagen
+assets/unterlagen/         PDF-Vorlagen für Turniere (Partieformular, Kreuztabellen, Meldungen)
 data/ehrentafel.json       Jahresmeister:innen (Ehrentafel auf Jahresmeisterschaft und Archiv)
 assets/js/rallye.js        Rallye-Logik, Konfiguration ganz oben (Freischaltcode, MS-Forms-Link)
 assets/rallye/             Schachbrett-Bibliotheken, Figuren, Rätsel-Pools (alles lokal)
@@ -65,6 +67,9 @@ Vergangene Termine wieder herausnehmen. `class="day gold"` hebt einen Eintrag ge
 - Vor dem Hochladen komprimieren, Ziel: **unter 5 MB**, Breite 720 px (GitHub erlaubt max. 100 MB pro Datei, die Seite soll aber schnell laden).
 - Dateiname: `reel-<anlass>-<schuljahr>-<nr>.mp4`, z. B. `reel-jm-2026-27-termin2.mp4`, dazu ein Vorschaubild `.jpg` mit gleichem Namen in `assets/img/`.
 - Im HTML `<video ... preload="none" poster="...">` verwenden (lädt erst beim Abspielen).
+
+### Erfolge bei Landes-/Bundesfinali ergänzen
+In `ueber-uns.html` im Abschnitt `id="erfolge"` oben ein neues `timeline-year` einfügen (Aufbau wie die bestehenden, mit Link auf den Archivbericht). Die Inhalte erzeugt das Hilfsskript; von Hand im HTML ergänzen ist genauso in Ordnung.
 
 ### Ehrentafel ergänzen (am Schuljahresende)
 In `data/ehrentafel.json` **oben** in `jahre` einen Eintrag mit Schuljahr, Plätzen 1–3 und Punkten ergänzen, optional `"bericht"` (Archiv-ID). `"vorlaeufig": true` zeigt „vorläufig“ an, solange der Endstand nicht bestätigt ist.
@@ -137,6 +142,8 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [x] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos).
 - [ ] Archiv-Texte stichprobenartig gegenlesen (Formatierung aus der Übernahme).
 - [x] Ehrentafel der Jahresmeister:innen ab 2021/22.
+- [x] Chronik, Erfolgsliste, Unterlagen und Bericht Bundesfinale Mädchen 2026 übernommen.
+- [ ] Teilnehmer:innen-Listen der alten Seite bewusst nicht übernommen (Datenschutz ehemaliger Schüler:innen).
 - [ ] Teilnehmer:innen-Seite des aktuellen Schuljahres.
 
 ## 6. Für Claude (KI-Assistent)
