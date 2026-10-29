@@ -103,6 +103,8 @@ Das Archiv wurde im Oktober 2026 automatisch von der alten Jimdo-Seite übernomm
 **Texte:** Du-Form gegenüber Schüler:innen, sachlich und freundlich. Gendern mit Doppelpunkt (Schüler:innen).
 Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 
+**Logos:** nur die Dateien aus `assets/img/` verwenden und nie verzerren – im CSS nur die Breite festlegen, die Höhe bleibt `auto`. Im HTML `width`/`height` im echten Seitenverhältnis angeben (Schachteam 720×679, Schachtraining 720×645, Emblem 224×216).
+
 **Barrierefreiheit:** Jedes Bild braucht ein sinnvolles `alt` (reine Deko: `alt=""`). Echte `<a>`/`<button>` verwenden. Seiten müssen am Handy (390 px Breite) ohne seitliches Scrollen funktionieren – breite Tabellen kommen in `<div class="table-box">`.
 
 ## 4. Datenschutz-Regeln
