@@ -69,7 +69,7 @@ Vergangene Termine wieder herausnehmen. `class="day gold"` hebt einen Eintrag ge
 - Im HTML `<video ... preload="none" poster="...">` verwenden (lädt erst beim Abspielen).
 
 ### Erfolge bei Landes-/Bundesfinali ergänzen
-In `ueber-uns.html` im Abschnitt `id="erfolge"` oben ein neues `timeline-year` einfügen (Aufbau wie die bestehenden, mit Link auf den Archivbericht). Die Inhalte erzeugt das Hilfsskript; von Hand im HTML ergänzen ist genauso in Ordnung.
+In `ueber-uns.html` im Abschnitt `id="erfolge"` oben ein neues `timeline-year` einfügen (Aufbau wie die bestehenden, mit Link auf den Archivbericht).
 
 ### Ehrentafel ergänzen (am Schuljahresende)
 In `data/ehrentafel.json` **oben** in `jahre` einen Eintrag mit Schuljahr, Plätzen 1–3 und Punkten ergänzen, optional `"bericht"` (Archiv-ID). `"vorlaeufig": true` zeigt „vorläufig“ an, solange der Endstand nicht bestätigt ist.
