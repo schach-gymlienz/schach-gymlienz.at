@@ -116,8 +116,8 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 
 ## 5. Offene Punkte (Stand Oktober 2026)
 
-- [ ] Impressum: Wohnort von Prof. Amon eintragen (`[Wohnort]` in `impressum.html`).
-- [ ] Link zur Schulhomepage in der Fußzeile ergänzen (siehe `TODO` in den HTML-Dateien).
+- [x] Impressum vollständig.
+- [x] Link zur Schulhomepage in der Fußzeile.
 - [ ] Rätsel-Rallye von der alten Jimdo-Seite übernehmen (Ergebnisse sollen gespeichert werden).
 - [x] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos).
 - [ ] Archiv-Texte stichprobenartig gegenlesen (Formatierung aus der Übernahme).
