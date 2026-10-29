@@ -11,6 +11,8 @@
 <link rel="icon" href="assets/img/emblem-schachteam.png">
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="assets/js/jahresmeisterschaft.js" defer></script>
+<script src="assets/js/termine.js" defer></script>
+<script src="assets/js/archiv.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -25,11 +27,12 @@
     <nav class="nav" aria-label="Hauptmenü">
       <a href="index.html" aria-current="page">Start</a>
       <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a>
-      <a href="index.html#training">Training</a>
-      <a href="archiv.html">Archiv</a>
+      <a href="termine.html">Termine</a>
+      <a href="training.html">Training</a>
       <a href="taktik.html">Taktik</a>
+      <a href="archiv.html">Archiv</a>
       <a href="ueber-uns.html">Über uns</a>
-      <a href="index.html#kontakt">Kontakt</a>
+      <a href="faq.html">Kontakt</a>
     </nav>
   </div>
 </header>
@@ -60,6 +63,21 @@
     </div>
   </section>
 
+  <!-- HINWEIS-KASTEN Weihnachtsturnier: nach dem Turnier (21.12.2026) entfernen oder durch den Bericht ersetzen -->
+  <section class="section" id="weihnachtsturnier" style="padding-bottom:0">
+    <div class="wrap">
+      <a class="card card-dark promo" href="weihnachtsturnier.html">
+        <img src="assets/turniere/weihnachtsturnier-2026-plakat.jpg" alt="" width="120" height="170" loading="lazy">
+        <div>
+          <span class="pill pill-gold">Mo, 21. Dezember 2026 · Festsaal</span>
+          <h2>26. Osttiroler Weihnachts-Schulschachturnier</h2>
+          <p class="muted">9 Runden, 15 Minuten Bedenkzeit, Pokale und Medaillen für alle Gruppen. Anmeldung bis 14. Dezember.</p>
+        </div>
+        <span class="btn btn-gold">Ausschreibung &amp; Anmeldung</span>
+      </a>
+    </div>
+  </section>
+
   <!-- JAHRESMEISTERSCHAFT: Tabelle wird automatisch aus data/jahresmeisterschaft-2026-27.json erzeugt -->
   <section class="section" id="jahresmeisterschaft">
     <div class="wrap">
@@ -82,43 +100,22 @@
         </div>
         <aside class="card side">
           <h3 style="margin-bottom:16px">Termine</h3>
-          <!-- TERMINE: hier neue Termine eintragen (Monat in <small>, Tag darunter) -->
-          <ul class="dates">
-            <li><div class="day"><small>jeden</small>Di</div><div><strong>Schachtraining</strong><div class="muted small">jeden Dienstag, 13:45–15:25 Uhr</div></div></li>
-            <li><div class="day"><small>Okt</small>20</div><div><strong>Jahresmeisterschaft, Termin 1</strong><div class="muted small">gespielt · <a href="jahresmeisterschaft.html#kreuztabelle">Ergebnisse</a></div></div></li>
-            <li><div class="day gold"><small>folgt</small>…</div><div><strong>Weitere Termine</strong><div class="muted small">werden hier laufend bekanntgegeben</div></div></li>
-          </ul>
+          <!-- TERMINE: werden automatisch aus data/termine.json erzeugt -->
+          <div data-termine="naechste" data-limit="3"><p class="muted small">Termine werden geladen …</p></div>
+          <a class="small" href="termine.html" style="display:inline-block;margin-top:14px">Alle Termine &amp; Kalender →</a>
         </aside>
       </div>
     </div>
   </section>
 
+  <!-- AKTUELLES: die drei obersten Berichte aus data/archiv.json -->
   <section class="section" id="turniere">
     <div class="wrap">
       <div class="section-head">
-        <h2>Aus dem Vorjahr</h2>
+        <h2>Aktuelles</h2>
         <a class="small" href="archiv.html">Alle Berichte seit 2017/18 →</a>
       </div>
-      <div class="news">
-        <article class="card">
-          <span class="kicker">Landesfinale · 2025/26</span>
-          <h3>Gymnasium Lienz schreibt Geschichte beim 50. Landesfinale</h3>
-          <p>Beim 50. Tiroler Schulschach-Landesfinale holten sich die Lienzer Teams alle Landesmeistertitel der Sekundarstufe – ein Novum im Tiroler Schulschach. Unterstufe, Oberstufe und die neu formierte Mädchenmannschaft dominierten das Jubiläumsturnier in Innsbruck. Die Mädchen traten als eines der jüngsten Teams überhaupt an und lösten souverän das Ticket zum Bundesfinale.</p>
-          <a href="bericht.html?b=2025-26%2F50-landesfinale-tirol">Zum Bericht</a>
-        </article>
-        <article class="card">
-          <span class="kicker">Bundesfinale · 2025/26</span>
-          <h3>Zehn Schüler:innen beim Bundesfinale in Linz</h3>
-          <p>Das Bundesfinale wurde zu einem besonderen Auftritt für das Gymnasium Lienz: Die Unterstufe kämpfte sich auf einen respektablen 8. Platz, die Oberstufe sorgte mit dem 5. Platz für ein echtes Ausrufezeichen.</p>
-          <p class="btn-row"><a href="bericht.html?b=2025-26%2Fbundesfinale-oberstufe">Bericht Oberstufe</a><a href="bericht.html?b=2025-26%2Fbundesfinale-unterstufe">Bericht Unterstufe</a></p>
-        </article>
-        <article class="card">
-          <span class="kicker">Bundesfinale Mädchen · 2025/26</span>
-          <h3>Die jüngste Mannschaft im Feld</h3>
-          <p>Vier Erstklässlerinnen vertraten Tirol beim Bundesfinale der Mädchen in Steinach am Brenner – gegen die besten Schulteams Österreichs. Am Ende Platz 10 und jede Menge Erfahrung für die nächsten drei Anläufe.</p>
-          <a href="bericht.html?b=2025-26%2Fbundesfinale-maedchen">Zum Bericht</a>
-        </article>
-      </div>
+      <div data-archiv="neueste" data-limit="3"><p class="muted">Berichte werden geladen …</p></div>
     </div>
   </section>
 
@@ -129,6 +126,7 @@
         <div style="flex:1 1 280px;display:flex;flex-direction:column;gap:10px">
           <h2>Mitmachen: jeden Dienstag</h2>
           <p class="muted">Schulschach ist bei uns unverbindliche Übung – für Einsteiger:innen genauso wie für Turnierspieler:innen. Mitmachen darf jede Schülerin und jeder Schüler des BG/BRG Lienz. Anmelden kannst du dich bei Prof. Amon, Prof. Stadler oder bei deinem Klassenvorstand – oder du kommst einfach in eine Schachstunde. <strong>Schnuppern ist jederzeit möglich!</strong></p>
+          <p class="btn-row"><a class="btn btn-navy" href="training.html">Rätsel der Woche &amp; Lernbereich</a><a class="btn btn-soft" href="faq.html">Fragen &amp; Antworten</a></p>
         </div>
         <div class="tiles">
           <div class="tile"><small>Anfänger:innen</small><b>13:45 – 15:25</b><span>Physiksaal · Prof. Amon</span></div>
@@ -166,12 +164,14 @@
     <div>
       <b>Kontakt</b>
       <a href="mailto:info@schach-gymlienz.at">info@schach-gymlienz.at</a><br>
+      <a href="faq.html">Fragen &amp; Antworten</a><br>
       Prof. Mag. Christopher Stadler, RS – Fortgeschrittene<br>
       Prof. Mag. Hannes Amon – Anfänger:innen
     </div>
     <div>
       <b>Links</b>
       <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a><br>
+      <a href="termine.html">Termine</a><br>
       <a href="archiv.html">Turnierarchiv</a><br>
       <a href="ueber-uns.html#unterlagen">Unterlagen für Turniere</a><br>
       <a href="ueber-uns.html">Über uns &amp; Chronik</a><br>

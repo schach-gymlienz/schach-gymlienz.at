@@ -32,6 +32,10 @@ taktik.html                Schach-Rätsel-Rallye
 ueber-uns.html             Chronik seit 1978/79, Erfolge bei Landes-/Bundesfinali, Anmeldung, Unterlagen
 assets/unterlagen/         PDF-Vorlagen für Turniere (Partieformular, Kreuztabellen, Meldungen)
 data/ehrentafel.json       Jahresmeister:innen (Ehrentafel auf Jahresmeisterschaft und Archiv)
+termine.html               Termine des Schuljahres + Kalender-Download (Daten: data/termine.json; Startseite zeigt die nächsten 3)
+training.html              Rätsel der Woche (data/raetsel.json), Lernen nach Stufen, Partien zum Nachspielen (data/partien.json)
+faq.html                   Fragen & Antworten für Schüler:innen und Eltern, Kontakt (Menüpunkt „Kontakt“)
+weihnachtsturnier.html     Ausschreibung des aktuellen Weihnachtsturniers (PDF und Plakat in assets/turniere/)
 teilnehmer.html            Teilnehmer:innen der Schachgruppen seit 2017/18 (Daten: data/teilnehmer.json, Fotos: assets/teilnehmer/<schuljahr>/)
 assets/js/rallye.js        Rallye-Logik, Konfiguration ganz oben (Freischaltcode, MS-Forms-Link)
 assets/rallye/             Schachbrett-Bibliotheken, Figuren, Rätsel-Pools (alles lokal)
@@ -74,6 +78,21 @@ In `ueber-uns.html` im Abschnitt `id="erfolge"` oben ein neues `timeline-year` e
 
 ### Ehrentafel ergänzen (am Schuljahresende)
 In `data/ehrentafel.json` **oben** in `jahre` einen Eintrag mit Schuljahr, Plätzen 1–3 und Punkten ergänzen, optional `"bericht"` (Archiv-ID). `"vorlaeufig": true` zeigt „vorläufig“ an, solange der Endstand nicht bestätigt ist.
+
+### Termin eintragen
+In `data/termine.json` einen Eintrag ergänzen: `datum` (JJJJ-MM-TT), optional `bis`, `zeit`, `ort`, `info`, `link`/`linktext`, `ebene` (schule, osttirol, land, bund). Noch kein Datum? `"datum": null, "wann": "Termin folgt"`. Die Reihenfolge ist egal, sortiert wird automatisch; vergangene Termine erscheinen unter „Bereits gespielt“. Startseite und Kalender-Download aktualisieren sich von selbst.
+
+### Rätsel der Woche
+`data/raetsel.json` enthält einen Vorrat bis Juli 2027 (jeden Montag automatisch ein neues, aus der freien Lichess-Rätseldatenbank). Eigene Rätsel: Eintrag mit `ab` (Montag), `thema`, `fen` (Stellung, Seite am Zug = Lösende), `loesung` (z. B. `e2e4`), `san` (z. B. `Dxf7#` in englischer Notation `Qxf7#`) und `text` ersetzen.
+
+### Partie zum Nachspielen ergänzen
+In `data/partien.json` oben einen Eintrag mit `titel`, `weiss`, `schwarz`, `jahr`, `ort`, `kommentar` und `pgn` (Züge mit englischen Figurenbuchstaben K, Q, R, B, N) einfügen. Ideal: besondere Partien unserer Teams vom Landes- oder Bundesfinale.
+
+### Weihnachtsturnier / Hinweis-Kasten auf der Startseite
+Der Kasten `id="weihnachtsturnier"` in `index.html` wirbt für das Turnier. Nach dem Turnier entfernen (oder auf den neuen Bericht verlinken) und `weihnachtsturnier.html` fürs nächste Jahr anpassen.
+
+### Zahlen & Rekorde
+Stehen in `ueber-uns.html` (Abschnitt `id="rekorde"`) und werden am Schuljahresende von Hand nachgezählt.
 
 ### Teilnehmer:innen des neuen Schuljahres eintragen
 In `data/teilnehmer.json` **oben** in `jahre` einen Eintrag ergänzen (Aufbau wie die bestehenden): `jahr`, optional `text`, und `gruppen` mit `titel` (z. B. „Anfänger:innen“), optional `leitung`, `zeit`, `namen` (`{ "n": "Nachname Vorname", "k": "1c" }`, alphabetisch) und `fotos` (`{ "src": "assets/teilnehmer/2026-27/01.jpg", "alt": "Name" }`). Fotos max. 1400 px, JPEG. Fehlt eine Liste: `"hinweis": "Liste fehlt"`. Das neueste Schuljahr wird automatisch zuerst angezeigt.
@@ -149,6 +168,9 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [x] Chronik, Erfolgsliste, Unterlagen und Bericht Bundesfinale Mädchen 2026 übernommen.
 - [x] Teilnehmer:innen-Listen 2017/18–2025/26 von der alten Seite übernommen (Einverständnis zu Namen und Fotos liegt laut Schule vor).
 - [ ] Teilnehmer:innen 2026/27 in `data/teilnehmer.json` eintragen.
+- [ ] Termine Bezirksfinale und Landesfinale 2026/27 sowie weitere Jahresmeisterschafts-Termine in `data/termine.json` eintragen.
+- [ ] Hinweis-Kasten Weihnachtsturnier nach dem 21.12.2026 von der Startseite nehmen.
+- [ ] Eigene Partien (Landes-/Bundesfinale) in `data/partien.json` ergänzen.
 - [ ] Anfänger:innen-Listen 2022/23–2024/25 fehlen (schon auf der alten Seite).
 
 ## 6. Für Claude (KI-Assistent)

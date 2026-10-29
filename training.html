@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Training – Schach am Gymnasium Lienz</title>
+<meta name="description" content="Schachtraining am Gymnasium Lienz: Rätsel der Woche, berühmte Partien zum Nachspielen und Tipps für Einsteiger:innen, Anfänger:innen und Fortgeschrittene.">
+<link rel="icon" href="assets/img/emblem-schachteam.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- KOPFZEILE (auf allen Seiten gleich) -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/img/emblem-schachteam.png" alt="" width="56" height="54">
+      <span><strong>Schach am Gym Lienz</strong><span>BG/BRG Lienz · Schulschach Osttirol</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a href="index.html">Start</a>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a>
+      <a href="termine.html">Termine</a>
+      <a href="training.html" aria-current="page">Training</a>
+      <a href="taktik.html">Taktik</a>
+      <a href="archiv.html">Archiv</a>
+      <a href="ueber-uns.html">Über uns</a>
+      <a href="faq.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhalt">
+  <link rel="stylesheet" href="assets/rallye/lib/chessboard-1.0.0.css">
+  <section class="hero page-hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="pill pill-red">jeden Dienstag 13:45 – 15:25</span>
+        <h1>Training</h1>
+        <div class="rule" aria-hidden="true"><span></span></div>
+        <p class="small">Im Physiksaal trainieren die Anfänger:innen mit Prof. Amon, im Vortragssaal die Fortgeschrittenen mit Prof. Stadler. Und zwischen den Stunden geht es hier weiter.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÄTSEL DER WOCHE: aus data/raetsel.json, jeden Montag automatisch ein neues -->
+  <section class="section" id="raetsel">
+    <div class="wrap">
+      <div class="section-head"><h2>Rätsel der Woche</h2><span class="muted small">jeden Montag ein neues</span></div>
+      <div class="card" data-raetsel><p class="muted">Rätsel wird geladen …</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="lernen">
+    <div class="wrap">
+      <div class="section-head"><h2>Lernen nach Stufen</h2></div>
+      <div class="levels">
+        <div class="card">
+          <span class="kicker">Stufe 1</span><h3>Einsteiger:innen</h3>
+          <ul>
+            <li>Wie ziehen die Figuren? Was sind Schach, Matt und Patt?</li>
+            <li>Sonderregeln: Rochade, Umwandlung, en passant</li>
+            <li>Die Figuren-Werte: Bauer 1, Springer und Läufer 3, Turm 5, Dame 9</li>
+          </ul>
+          <p class="muted small">Zum Üben: <a href="https://lichess.org/learn" rel="noopener">Schach lernen auf lichess.org</a> – kostenlos und ohne Anmeldung.</p>
+        </div>
+        <div class="card">
+          <span class="kicker">Stufe 2</span><h3>Anfänger:innen</h3>
+          <ul>
+            <li>Grundmatts: König und Dame, König und Turm gegen König</li>
+            <li>Eröffnung: Zentrum besetzen, Springer und Läufer früh entwickeln, rochieren, die Dame nicht zu früh ins Spiel bringen</li>
+            <li>Vor jedem Zug fragen: Was droht mein Gegner? Hängt eine Figur?</li>
+            <li>Erste Taktik: Gabel, Fesselung, Grundreihenmatt</li>
+          </ul>
+          <p class="muted small">Zum Üben: <a href="https://lichess.org/practice" rel="noopener">Übungen auf lichess.org</a> (Grundmatts, Taktik).</p>
+        </div>
+        <div class="card">
+          <span class="kicker">Stufe 3</span><h3>Fortgeschrittene</h3>
+          <ul>
+            <li>Taktik-Motive: Spieß, Abzug, Ablenkung, Hinlenkung, ersticktes Matt</li>
+            <li>Endspiele: Bauern- und Turmendspiele, Opposition</li>
+            <li>Ein Eröffnungsrepertoire mit Weiß und mit Schwarz</li>
+            <li>Eigene Partien notieren und danach mit der Trainerin oder dem Trainer besprechen</li>
+          </ul>
+          <p class="muted small">Zum Üben: die <a href="taktik.html">Rätsel-Rallye</a> und <a href="https://lichess.org/training/themes" rel="noopener">Rätsel nach Themen</a> auf lichess.org.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTIEN: aus data/partien.json -->
+  <section class="section" id="partien">
+    <div class="wrap">
+      <div class="section-head"><h2>Partien zum Nachspielen</h2><span class="muted small">Klick auf einen Zug oder nutze ◀ ▶</span></div>
+      <div class="card" data-partien><p class="muted">Partien werden geladen …</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card card-dark" style="display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between">
+        <div style="flex:999 1 380px"><h2>Noch nicht dabei?</h2><p class="muted">Komm einfach an einem Dienstag vorbei – Schnuppern ist jederzeit möglich.</p></div>
+        <div class="btn-row"><a class="btn btn-gold" href="faq.html">Fragen &amp; Antworten</a><a class="btn btn-ghost" href="termine.html">Termine</a></div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/rallye/lib/jquery-3.7.1.min.js"></script>
+  <script src="assets/rallye/lib/chess-0.10.3.js"></script>
+  <script src="assets/rallye/lib/chessboard-1.0.0.js"></script>
+  <script src="assets/js/training.js"></script>
+</main>
+
+<!-- FUSSZEILE (auf allen Seiten gleich) -->
+<footer class="site-footer" id="kontakt">
+  <div class="wrap cols">
+    <div>
+      <img class="logo" src="assets/img/logo-schachteam.png" alt="Logo: Schachteam Gymnasium Lienz BG/BRG" width="170" height="160">
+      <b>Schach am Gymnasium Lienz</b>
+      Gymnasium Lienz BG/BRG<br>Maximilianstraße 11, 9900 Lienz
+    </div>
+    <div>
+      <b>Kontakt</b>
+      <a href="mailto:info@schach-gymlienz.at">info@schach-gymlienz.at</a><br>
+      <a href="faq.html">Fragen &amp; Antworten</a><br>
+      Prof. Mag. Christopher Stadler, RS – Fortgeschrittene<br>
+      Prof. Mag. Hannes Amon – Anfänger:innen
+    </div>
+    <div>
+      <b>Links</b>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a><br>
+      <a href="termine.html">Termine</a><br>
+      <a href="archiv.html">Turnierarchiv</a><br>
+      <a href="ueber-uns.html#unterlagen">Unterlagen für Turniere</a><br>
+      <a href="ueber-uns.html">Über uns &amp; Chronik</a><br>
+      <a href="teilnehmer.html">Teilnehmer:innen seit 2017/18</a><br>
+      <a href="https://www.gymlienz.at/" rel="noopener">Homepage des Gymnasium Lienz</a>
+
+    </div>
+  </div>
+  <div class="wrap bottom">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <span>© Schachteam Gymnasium Lienz BG/BRG</span>
+  </div>
+</footer>
+</body>
+</html>

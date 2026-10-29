@@ -1,0 +1,69 @@
+{
+ "hinweis": "Termine des Schuljahres. Datum als JJJJ-MM-TT, 'bis' für mehrtägige Termine, 'zeit' optional (z. B. '13:45–15:25'). 'ebene': schule | osttirol | land | bund. Termine ohne festes Datum: 'datum': null und 'wann' (z. B. 'Frühjahr 2027'). Vergangene Termine werden automatisch als 'gespielt' angezeigt.",
+ "schuljahr": "2026/27",
+ "termine": [
+  {
+   "datum": "2026-10-20",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 1",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule",
+   "link": "jahresmeisterschaft.html#kreuztabelle",
+   "linktext": "Ergebnisse"
+  },
+  {
+   "datum": "2026-12-14",
+   "titel": "Nennungsschluss Weihnachtsturnier",
+   "ebene": "osttirol",
+   "info": "Anmeldung per E-Mail an info@schach-gymlienz.at oder am Infotisch im Gymnasium (Pausenraum 1. Stock)",
+   "link": "weihnachtsturnier.html",
+   "linktext": "Ausschreibung"
+  },
+  {
+   "datum": "2026-12-21",
+   "zeit": "7:45–ca. 14:30",
+   "titel": "26. Osttiroler Weihnachts-Schulschachturnier",
+   "ort": "Gymnasium Lienz, Festsaal",
+   "ebene": "osttirol",
+   "info": "9 Runden Schweizer System, 15 Minuten pro Spieler:in und Partie",
+   "link": "weihnachtsturnier.html",
+   "linktext": "Ausschreibung"
+  },
+  {
+   "datum": null,
+   "wann": "alle zwei Wochen am Dienstag",
+   "titel": "Jahresmeisterschaft, weitere Termine",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule",
+   "info": "Die Termine werden laufend hier eingetragen."
+  },
+  {
+   "datum": null,
+   "wann": "Termin folgt",
+   "titel": "Bezirksfinale Schulschach Osttirol",
+   "ebene": "osttirol"
+  },
+  {
+   "datum": null,
+   "wann": "Termin folgt",
+   "titel": "Tiroler Schulschach-Landesfinale",
+   "ebene": "land"
+  },
+  {
+   "datum": "2027-05-23",
+   "bis": "2027-05-26",
+   "titel": "Bundesfinale Mädchen",
+   "ort": "Vorarlberger Schulsport-Zentrum, Tschagguns",
+   "ebene": "bund",
+   "info": "für die Landessiegerinnen (U16)"
+  },
+  {
+   "datum": "2027-05-31",
+   "bis": "2027-06-04",
+   "titel": "Bundesfinale Sekundarstufe I und II",
+   "ort": "Jugendgästehaus Brigittenau, Wien",
+   "ebene": "bund",
+   "info": "Unterstufe (U16) und Oberstufe (U21) – für die Landessieger:innen"
+  }
+ ]
+}

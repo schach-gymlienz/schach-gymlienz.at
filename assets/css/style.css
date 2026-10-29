@@ -276,3 +276,56 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .tn-fotos { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 .tn-fotos img { aspect-ratio: 3 / 4; object-position: 50% 30%; }
 .tn-fotos figcaption { font-size: 14px; }
+
+/* Termine (termine.html, Startseite) */
+.dates .day.red { background: var(--red); color: #fff; }
+.dates .day.red small { color: #fff; }
+.dates li.past { opacity: .6; }
+.dates-big { gap: 18px; }
+.dates-big li { align-items: flex-start; padding-bottom: 16px; border-bottom: 1px solid var(--line-soft); }
+.dates .pill { font-size: 12px; padding: 2px 9px; vertical-align: 2px; }
+
+/* Training: Rätsel der Woche, Partien (training.html) */
+.puzzle { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.puzzle-board { flex: 1 1 320px; max-width: 480px; }
+.puzzle-board > div:first-child { width: 100%; }
+.puzzle-side { flex: 1 1 260px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.puzzle-side h3 { margin: 0; }
+.puzzle-side .pill { align-self: flex-start; }
+.puzzle-side .field { flex: none; }
+.notice.ok { background: #E3F3E5; color: #1F5A28; }
+.notice.bad { background: #FBE3E4; color: #7A1B1F; }
+.pgn-ctl { display: flex; gap: 8px; margin-top: 10px; }
+.pgn-ctl button, .pgn-moves button { font: inherit; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px; cursor: pointer; }
+.pgn-ctl button { flex: 1; padding: 8px 0; font-size: 18px; }
+.pgn-moves { margin: 0; padding-left: 2.2em; columns: 2 130px; max-height: 340px; overflow: auto; }
+.pgn-moves li { break-inside: avoid; padding: 2px 0; }
+.pgn-moves button { padding: 2px 7px; margin-right: 4px; font-size: 15px; border-color: transparent; }
+.pgn-moves button.on { background: var(--navy); color: #fff; }
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; }
+.levels .card { display: flex; flex-direction: column; gap: 10px; border-top: 5px solid var(--navy); }
+.levels .card:nth-child(2) { border-top-color: var(--green); }
+.levels .card:nth-child(3) { border-top-color: var(--red); }
+.levels ul { margin: 0; padding-left: 1.1em; }
+.levels li { margin: 4px 0; }
+
+/* Fragen & Antworten (faq.html) */
+.faq { display: flex; flex-direction: column; gap: 10px; }
+.faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0 18px; }
+.faq summary { cursor: pointer; font-weight: 700; padding: 15px 0; list-style-position: outside; }
+.faq details[open] summary { border-bottom: 1px solid var(--line-soft); }
+.faq details p { margin: 12px 0 16px; }
+
+/* Zahlen & Rekorde (ueber-uns.html) */
+.records { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.records div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+.records b { display: block; font-family: var(--font-display); font-size: 32px; line-height: 1.1; color: var(--navy); }
+.records span { font-size: 15px; color: var(--muted); }
+
+/* Hinweis-Kasten (Startseite) */
+.promo { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 24px; text-decoration: none; color: #fff; }
+.promo img { width: 110px; height: auto; border-radius: 8px; flex: none; box-shadow: 0 6px 20px rgba(0,0,0,.3); }
+.promo > div { flex: 999 1 300px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.promo h2 { margin: 0; }
+.promo:hover .btn-gold { filter: brightness(1.05); }
+@media (max-width: 560px) { .pgn-moves { columns: 1; max-height: 240px; } }

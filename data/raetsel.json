@@ -1,0 +1,329 @@
+{
+ "hinweis": "Rätsel der Woche. \"ab\" = Montag, ab dem das Rätsel gezeigt wird. \"loesung\" im Format von-nach (z. B. e2e4), \"san\" = Zug in Schachnotation. Rätsel stammen aus der Lichess-Rätseldatenbank (CC0).",
+ "raetsel": [
+  {
+   "ab": "2026-11-02",
+   "thema": "Matt in 1",
+   "fen": "2R5/6k1/1p1p4/p2Pq1pp/2PQ4/2P1P2P/4r1P1/7K b - - 3 40",
+   "loesung": "e2e1",
+   "san": "Re1#",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 939
+  },
+  {
+   "ab": "2026-11-09",
+   "thema": "Gabel",
+   "fen": "8/7k/6p1/R6p/P2b4/1b3P1P/6P1/5K2 b - - 3 37",
+   "loesung": "b3c4",
+   "san": "Bc4+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 970
+  },
+  {
+   "ab": "2026-11-16",
+   "thema": "Fesselung",
+   "fen": "8/1R3pkp/4b1p1/3p4/5bP1/5N1P/rP3P2/1B4K1 b - - 8 34",
+   "loesung": "a2a1",
+   "san": "Ra1",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1069
+  },
+  {
+   "ab": "2026-11-23",
+   "thema": "Grundreihenmatt",
+   "fen": "6k1/Q4p1p/1pr3p1/8/P1b5/2P2P2/2P1q1PP/B1R3K1 b - - 0 30",
+   "loesung": "e2e3",
+   "san": "Qe3+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1294
+  },
+  {
+   "ab": "2026-11-30",
+   "thema": "Matt in 2",
+   "fen": "Q7/5pk1/4pq1p/3p2p1/1R6/2P4P/Pr3PP1/4R1K1 b - - 0 26",
+   "loesung": "f6f2",
+   "san": "Qxf2+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1217
+  },
+  {
+   "ab": "2026-12-07",
+   "thema": "Spieß",
+   "fen": "1r3k2/5B2/7p/p1p4P/2p5/P1P1Pp2/5P2/4K1R1 b - - 0 39",
+   "loesung": "b8b1",
+   "san": "Rb1+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1154
+  },
+  {
+   "ab": "2026-12-14",
+   "thema": "Abzugsangriff",
+   "fen": "r4r2/7p/p1p2p1k/1p2PPpN/4p3/1P6/1PP3K1/7R w - - 0 29",
+   "loesung": "h5f6",
+   "san": "Nxf6+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1320
+  },
+  {
+   "ab": "2026-12-21",
+   "thema": "Ablenkung",
+   "fen": "6k1/1p1r1pp1/p6p/3p2q1/PPnBr3/4PQ2/2R2PPP/2R3K1 w - - 1 25",
+   "loesung": "c2c4",
+   "san": "Rxc4",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1438
+  },
+  {
+   "ab": "2026-12-28",
+   "thema": "Hinlenkung",
+   "fen": "r5k1/3q4/5pP1/3ppN2/1p6/3P3K/BPP5/5R2 w - - 1 44",
+   "loesung": "a2d5",
+   "san": "Bxd5+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1029
+  },
+  {
+   "ab": "2027-01-04",
+   "thema": "Ersticktes Matt",
+   "fen": "4r1k1/B4ppp/4p3/1Q1p4/3P4/1P2q2n/P5PP/5R1K b - - 5 27",
+   "loesung": "e3g1",
+   "san": "Qg1+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1495
+  },
+  {
+   "ab": "2027-01-11",
+   "thema": "Bauernendspiel",
+   "fen": "8/8/8/8/6kp/4KP2/8/8 b - - 0 74",
+   "loesung": "g4g3",
+   "san": "Kg3",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 999
+  },
+  {
+   "ab": "2027-01-18",
+   "thema": "Turmendspiel",
+   "fen": "6r1/8/R7/p7/6k1/5R2/r4P1K/8 w - - 4 49",
+   "loesung": "f3g3",
+   "san": "Rg3+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 993
+  },
+  {
+   "ab": "2027-01-25",
+   "thema": "Matt in 1",
+   "fen": "4r2k/2Rb3p/1n1q2pQ/pp3pN1/7P/1B6/PP3PP1/6K1 b - - 1 29",
+   "loesung": "e8e1",
+   "san": "Re1#",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1100
+  },
+  {
+   "ab": "2027-02-01",
+   "thema": "Gabel",
+   "fen": "8/5p2/p2Rpkpn/N7/P4P2/4P1K1/r4P1P/8 b - - 2 36",
+   "loesung": "h6f5",
+   "san": "Nf5+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 844
+  },
+  {
+   "ab": "2027-02-08",
+   "thema": "Fesselung",
+   "fen": "3r4/1b2kp1p/2q1pp2/1pb5/8/1B3N2/1PP1QPRP/4R2K b - - 0 20",
+   "loesung": "c6f3",
+   "san": "Qxf3",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1020
+  },
+  {
+   "ab": "2027-02-15",
+   "thema": "Grundreihenmatt",
+   "fen": "r6k/p5pp/2Q5/1p1p4/8/8/q1P2PPP/3R2K1 w - - 0 24",
+   "loesung": "c6a8",
+   "san": "Qxa8#",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 825
+  },
+  {
+   "ab": "2027-02-22",
+   "thema": "Matt in 2",
+   "fen": "5kn1/1p5Q/1q4p1/p2pP3/2pN4/2P5/1P3r2/2K2R1R b - - 1 33",
+   "loesung": "b6b2",
+   "san": "Qxb2+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 948
+  },
+  {
+   "ab": "2027-03-01",
+   "thema": "Spieß",
+   "fen": "8/5p1k/6p1/5r1p/1RP5/1P3PKP/r7/6R1 b - - 2 39",
+   "loesung": "f5g5",
+   "san": "Rg5+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1213
+  },
+  {
+   "ab": "2027-03-08",
+   "thema": "Abzugsangriff",
+   "fen": "3k2q1/pp3pN1/2b2b2/2pp2Q1/6n1/3P1N2/P1P2PPP/5K2 w - - 4 27",
+   "loesung": "g7e6",
+   "san": "Ne6+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1358
+  },
+  {
+   "ab": "2027-03-15",
+   "thema": "Ablenkung",
+   "fen": "6k1/ppp3pp/4rp2/2b5/2N2P2/1P1P2P1/P1PK3P/4R3 b - - 1 23",
+   "loesung": "c5b4",
+   "san": "Bb4+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1382
+  },
+  {
+   "ab": "2027-03-22",
+   "thema": "Hinlenkung",
+   "fen": "6rk/p5pp/5p2/4pPR1/7Q/3P4/Pqr3PP/5RK1 w - - 0 27",
+   "loesung": "h4h7",
+   "san": "Qxh7+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1381
+  },
+  {
+   "ab": "2027-03-29",
+   "thema": "Ersticktes Matt",
+   "fen": "r4rk1/ppp2pp1/5P1p/7Q/3p4/P5Nn/1P4PP/6RK b - - 0 25",
+   "loesung": "h3f2",
+   "san": "Nf2#",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 931
+  },
+  {
+   "ab": "2027-04-05",
+   "thema": "Bauernendspiel",
+   "fen": "8/8/8/8/p7/1pK2k2/1P6/8 w - - 4 73",
+   "loesung": "c3b4",
+   "san": "Kb4",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1183
+  },
+  {
+   "ab": "2027-04-12",
+   "thema": "Turmendspiel",
+   "fen": "8/4k2P/4p3/4R3/8/5P2/p5PK/r7 b - - 0 38",
+   "loesung": "a1h1",
+   "san": "Rh1+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1150
+  },
+  {
+   "ab": "2027-04-19",
+   "thema": "Matt in 1",
+   "fen": "1br2rk1/ppq2ppp/2n1p3/6N1/3P4/3QPb2/PP2B1PP/R4RK1 w - - 0 16",
+   "loesung": "d3h7",
+   "san": "Qxh7#",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 801
+  },
+  {
+   "ab": "2027-04-26",
+   "thema": "Gabel",
+   "fen": "r5k1/3bQ1pp/3pp3/p1p5/4P3/2qP3P/6P1/5R1K w - - 0 25",
+   "loesung": "e7f7",
+   "san": "Qf7+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1229
+  },
+  {
+   "ab": "2027-05-03",
+   "thema": "Fesselung",
+   "fen": "r4rk1/1pq1ppbp/6p1/p2pP1N1/1n1Pb1P1/P1N1P2P/1P1QB3/2KR1R2 b - - 4 17",
+   "loesung": "b4a2",
+   "san": "Na2#",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 886
+  },
+  {
+   "ab": "2027-05-10",
+   "thema": "Grundreihenmatt",
+   "fen": "6k1/p4r1p/1p2pqp1/2p1Q3/8/1P1P4/P1P3PP/4R1K1 b - - 0 25",
+   "loesung": "f6f2",
+   "san": "Qf2+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1196
+  },
+  {
+   "ab": "2027-05-17",
+   "thema": "Matt in 2",
+   "fen": "6k1/pp6/1bpN3p/4P1p1/7q/3Q3P/PP4P1/7K w - - 0 29",
+   "loesung": "d3g6",
+   "san": "Qg6+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 981
+  },
+  {
+   "ab": "2027-05-24",
+   "thema": "Spieß",
+   "fen": "8/7R/2k1p3/1p6/5B2/KPn5/4r2P/8 w - - 1 38",
+   "loesung": "h7c7",
+   "san": "Rc7+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 917
+  },
+  {
+   "ab": "2027-05-31",
+   "thema": "Abzugsangriff",
+   "fen": "2kr3r/ppp2pp1/q1P5/4pbPp/1P1b4/P1N4P/2PQNPB1/R1R3K1 b - - 0 20",
+   "loesung": "d4f2",
+   "san": "Bxf2+",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1224
+  },
+  {
+   "ab": "2027-06-07",
+   "thema": "Ablenkung",
+   "fen": "4k3/4P2p/6p1/6P1/1K2R2P/2pr4/8/8 b - - 1 50",
+   "loesung": "c3c2",
+   "san": "c2",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1341
+  },
+  {
+   "ab": "2027-06-14",
+   "thema": "Hinlenkung",
+   "fen": "3r1nrk/pp3p1p/2p1bPpQ/8/5R1R/2q4P/P1B3P1/7K w - - 0 35",
+   "loesung": "h6h7",
+   "san": "Qxh7+",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1442
+  },
+  {
+   "ab": "2027-06-21",
+   "thema": "Ersticktes Matt",
+   "fen": "r1bqkb1r/3pnppp/2n5/pppQP3/4N3/3B4/PPP1NPPP/R1B1K2R w KQkq - 4 11",
+   "loesung": "e4d6",
+   "san": "Nd6#",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1389
+  },
+  {
+   "ab": "2027-06-28",
+   "thema": "Bauernendspiel",
+   "fen": "8/p3k3/1p1p4/1P1K4/2P5/8/8/8 w - - 10 63",
+   "loesung": "d5c6",
+   "san": "Kc6",
+   "text": "Weiß ist am Zug. Finde den besten Zug!",
+   "rating": 1311
+  },
+  {
+   "ab": "2027-07-05",
+   "thema": "Turmendspiel",
+   "fen": "2r5/4k3/1R6/4p3/1p4R1/2p5/P6P/6K1 b - - 0 36",
+   "loesung": "c3c2",
+   "san": "c2",
+   "text": "Schwarz ist am Zug. Finde den besten Zug!",
+   "rating": 1266
+  }
+ ]
+}

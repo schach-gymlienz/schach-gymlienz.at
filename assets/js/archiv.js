@@ -66,6 +66,16 @@
     draw();
   }
 
+  /* Startseite: die neuesten Berichte (oberste Einträge in archiv.json), data-limit = Anzahl */
+  function renderNeueste(el, data) {
+    var n = +(el.getAttribute("data-limit") || 3);
+    el.innerHTML = '<div class="archive-grid">' + data.berichte.slice(0, n).map(function (b) {
+      return '<a class="report-card" href="bericht.html?b=' + encodeURIComponent(b.id) + '">' +
+        (b.vorschau ? '<img src="' + esc(b.vorschau) + '" alt="" loading="lazy">' : '<div class="noimg" aria-hidden="true">♞</div>') +
+        '<div class="rc-body"><span class="kicker">' + esc(b.kategorie) + " · " + esc(b.jahr) + "</span><h3>" + esc(b.titel) + '</h3><p class="muted small">' + esc(b.auszug) + "</p></div></a>";
+    }).join("") + "</div>";
+  }
+
   function renderBericht(el, data) {
     var id = new URLSearchParams(location.search).get("b");
     var idx = -1;
@@ -90,10 +100,10 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    var liste = document.querySelector('[data-archiv="liste"]'), bericht = document.querySelector('[data-archiv="bericht"]');
-    if (!liste && !bericht) return;
+    var liste = document.querySelector('[data-archiv="liste"]'), bericht = document.querySelector('[data-archiv="bericht"]'), neu = document.querySelector('[data-archiv="neueste"]');
+    if (!liste && !bericht && !neu) return;
     fetch(DATA_URL, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (data) { if (liste) renderListe(liste, data); if (bericht) renderBericht(bericht, data); })
-      .catch(function () { (liste || bericht).innerHTML = '<p class="notice">Das Archiv konnte gerade nicht geladen werden. Bitte die Seite neu laden.</p>'; });
+      .then(function (data) { if (liste) renderListe(liste, data); if (bericht) renderBericht(bericht, data); if (neu) renderNeueste(neu, data); })
+      .catch(function () { (liste || bericht || neu).innerHTML = '<p class="notice">Das Archiv konnte gerade nicht geladen werden. Bitte die Seite neu laden.</p>'; });
   });
 })();
