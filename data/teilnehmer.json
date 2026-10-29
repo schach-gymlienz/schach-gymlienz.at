@@ -1,0 +1,1505 @@
+{
+ "hinweis": "Teilnehmer:innen der Schachgruppen am Gymnasium Lienz. Neues Schuljahr oben einfügen. Namen als \"Nachname Vorname\", Klasse in \"k\" (optional). Fotos liegen in assets/teilnehmer/<Schuljahr>/.",
+ "jahre": [
+  {
+   "jahr": "2025/26",
+   "text": "Alle Teilnehmer:innen laut Endstand der Jahresmeisterschaft 2025/26.",
+   "gruppen": [
+    {
+     "titel": "Teilnehmer:innen",
+     "namen": [
+      {
+       "n": "Amon Markus",
+       "k": "4B"
+      },
+      {
+       "n": "Biasco Marlon",
+       "k": "2A"
+      },
+      {
+       "n": "Bundschuh Finn",
+       "k": "1C"
+      },
+      {
+       "n": "Dobnig David",
+       "k": "1E"
+      },
+      {
+       "n": "Ebner Luca",
+       "k": "1C"
+      },
+      {
+       "n": "Franz Leopold",
+       "k": "1D"
+      },
+      {
+       "n": "Frey Luis",
+       "k": "4AG"
+      },
+      {
+       "n": "Gasser Noah",
+       "k": "5A"
+      },
+      {
+       "n": "Gruber Joel",
+       "k": "1B"
+      },
+      {
+       "n": "Guggenberger Simon",
+       "k": "1C"
+      },
+      {
+       "n": "Hopfgarnter Laurent",
+       "k": "1D"
+      },
+      {
+       "n": "Ivanov Martin",
+       "k": "1C"
+      },
+      {
+       "n": "Kendlbacher Julia",
+       "k": "1D"
+      },
+      {
+       "n": "Kurnik Timo",
+       "k": "5A"
+      },
+      {
+       "n": "Ladstätter Benjamin",
+       "k": "4EL"
+      },
+      {
+       "n": "Lamprecht David",
+       "k": "1E"
+      },
+      {
+       "n": "Lang Paul",
+       "k": "1D"
+      },
+      {
+       "n": "Lo Piccolo Maceo",
+       "k": "1B"
+      },
+      {
+       "n": "Manhart Elena",
+       "k": "1D"
+      },
+      {
+       "n": "Marizzi David",
+       "k": "4CL"
+      },
+      {
+       "n": "Meier Raphael",
+       "k": "6C"
+      },
+      {
+       "n": "Radziwon David",
+       "k": "4EL"
+      },
+      {
+       "n": "Scheiber Elija",
+       "k": "3EL"
+      },
+      {
+       "n": "Schneider Joona",
+       "k": "1D"
+      },
+      {
+       "n": "Squasi Ernesto",
+       "k": "6B"
+      },
+      {
+       "n": "Stadler Gregor",
+       "k": "VS"
+      },
+      {
+       "n": "Stadler Konstantin",
+       "k": "VS"
+      },
+      {
+       "n": "Steininger Valentin",
+       "k": "2E"
+      },
+      {
+       "n": "Stocker Simon",
+       "k": "3C"
+      },
+      {
+       "n": "Stuto Anita",
+       "k": "1D"
+      },
+      {
+       "n": "Tegischer Marian",
+       "k": "3C"
+      },
+      {
+       "n": "Tegischer Simon",
+       "k": "4B"
+      },
+      {
+       "n": "Thaler-Golmitzer Lukas",
+       "k": "3AG"
+      },
+      {
+       "n": "Tiefnig Niklas",
+       "k": "5A"
+      },
+      {
+       "n": "Weichselbraun Philipp",
+       "k": "1C"
+      },
+      {
+       "n": "Weiler Max",
+       "k": "3C"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "jahr": "2024/25",
+   "text": "Wie im letzten Jahr ist die Schachgruppe auch heuer wieder gut besucht. 19 Schüler:innen besuchen heuer die Schachkurse unter Prof. Ackerer (Anfängergruppe) bzw. Prof. Stadler (Fortgeschrittene).",
+   "gruppen": [
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Stadler",
+     "namen": [
+      {
+       "n": "Amon Markus",
+       "k": "3B"
+      },
+      {
+       "n": "Biasco Marlon",
+       "k": "1A"
+      },
+      {
+       "n": "Frey Luis",
+       "k": "3A"
+      },
+      {
+       "n": "Gasser Noah",
+       "k": "4C"
+      },
+      {
+       "n": "Klocker Moritz"
+      },
+      {
+       "n": "Kurnik Timo",
+       "k": "4E"
+      },
+      {
+       "n": "Mühlburger Ben",
+       "k": "1E"
+      },
+      {
+       "n": "Radziwon David",
+       "k": "3E"
+      },
+      {
+       "n": "Scheiber Elija",
+       "k": "2C"
+      },
+      {
+       "n": "Schlacher Nico",
+       "k": "1A"
+      },
+      {
+       "n": "Sharov Sergej",
+       "k": "4E"
+      },
+      {
+       "n": "Stadler Konstantin",
+       "k": "VS"
+      },
+      {
+       "n": "Steininger Valentin",
+       "k": "1E"
+      },
+      {
+       "n": "Stocker Simon",
+       "k": "2A"
+      },
+      {
+       "n": "Uprimny Fausto",
+       "k": "2D"
+      },
+      {
+       "n": "Vergeiner Emil",
+       "k": "8C"
+      },
+      {
+       "n": "Weiler Max",
+       "k": "2A"
+      },
+      {
+       "n": "Xu Leon",
+       "k": "1D"
+      }
+     ]
+    },
+    {
+     "titel": "Anfänger:innen",
+     "leitung": "Prof. Ackerer",
+     "hinweis": "Liste fehlt"
+    }
+   ]
+  },
+  {
+   "jahr": "2023/24",
+   "text": "Wie im letzten Jahr ist die Schachgruppe auch heuer wieder sehr groß. 37 Schüler:innen besuchen heuer die Schachkurse unter Prof. Ackerer (Anfängergruppe) bzw. Prof. Stadler (Fortgeschrittene).",
+   "gruppen": [
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Stadler",
+     "namen": [
+      {
+       "n": "Amon Markus"
+      },
+      {
+       "n": "Badyari Reyan"
+      },
+      {
+       "n": "Berger David"
+      },
+      {
+       "n": "Biasco Dana"
+      },
+      {
+       "n": "Frey Luis"
+      },
+      {
+       "n": "Gomille Jonas"
+      },
+      {
+       "n": "Gröschl Laura"
+      },
+      {
+       "n": "Hunsamer Marie"
+      },
+      {
+       "n": "Kellner Philip"
+      },
+      {
+       "n": "Koini Felix"
+      },
+      {
+       "n": "Kurnik Timo"
+      },
+      {
+       "n": "Libiseller Nils"
+      },
+      {
+       "n": "Luneschnig Julius"
+      },
+      {
+       "n": "Mühlburger Jonas"
+      },
+      {
+       "n": "Ortner Sebastian"
+      },
+      {
+       "n": "Radziwon David"
+      },
+      {
+       "n": "Reiterer Paul"
+      },
+      {
+       "n": "Ruggenthaler Gregory"
+      },
+      {
+       "n": "Scheiber Elija"
+      },
+      {
+       "n": "Schmidhofer Jahn"
+      },
+      {
+       "n": "Schuster Florentina"
+      },
+      {
+       "n": "Schuster Theodor"
+      },
+      {
+       "n": "Squasi Ernesto"
+      },
+      {
+       "n": "Stocker Simon"
+      },
+      {
+       "n": "Theurl Rafaela"
+      },
+      {
+       "n": "Uprimny Fausto"
+      },
+      {
+       "n": "Uprimny Naomi"
+      },
+      {
+       "n": "Zeiner Viktor"
+      }
+     ]
+    },
+    {
+     "titel": "Anfänger:innen",
+     "leitung": "Prof. Ackerer",
+     "hinweis": "Liste fehlt"
+    }
+   ]
+  },
+  {
+   "jahr": "2022/23",
+   "text": "Ein überaus teilnehmerstarkes Schachjahr erwartet uns. Gleich 34 (!) Schüler:innen besuchen heuer die Schachkurse unter Prof. Ackerer (Anfängergruppe) bzw. Prof. Amon (Fortgeschrittene).",
+   "gruppen": [
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Amon",
+     "namen": [
+      {
+       "n": "Akhmedova Rajana"
+      },
+      {
+       "n": "Amon Markus"
+      },
+      {
+       "n": "Beiten Anna"
+      },
+      {
+       "n": "Berger David"
+      },
+      {
+       "n": "Biasco Dana"
+      },
+      {
+       "n": "Burkia Neo"
+      },
+      {
+       "n": "Clara Emma"
+      },
+      {
+       "n": "Frey Luis"
+      },
+      {
+       "n": "Gomille Jonas"
+      },
+      {
+       "n": "Kurnik Timo"
+      },
+      {
+       "n": "Libiseller Nils"
+      },
+      {
+       "n": "Luneschnig Julius"
+      },
+      {
+       "n": "Ortner Sebastian"
+      },
+      {
+       "n": "Radziwon David"
+      },
+      {
+       "n": "Schuster Theodor"
+      },
+      {
+       "n": "Singer Raffaella"
+      },
+      {
+       "n": "Squasi Ernesto"
+      },
+      {
+       "n": "Theurl Rafaela"
+      },
+      {
+       "n": "Tiefnig Niklas"
+      },
+      {
+       "n": "Uprimny Naomi"
+      },
+      {
+       "n": "Weis Luna"
+      },
+      {
+       "n": "Zamojski Hubert"
+      },
+      {
+       "n": "Zeiner Viktor"
+      }
+     ]
+    },
+    {
+     "titel": "Anfänger:innen",
+     "leitung": "Prof. Ackerer",
+     "hinweis": "Liste fehlt"
+    }
+   ]
+  },
+  {
+   "jahr": "2021/22",
+   "text": "Der Schachunterricht wird wieder in zwei Gruppen geführt. Die Anfänger:innen werden von Prof. Ackerer unterrichtet, während die Fortgeschrittenen mit Prof. Amon trainieren.",
+   "gruppen": [
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Amon",
+     "namen": [
+      {
+       "n": "Akhmedov Zurab",
+       "k": "4c"
+      },
+      {
+       "n": "Akhmedova Rajana",
+       "k": "3b"
+      },
+      {
+       "n": "Badyari Reyan",
+       "k": "5a"
+      },
+      {
+       "n": "Biasco Dana",
+       "k": "2d"
+      },
+      {
+       "n": "Clara Emma",
+       "k": "3b"
+      },
+      {
+       "n": "Luneschnig Julius",
+       "k": "2b"
+      },
+      {
+       "n": "Ortner Sebastian",
+       "k": "2b"
+      },
+      {
+       "n": "Schilcher Elias",
+       "k": "4b"
+      },
+      {
+       "n": "Schuster Theodor",
+       "k": "2c"
+      },
+      {
+       "n": "Theurl Rafaela",
+       "k": "2e"
+      },
+      {
+       "n": "Uprimny Naomi",
+       "k": "4a"
+      },
+      {
+       "n": "Weis Luna",
+       "k": "4a"
+      },
+      {
+       "n": "Wurnitsch Benedikt",
+       "k": "2d"
+      },
+      {
+       "n": "Zamojski Hubert",
+       "k": "7a"
+      },
+      {
+       "n": "Zeiner Viktor",
+       "k": "2e"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2021-22/01.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/02.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/03.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/04.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/05.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/06.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/07.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/08.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/09.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/10.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2021-22/11.jpg"
+      }
+     ]
+    },
+    {
+     "titel": "Anfänger:innen (1. Klassen)",
+     "leitung": "Prof. Ackerer",
+     "namen": [
+      {
+       "n": "Beiten Anna",
+       "k": "1b"
+      },
+      {
+       "n": "Berger David",
+       "k": "1f"
+      },
+      {
+       "n": "Eriksson Chantal",
+       "k": "1c"
+      },
+      {
+       "n": "Koini Felix",
+       "k": "1c"
+      },
+      {
+       "n": "Kurnik Timo",
+       "k": "1e"
+      },
+      {
+       "n": "Manfreda Felix",
+       "k": "1e"
+      },
+      {
+       "n": "Rauter Amelie",
+       "k": "1f"
+      },
+      {
+       "n": "Sharov Sergej",
+       "k": "1e"
+      },
+      {
+       "n": "Singer Raffaella",
+       "k": "1f"
+      },
+      {
+       "n": "Staffler Kevin",
+       "k": "1d"
+      },
+      {
+       "n": "Stemberger Nicolas",
+       "k": "1f"
+      },
+      {
+       "n": "Stocker Vinzenz",
+       "k": "1c"
+      },
+      {
+       "n": "Tiefnig Niklas",
+       "k": "1d"
+      },
+      {
+       "n": "Told Rafael",
+       "k": "1f"
+      },
+      {
+       "n": "Wildauer Luis-Levi",
+       "k": "1c"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "jahr": "2020/21",
+   "text": "Der Schachunterricht wird wieder in zwei Gruppen geführt. Die Anfänger:innen werden von Prof. Senfter unterrichtet, während die Fortgeschrittenen mit Prof. Amon trainieren.",
+   "gruppen": [
+    {
+     "titel": "Anfänger:innen",
+     "leitung": "Prof. Senfter",
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2020-21/01.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/02.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/03.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/04.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/05.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/06.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/07.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/08.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/09.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/10.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/11.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/12.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/13.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/14.jpg"
+      }
+     ]
+    },
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Amon",
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2020-21/15.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/16.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/17.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/18.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/19.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/20.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/21.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/22.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/23.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/24.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/25.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/26.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/27.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2020-21/28.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "jahr": "2019/20",
+   "gruppen": [
+    {
+     "titel": "Anfänger:innen (1. Klassen)",
+     "namen": [
+      {
+       "n": "Becciu Samuel",
+       "k": "1e"
+      },
+      {
+       "n": "Blasisker Irina",
+       "k": "1e"
+      },
+      {
+       "n": "Elmurzaec Umar",
+       "k": "1b"
+      },
+      {
+       "n": "Hirsch Simon",
+       "k": "1d"
+      },
+      {
+       "n": "Liao Lucas",
+       "k": "1b"
+      },
+      {
+       "n": "Macek Marie",
+       "k": "3d"
+      },
+      {
+       "n": "Maier Niklas",
+       "k": "1d"
+      },
+      {
+       "n": "Maier Noah",
+       "k": "1e"
+      },
+      {
+       "n": "Niederegger Alois",
+       "k": "1d"
+      },
+      {
+       "n": "Obertscheider Lukas",
+       "k": "1d"
+      },
+      {
+       "n": "Ram Kilian",
+       "k": "2c"
+      },
+      {
+       "n": "Schraffl Hannes",
+       "k": "1a"
+      },
+      {
+       "n": "Tabernig Felix",
+       "k": "1d"
+      },
+      {
+       "n": "Weiler Leonhard",
+       "k": "1b"
+      },
+      {
+       "n": "Wimmer Elija",
+       "k": "1b"
+      },
+      {
+       "n": "Zwittnig Christian",
+       "k": "2c"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2019-20/01.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/02.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/03.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/04.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/05.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/06.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/07.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/08.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/09.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/10.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/11.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/12.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/13.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/14.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/15.jpg"
+      }
+     ]
+    },
+    {
+     "titel": "Fortgeschrittene",
+     "text": "Gleich 20 Schülerinnen und Schüler besuchen heuer den Schachunterricht der Fortgeschrittenen.",
+     "namen": [
+      {
+       "n": "Akhmedov Zurab",
+       "k": "3b"
+      },
+      {
+       "n": "Akhmedova Rajana",
+       "k": "1a"
+      },
+      {
+       "n": "Badyari Reyan",
+       "k": "3a"
+      },
+      {
+       "n": "Baur Sophie",
+       "k": "2b"
+      },
+      {
+       "n": "Clara Emma",
+       "k": "1c"
+      },
+      {
+       "n": "Frey Valentin",
+       "k": "4b"
+      },
+      {
+       "n": "Lugger Jana",
+       "k": "2f"
+      },
+      {
+       "n": "Niedertscheider Pia",
+       "k": "2a"
+      },
+      {
+       "n": "Pedevilla Luis",
+       "k": "3c"
+      },
+      {
+       "n": "Picher Jonas",
+       "k": "3b"
+      },
+      {
+       "n": "Pramstaller Valentin",
+       "k": "3b"
+      },
+      {
+       "n": "Prantner Aurelia",
+       "k": "2c"
+      },
+      {
+       "n": "Remor Zaira",
+       "k": "3f"
+      },
+      {
+       "n": "Schilcher Elias",
+       "k": "2c"
+      },
+      {
+       "n": "Schmidpeter Felix",
+       "k": "2e"
+      },
+      {
+       "n": "Trinks Mayumi",
+       "k": "2b"
+      },
+      {
+       "n": "Trinks Niklas",
+       "k": "4d"
+      },
+      {
+       "n": "Uprimny Naomi",
+       "k": "2a"
+      },
+      {
+       "n": "Weis Luna",
+       "k": "2d"
+      },
+      {
+       "n": "Winkler Vincent",
+       "k": "2e"
+      },
+      {
+       "n": "Zamojski Hubert",
+       "k": "5a"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2019-20/16.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/17.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/18.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/19.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/20.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/21.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/22.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/23.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/24.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/25.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/26.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/27.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/28.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/29.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/30.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/31.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/32.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/33.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/34.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2019-20/35.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "jahr": "2018/19",
+   "gruppen": [
+    {
+     "titel": "Anfänger:innen (1. Klassen)",
+     "namen": [
+      {
+       "n": "Fritz Natalie",
+       "k": "1a"
+      },
+      {
+       "n": "Haritzer Mona",
+       "k": "1e"
+      },
+      {
+       "n": "Heregger Greta",
+       "k": "1a"
+      },
+      {
+       "n": "Holzer Sophie",
+       "k": "1a"
+      },
+      {
+       "n": "Lugger Jana",
+       "k": "1f"
+      },
+      {
+       "n": "Macek Marie",
+       "k": "2e"
+      },
+      {
+       "n": "Moser Siegfried",
+       "k": "1c"
+      },
+      {
+       "n": "Prantner Aurelia",
+       "k": "1c"
+      },
+      {
+       "n": "Prodinger Hanna",
+       "k": "1a"
+      },
+      {
+       "n": "Sauper Philomena",
+       "k": "1e"
+      },
+      {
+       "n": "Schaller Leah",
+       "k": "1c"
+      },
+      {
+       "n": "Schmidpeter Felix",
+       "k": "1e"
+      },
+      {
+       "n": "Schuster Felicitas",
+       "k": "1a"
+      },
+      {
+       "n": "Uprimny Naomi",
+       "k": "1e"
+      },
+      {
+       "n": "Weis Luna",
+       "k": "1d"
+      },
+      {
+       "n": "Winkler Vincent",
+       "k": "1e"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2018-19/01.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/02.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/03.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/04.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/05.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/06.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/07.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/08.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/09.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/10.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/11.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/12.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/13.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/14.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/15.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/16.jpg"
+      }
+     ]
+    },
+    {
+     "titel": "Fortgeschrittene",
+     "namen": [
+      {
+       "n": "Akhmedov Murad",
+       "k": "1b"
+      },
+      {
+       "n": "Akhmedov Zurab",
+       "k": "2d"
+      },
+      {
+       "n": "Badyari Reyan",
+       "k": "2c"
+      },
+      {
+       "n": "Frey Valentin",
+       "k": "3b"
+      },
+      {
+       "n": "Huber Mario",
+       "k": "4b"
+      },
+      {
+       "n": "Kristler Philip",
+       "k": "2c"
+      },
+      {
+       "n": "Pedevilla Luis",
+       "k": "2d"
+      },
+      {
+       "n": "Pichler Jonas",
+       "k": "2c"
+      },
+      {
+       "n": "Pramstaller Valentin",
+       "k": "2c"
+      },
+      {
+       "n": "Remor Zaira",
+       "k": "2a"
+      },
+      {
+       "n": "Schilcher Elias",
+       "k": "1c"
+      },
+      {
+       "n": "Weber Michael",
+       "k": "2d"
+      },
+      {
+       "n": "Zamojska Amelia",
+       "k": "3d"
+      },
+      {
+       "n": "Zamojski Hubert",
+       "k": "4b"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2018-19/17.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/18.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/19.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/20.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/21.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/22.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/23.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/24.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/25.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/26.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/27.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/28.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/29.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2018-19/30.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "jahr": "2017/18",
+   "gruppen": [
+    {
+     "titel": "Anfänger:innen",
+     "leitung": "Prof. Fleißner",
+     "zeit": "Dienstag 13:45–15:25 Uhr, Physiksaal",
+     "namen": [
+      {
+       "n": "Badyari Reyan"
+      },
+      {
+       "n": "Beer Tobias"
+      },
+      {
+       "n": "Bogusch Kenneth"
+      },
+      {
+       "n": "Britz Matilda"
+      },
+      {
+       "n": "Burgstaller Max"
+      },
+      {
+       "n": "Klinger Tim"
+      },
+      {
+       "n": "Linder Matthias"
+      },
+      {
+       "n": "Macek Marie"
+      },
+      {
+       "n": "Pichler Alexander"
+      },
+      {
+       "n": "Pichler Jonas"
+      },
+      {
+       "n": "Pramstaller Valentin"
+      },
+      {
+       "n": "Reisenzein Linus"
+      },
+      {
+       "n": "Remor Zaira"
+      },
+      {
+       "n": "Spitaler Lukas"
+      },
+      {
+       "n": "Ulbrich Johannes"
+      },
+      {
+       "n": "Weißkopf Niklas"
+      },
+      {
+       "n": "Xu Mario"
+      },
+      {
+       "n": "Xu Nina"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2017-18/01.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/02.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/03.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/04.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/05.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/06.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/07.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/08.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/09.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/10.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/11.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/12.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/13.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/14.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/15.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/16.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/17.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/18.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/19.jpg"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/20.jpg"
+      }
+     ]
+    },
+    {
+     "titel": "Fortgeschrittene",
+     "leitung": "Prof. Amon",
+     "zeit": "Dienstag 13:45–15:25 Uhr, Vortragssaal",
+     "namen": [
+      {
+       "n": "Akhmedov Zurab",
+       "k": "1D"
+      },
+      {
+       "n": "Blassnig Paul",
+       "k": "3F"
+      },
+      {
+       "n": "Clara Anna",
+       "k": "3Cgz"
+      },
+      {
+       "n": "Faustini Alexander",
+       "k": "8B"
+      },
+      {
+       "n": "Frey Valentin",
+       "k": "2D"
+      },
+      {
+       "n": "Gabriel Luca",
+       "k": "4EL"
+      },
+      {
+       "n": "Guggenberger Sandra",
+       "k": "3DL"
+      },
+      {
+       "n": "Haselsteiner Lorenz",
+       "k": "3Cgz"
+      },
+      {
+       "n": "Holzknecht Andreas",
+       "k": "5B"
+      },
+      {
+       "n": "Huber Mario",
+       "k": "3Bgz"
+      },
+      {
+       "n": "Kendlbacher Tobias",
+       "k": "2D"
+      },
+      {
+       "n": "Libiseller Martin",
+       "k": "2C"
+      },
+      {
+       "n": "Obererlacher Julian",
+       "k": "2E"
+      },
+      {
+       "n": "Pichler Jonas",
+       "k": "1C"
+      },
+      {
+       "n": "Schneider Alexander",
+       "k": "2C"
+      },
+      {
+       "n": "Schneider Laura",
+       "k": "4C"
+      },
+      {
+       "n": "Staller Rebecca",
+       "k": "6AG"
+      },
+      {
+       "n": "Walder Elias",
+       "k": "8AG"
+      },
+      {
+       "n": "Walder Julian",
+       "k": "2F"
+      },
+      {
+       "n": "Weber Michael",
+       "k": "1D"
+      },
+      {
+       "n": "Wurnitsch Kevin",
+       "k": "4B"
+      },
+      {
+       "n": "Zamojska Amelia",
+       "k": "2D"
+      },
+      {
+       "n": "Zamojski Hubert",
+       "k": "3Bgz"
+      }
+     ],
+     "fotos": [
+      {
+       "src": "assets/teilnehmer/2017-18/21.jpg",
+       "alt": "Andreas Holzknecht"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/22.jpg",
+       "alt": "Alexander Faustini"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/23.jpg",
+       "alt": "Paul Blassnig"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/24.jpg",
+       "alt": "Hubert Zamojski"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/25.jpg",
+       "alt": "Mario Huber"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/26.jpg",
+       "alt": "Kevin Wurnitsch"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/27.jpg",
+       "alt": "Julian Obererlacher"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/28.jpg",
+       "alt": "Tobias Kendlbacher"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/29.jpg",
+       "alt": "Luca Gabriel"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/30.jpg",
+       "alt": "Michael Weber"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/31.jpg",
+       "alt": "Julian Walder"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/32.jpg",
+       "alt": "Martin Libiseller"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/33.jpg",
+       "alt": "Alexander Schneider"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/34.jpg",
+       "alt": "Zurab Akhmedov"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/35.jpg",
+       "alt": "Amelia Zamojska"
+      },
+      {
+       "src": "assets/teilnehmer/2017-18/36.jpg",
+       "alt": "Jonas Pichler"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
