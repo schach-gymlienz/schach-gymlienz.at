@@ -24,7 +24,10 @@ assets/js/jahresmeisterschaft.js   berechnet alle Ranglisten aus den Daten
 assets/fonts/              Schrift Inter (lokal, keine Google Fonts!)
 assets/img/                Logos, Vorschaubilder
 assets/video/              Reels (komprimiert, max. ca. 5 MB pro Datei)
+archiv.html / bericht.html   Turnierarchiv (Übersicht mit Filter) und Einzelbericht
 data/jahresmeisterschaft-2026-27.json   alle Ergebnisse der Jahresmeisterschaft
+data/archiv.json           alle Turnierberichte (Text, Bilder, Kategorie) seit 2017/18
+assets/archiv/<schuljahr>/ Fotos und PDFs der Berichte, assets/archiv/vorschau/ Vorschaubilder
 tools/import_termin.py     wandelt Swiss-Manager-Exporte in die JSON-Daten um
 ```
 
@@ -59,9 +62,25 @@ Vergangene Termine wieder herausnehmen. `class="day gold"` hebt einen Eintrag ge
 - Dateiname: `reel-<anlass>-<schuljahr>-<nr>.mp4`, z. B. `reel-jm-2026-27-termin2.mp4`, dazu ein Vorschaubild `.jpg` mit gleichem Namen in `assets/img/`.
 - Im HTML `<video ... preload="none" poster="...">` verwenden (lädt erst beim Abspielen).
 
-### Neuer Bericht / Neuigkeit
-Auf der Startseite im Abschnitt `id="turniere"` eine neue `<article class="card">` **oben** einfügen (Aufbau wie die bestehenden).
-Ältere Berichte wandern später ins Archiv (siehe Abschnitt 5).
+### Neuer Turnierbericht
+1. Fotos verkleinern (max. 1400 px breit, JPEG) und nach `assets/archiv/<schuljahr>/<kurzname>-01.jpg` usw. legen; ein Vorschaubild (560 px) nach `assets/archiv/vorschau/<schuljahr>_<kurzname>.jpg`.
+2. In `data/archiv.json` **ganz oben** in `berichte` einen Eintrag ergänzen:
+```json
+{ "id": "2026-27/weihnachtsturnier", "jahr": "2026/27", "titel": "26. Osttiroler Weihnachtsschachturnier",
+  "kategorie": "Weihnachtsturnier", "vorschau": "assets/archiv/vorschau/2026-27_weihnachtsturnier.jpg",
+  "auszug": "Kurzer Satz für die Übersicht …", "bilder": 3,
+  "bloecke": [
+    { "t": "p", "x": ["Erster Absatz …", "Zweiter Absatz …"] },
+    { "t": "h", "x": "Zwischenüberschrift" },
+    { "t": "img", "i": [{ "src": "assets/archiv/2026-27/weihnachtsturnier-01.jpg", "alt": "Bildbeschreibung" }], "c": "Bildunterschrift" },
+    { "t": "ti", "x": ["Text neben einem Bild …"], "i": [{ "src": "…", "alt": "…" }] },
+    { "t": "gal", "i": [{ "src": "…", "alt": "…" }, { "src": "…", "alt": "…" }] }
+  ] }
+```
+   Kategorien: `Schulturniere`, `Weihnachtsturnier`, `Osttirol`, `Alpen-Adria`, `Landesfinale`, `Bundesfinale`.
+3. Optional auf der Startseite im Abschnitt `id="turniere"` eine Karte mit Link `bericht.html?b=<id>` ergänzen.
+
+Das Archiv wurde im Oktober 2026 automatisch von der alten Jimdo-Seite übernommen (76 Berichte, rund 640 Fotos). Kleinere Formatierungsfehler aus der Übernahme bitte einfach in `data/archiv.json` korrigieren.
 
 ## 3. Stil (bitte einhalten)
 
@@ -98,8 +117,9 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [ ] Impressum: Wohnort von Prof. Amon eintragen (`[Wohnort]` in `impressum.html`).
 - [ ] Link zur Schulhomepage in der Fußzeile ergänzen (siehe `TODO` in den HTML-Dateien).
 - [ ] Rätsel-Rallye von der alten Jimdo-Seite übernehmen (Ergebnisse sollen gespeichert werden).
-- [ ] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos), dann eigene Archivseite.
-- [ ] Ehrentafel der Jahresmeister:innen (Daten aus dem alten Archiv).
+- [x] Archiv 2017/18 – 2025/26 von gym-schach.jimdofree.com übertragen (Berichte + Fotos).
+- [ ] Archiv-Texte stichprobenartig gegenlesen (Formatierung aus der Übernahme).
+- [ ] Ehrentafel der Jahresmeister:innen (Endstände liegen im Archiv nur als Bilder vor).
 - [ ] Teilnehmer:innen-Seite des aktuellen Schuljahres.
 
 ## 6. Für Claude (KI-Assistent)
