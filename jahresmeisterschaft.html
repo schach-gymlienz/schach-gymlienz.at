@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jahresmeisterschaft 2026/27 – Schach am Gymnasium Lienz</title>
+<meta name="description" content="Gesamtwertung, Klassenwertung und Kreuztabellen der Schach-Jahresmeisterschaft 2026/27 am Gymnasium Lienz.">
+<link rel="icon" href="assets/img/emblem-schachteam.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/jahresmeisterschaft.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- KOPFZEILE (auf allen Seiten gleich) -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/img/emblem-schachteam.png" alt="" width="54" height="54">
+      <span><strong>Schach am Gym Lienz</strong><span>BG/BRG Lienz · Schulschach Osttirol</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a href="index.html">Start</a>
+      <a href="jahresmeisterschaft.html" aria-current="page">Jahresmeisterschaft</a>
+      <a href="index.html#training">Training</a>
+      <a href="index.html#turniere">Turniere</a>
+      <a href="index.html#taktik">Taktik</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inhalt">
+  <section class="hero page-hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="pill pill-red" data-jm-stand>Zwischenstand</span>
+        <h1>Jahresmeisterschaft 2026/27</h1>
+        <div class="rule" aria-hidden="true"><span></span></div>
+        <p class="small">Alle zwei Wochen · je 6 Runden Schweizer System · 5 Minuten pro Spieler:in und Partie</p>
+      </div>
+      <div style="text-align:right">
+        <div class="small" style="font-weight:700;letter-spacing:.08em;color:var(--gold)">SCHIEDSRICHTER</div>
+        <div style="font-weight:700;font-size:19px">Mag. Christopher Stadler, RS</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap row">
+      <div class="card grow">
+        <div class="section-head"><h2>Gesamtwertung</h2><span class="muted small">Wertungspunkte aus allen Terminen</span></div>
+        <div data-jm="gesamt"><p class="muted">Rangliste wird geladen …</p></div>
+      </div>
+      <div class="card card-dark reel">
+        <span class="pill pill-gold" style="align-self:flex-start">Rückblick · Reel</span>
+        <h3>So lief Termin 1</h3>
+        <video src="assets/video/reel-jm-2026-27-termin1.mp4" poster="assets/img/reel-jm-2026-27-termin1.jpg" controls playsinline muted preload="none" aria-label="Video-Rückblick auf Termin 1 der Jahresmeisterschaft"></video>
+        <span class="muted small">30 Sekunden vom ersten Spieltag am 20.10.2026</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><h2>Klassenwertung</h2></div>
+      <div class="classes" data-jm="klassen"></div>
+    </div>
+  </section>
+
+  <section class="section" id="kreuztabelle">
+    <div class="wrap">
+      <div class="card">
+        <div class="section-head"><h2>Kreuztabellen</h2><span class="muted small">Je Runde: Rang des Gegners, Farbe (w = Weiß, s = Schwarz), Ergebnis</span></div>
+        <div class="tabs" data-jm-tabs></div>
+        <div data-jm="kreuz"></div>
+        <div class="legend"><span><i class="res-1"></i>Sieg</span><span><i class="res-h"></i>Remis</span><span><i class="res-0"></i>Niederlage</span></div>
+      </div>
+      <p class="muted small" style="margin-top:20px;max-width:900px">Wertungspunkte je Termin nach Platzierung: 10 – 9 – 8 – 7 (2×) – 6 (3×) – 5 (4×) – 4 (5×) – 3 (6×) – 2 (7×) – 1. Wer an einem Termin nicht dabei ist, bekommt 0 Punkte („–“). Bei Gleichstand in der Jahreswertung entscheiden Partiepunkte, Buchholz und direkte Begegnung.</p>
+    </div>
+  </section>
+</main>
+
+<!-- FUSSZEILE (auf allen Seiten gleich) -->
+<footer class="site-footer" id="kontakt">
+  <div class="wrap cols">
+    <div>
+      <img class="logo" src="assets/img/logo-schachteam.png" alt="Logo: Schachteam Gymnasium Lienz BG/BRG" width="170" height="160">
+      <b>Schach am Gymnasium Lienz</b>
+      Gymnasium Lienz BG/BRG<br>Maximilianstraße 11, 9900 Lienz
+    </div>
+    <div>
+      <b>Kontakt</b>
+      <a href="mailto:info@schach-gymlienz.at">info@schach-gymlienz.at</a><br>
+      Prof. Mag. Christopher Stadler, RS – Fortgeschrittene<br>
+      Prof. Mag. Hannes Amon – Anfänger:innen
+    </div>
+    <div>
+      <b>Links</b>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a><br>
+      <a href="https://gym-schach.jimdofree.com/archiv/" rel="noopener">Bisheriges Archiv</a>
+      <!-- TODO: Link zur Schulhomepage ergänzen, z. B. <br><a href="https://…">Homepage der Schule</a> -->
+
+    </div>
+  </div>
+  <div class="wrap bottom">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <span>© Schachteam Gymnasium Lienz BG/BRG</span>
+  </div>
+</footer>
+</body>
+</html>
