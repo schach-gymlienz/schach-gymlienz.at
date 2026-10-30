@@ -329,3 +329,8 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .promo h2 { margin: 0; }
 .promo:hover .btn-gold { filter: brightness(1.05); }
 @media (max-width: 560px) { .pgn-moves { columns: 1; max-height: 240px; } }
+
+/* Dank an Unterstützer:innen (Fußzeile) */
+.site-footer .thanks { border-top: 1px solid #2B3956; padding-top: 14px; padding-bottom: 14px; font-size: 15px; }
+.site-footer .thanks strong { color: #fff; }
+.site-footer .thanks + .bottom { border-top: 0; padding-top: 0; }
