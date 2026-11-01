@@ -64,11 +64,11 @@
           var letzte = alle.filter(vorbei).slice(-1);
           var zeig = letzte.concat(kommend).slice(0, n);
           el.innerHTML = '<ul class="dates">' +
-            '<li><div class="day"><small>jeden</small>Di</div><div><strong>Schachtraining</strong><div class="muted small">13:45–15:25 Uhr</div></div></li>' +
+            '<li><div class="day"><small>jeden</small>Di</div><div><strong>Schachtraining</strong><div class="muted small">13:45–15:25 Uhr' + (data.training ? "<br>dazwischen Taktiktraining" : "") + '</div></div></li>' +
             zeig.map(function (t) { return zeile(t, true); }).join("") + "</ul>";
         } else {
           var kommend2 = alle.filter(function (t) { return !vorbei(t); }), vorbei2 = alle.filter(vorbei);
-          el.innerHTML = '<div class="btn-row" style="margin-bottom:18px"><button type="button" class="btn btn-navy" data-ics>Alle Termine in den Kalender (.ics)</button></div>' +
+          el.innerHTML = (data.training ? '<p class="notice" style="margin-bottom:16px"><strong>Jeden Dienstag 13:45–15:25 Uhr Training.</strong> ' + esc(data.training) + "</p>" : "") + '<div class="btn-row" style="margin-bottom:18px"><button type="button" class="btn btn-navy" data-ics>Alle Termine in den Kalender (.ics)</button></div>' +
             "<h2>Demnächst</h2>" + '<ul class="dates dates-big">' + kommend2.map(function (t) { return zeile(t); }).join("") + "</ul>" +
             (vorbei2.length ? '<h2 style="margin-top:28px">Bereits gespielt</h2><ul class="dates dates-big">' + vorbei2.reverse().map(function (t) { return zeile(t); }).join("") + "</ul>" : "");
           el.querySelector("[data-ics]").addEventListener("click", function () {

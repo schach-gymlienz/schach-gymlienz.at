@@ -72,6 +72,12 @@
    "ebene": "schule"
   },
   {
+   "datum": "2027-01-27",
+   "titel": "Bezirksfinale Schulschach Osttirol",
+   "ebene": "osttirol",
+   "info": "Qualifikation für das Tiroler Landesfinale"
+  },
+  {
    "datum": "2027-02-09",
    "zeit": "13:45–15:25",
    "titel": "Jahresmeisterschaft, Termin 8",
@@ -160,14 +166,9 @@
   {
    "datum": null,
    "wann": "Termin folgt",
-   "titel": "Bezirksfinale Schulschach Osttirol",
-   "ebene": "osttirol"
-  },
-  {
-   "datum": null,
-   "wann": "Termin folgt",
    "titel": "Tiroler Schulschach-Landesfinale",
    "ebene": "land"
   }
- ]
+ ],
+ "training": "In den Wochen ohne Jahresmeisterschaft ist Taktiktraining (wenn Unterricht ist)."
 }
