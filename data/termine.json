@@ -73,9 +73,9 @@
   },
   {
    "datum": "2027-01-27",
-   "titel": "Bezirksfinale Schulschach Osttirol",
+   "titel": "Anmeldeschluss Bezirksfinale",
    "ebene": "osttirol",
-   "info": "Qualifikation für das Tiroler Landesfinale"
+   "info": "Letzter Tag für die Anmeldung der Schulmannschaften zum Bezirksfinale"
   },
   {
    "datum": "2027-02-09",
@@ -83,6 +83,13 @@
    "titel": "Jahresmeisterschaft, Termin 8",
    "ort": "Gymnasium Lienz",
    "ebene": "schule"
+  },
+  {
+   "datum": "2027-02-10",
+   "zeit": "ca. 8:00",
+   "titel": "Bezirksfinale Schulschach Osttirol",
+   "ebene": "osttirol",
+   "info": "Qualifikation für das Tiroler Landesfinale"
   },
   {
    "datum": "2027-02-23",
