@@ -12,12 +12,40 @@
    "linktext": "Ergebnisse"
   },
   {
+   "datum": "2026-11-03",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 2",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2026-11-17",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 3",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2026-12-01",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 4",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
    "datum": "2026-12-14",
    "titel": "Nennungsschluss Weihnachtsturnier",
    "ebene": "osttirol",
    "info": "Anmeldung per E-Mail an info@schach-gymlienz.at oder am Infotisch im Gymnasium (Pausenraum 1. Stock)",
    "link": "weihnachtsturnier.html",
    "linktext": "Ausschreibung"
+  },
+  {
+   "datum": "2026-12-15",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 5",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
   },
   {
    "datum": "2026-12-21",
@@ -30,24 +58,67 @@
    "linktext": "Ausschreibung"
   },
   {
-   "datum": null,
-   "wann": "alle zwei Wochen am Dienstag",
-   "titel": "Jahresmeisterschaft, weitere Termine",
+   "datum": "2027-01-12",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 6",
    "ort": "Gymnasium Lienz",
-   "ebene": "schule",
-   "info": "Die Termine werden laufend hier eingetragen."
+   "ebene": "schule"
   },
   {
-   "datum": null,
-   "wann": "Termin folgt",
-   "titel": "Bezirksfinale Schulschach Osttirol",
-   "ebene": "osttirol"
+   "datum": "2027-01-26",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 7",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
   },
   {
-   "datum": null,
-   "wann": "Termin folgt",
-   "titel": "Tiroler Schulschach-Landesfinale",
-   "ebene": "land"
+   "datum": "2027-02-09",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 8",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-02-23",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 9",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-03-09",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 10",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-04-06",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 11",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-04-20",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 12",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-05-04",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 13",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-05-18",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 14",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
   },
   {
    "datum": "2027-05-23",
@@ -64,6 +135,39 @@
    "ort": "Jugendgästehaus Brigittenau, Wien",
    "ebene": "bund",
    "info": "Unterstufe (U16) und Oberstufe (U21) – für die Landessieger:innen"
+  },
+  {
+   "datum": "2027-06-01",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 15",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-06-15",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft, Termin 16",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": "2027-06-29",
+   "zeit": "13:45–15:25",
+   "titel": "Jahresmeisterschaft: Schlussturnier und Preisverleihung",
+   "ort": "Gymnasium Lienz",
+   "ebene": "schule"
+  },
+  {
+   "datum": null,
+   "wann": "Termin folgt",
+   "titel": "Bezirksfinale Schulschach Osttirol",
+   "ebene": "osttirol"
+  },
+  {
+   "datum": null,
+   "wann": "Termin folgt",
+   "titel": "Tiroler Schulschach-Landesfinale",
+   "ebene": "land"
   }
  ]
 }

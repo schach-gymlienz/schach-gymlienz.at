@@ -168,7 +168,7 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [x] Chronik, Erfolgsliste, Unterlagen und Bericht Bundesfinale Mädchen 2026 übernommen.
 - [x] Teilnehmer:innen-Listen 2017/18–2025/26 von der alten Seite übernommen (Einverständnis zu Namen und Fotos liegt laut Schule vor).
 - [ ] Teilnehmer:innen 2026/27 in `data/teilnehmer.json` eintragen.
-- [ ] Termine Bezirksfinale und Landesfinale 2026/27 sowie weitere Jahresmeisterschafts-Termine in `data/termine.json` eintragen.
+- [ ] Termine Bezirksfinale und Landesfinale 2026/27 in `data/termine.json` eintragen.
 - [ ] Hinweis-Kasten Weihnachtsturnier nach dem 21.12.2026 von der Startseite nehmen.
 - [ ] Eigene Partien (Landes-/Bundesfinale) in `data/partien.json` ergänzen.
 - [ ] Anfänger:innen-Listen 2022/23–2024/25 fehlen (schon auf der alten Seite).
