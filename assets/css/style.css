@@ -370,6 +370,7 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .sm-karten { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
 .sm-karte { display: flex; flex-direction: column; gap: 8px; border-top: 5px solid var(--navy); }
 .sm-karte.gesperrt { background: var(--bg); border-top-color: var(--line); }
+.sm-mehr { grid-column: 1 / -1; }
 .sm-karte h3 { font-size: 20px; }
 .sm-balken { height: 8px; border-radius: 999px; background: var(--soft); overflow: hidden; }
 .sm-balken span { display: block; height: 100%; background: var(--green); border-radius: 999px; }

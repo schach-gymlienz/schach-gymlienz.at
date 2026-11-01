@@ -25,7 +25,10 @@
 
   /* ---------- Auswahlkarten ---------- */
   function karten() {
-    $q("[data-sm-karten]").innerHTML = KATS.map(function (k, i) {
+    var sichtbar = 0;   // alle offenen Kategorien und genau eine gesperrte dazu
+    while (sichtbar < KATS.length && katOffen(sichtbar)) sichtbar++;
+    var rest = KATS.length - sichtbar - 1;
+    $q("[data-sm-karten]").innerHTML = KATS.slice(0, sichtbar + 1).map(function (k, i) {
       var n = geloest(k).length, offen = katOffen(i);
       var kopf = '<span class="kicker">Kategorie ' + (i + 1) + "</span><h3>" + k.titel + '</h3><p class="muted small">' + k.unter + "</p>";
       if (!offen) return '<div class="card sm-karte gesperrt">' + kopf +
@@ -38,7 +41,7 @@
           return '<button type="button" class="btn ' + (fertig ? "btn-soft sm-fertig" : frei ? "btn-gold" : "btn-soft") + '" data-stufe="' + i + "," + st + '"' + (frei ? "" : " disabled") + ">" +
             (frei ? "" : "🔒 ") + name + (fertig ? " ✓" : frei ? " · " + a + "/" + JE_STUFE : "") + "</button>";
         }).join("") + "</div></div>";
-    }).join("");
+    }).join("") + (rest > 0 ? '<p class="muted small sm-mehr">… und noch ' + rest + " weitere Kategorien, die du nach und nach freispielst.</p>" : "");
   }
 
   /* ---------- Aufgabe ---------- */
