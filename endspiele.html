@@ -27,8 +27,9 @@
         <button type="button" class="nav-drop-btn" aria-expanded="false" aria-controls="nav-training">Training</button>
         <div class="nav-sub" id="nav-training">
           <a href="training.html">Übersicht</a>
-          <a href="taktik.html">Taktik: Rätsel-Rallye</a>
+          <a href="schachmatt.html">Schachmatt (Anfänger:innen)</a>
           <a href="endspiele.html" aria-current="page">Endspiele</a>
+          <a href="taktik.html">Taktik: Rätsel-Rallye</a>
         </div>
       </div>
       <a href="archiv.html">Archiv</a>
@@ -55,7 +56,7 @@
   <!-- AUSWAHL: Karten kommen aus assets/js/endspiele.js (THEMEN) -->
   <section class="section" id="auswahl">
     <div class="wrap">
-      <div class="section-head"><h2>Wähle ein Endspiel</h2><span class="muted small">Schaffst du eine Stufe, wird die nächste frei.</span></div>
+      <div class="section-head"><h2>Wähle ein Endspiel</h2><span class="muted small">Neu dabei? Fang mit dem Treppenmatt an.</span></div>
       <div class="levels" data-es-karten><p class="muted">Endspiele werden geladen …</p></div>
     </div>
   </section>
@@ -85,11 +86,11 @@
       <div class="card es-fortschritt">
         <div>
           <h2>Dein Fortschritt</h2>
-          <p class="muted">Was du geschafft hast, merkt sich nur dieser Browser auf diesem Gerät – wir bekommen davon nichts mit. Willst du an einem anderen Gerät weitermachen? Sichere deinen Fortschritt als Datei (USB-Stick, OneDrive oder per Mail an dich) und lade ihn dort wieder.</p>
+          <p class="muted">Was du bei den Endspielen und beim Schachmatt geschafft hast, merkt sich nur dieser Browser auf diesem Gerät – wir bekommen davon nichts mit. Willst du an einem anderen Gerät weitermachen? Sichere deinen Fortschritt als Datei (USB-Stick, OneDrive oder per Mail an dich) und lade ihn dort wieder.</p>
         </div>
-        <div class="btn-row"><button type="button" class="btn btn-navy" data-es-sichern>Fortschritt sichern</button><button type="button" class="btn btn-soft" data-es-laden>Fortschritt laden</button></div>
-        <input type="file" accept=".txt,.json,text/plain" data-es-datei hidden>
-        <p class="notice" data-es-fmsg hidden></p>
+        <div class="btn-row"><button type="button" class="btn btn-navy" data-fs-sichern>Fortschritt sichern</button><button type="button" class="btn btn-soft" data-fs-laden>Fortschritt laden</button></div>
+        <input type="file" accept=".txt,.json,text/plain" data-fs-datei hidden>
+        <p class="notice" data-fs-msg hidden></p>
       </div>
     </div>
   </section>
@@ -103,6 +104,7 @@
   <script src="assets/rallye/lib/jquery-3.7.1.min.js"></script>
   <script src="assets/rallye/lib/chess-0.10.3.js"></script>
   <script src="assets/rallye/lib/chessboard-1.0.0.js"></script>
+  <script src="assets/js/fortschritt.js"></script>
   <script src="assets/js/endspiele.js"></script>
 </main>
 

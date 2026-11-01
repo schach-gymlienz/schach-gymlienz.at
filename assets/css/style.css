@@ -365,3 +365,20 @@ table.cross { border-collapse: separate; border-spacing: 0 4px; width: 100%; min
 .es-video-kopf h2 { font-size: 22px; }
 .es-video video { width: 100%; max-height: calc(100vh - 210px); object-fit: contain; border-radius: 10px; background: #000; margin-bottom: 12px; }
 .es-video [aria-pressed="true"] { background: var(--navy); color: #fff; }
+
+/* Schachmatt (schachmatt.html) */
+.sm-karten { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px; }
+.sm-karte { display: flex; flex-direction: column; gap: 8px; border-top: 5px solid var(--navy); }
+.sm-karte.gesperrt { background: var(--bg); border-top-color: var(--line); }
+.sm-karte h3 { font-size: 20px; }
+.sm-balken { height: 8px; border-radius: 999px; background: var(--soft); overflow: hidden; }
+.sm-balken span { display: block; height: 100%; background: var(--green); border-radius: 999px; }
+.sm-stufen { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.sm-stufen .btn { flex: 1 1 auto; padding: 9px 12px; font-size: 15px; font: inherit; font-weight: 700; cursor: pointer; }
+.sm-stufen .sm-fertig { background: #E3F1E6; color: #1E5A2C; }
+.sm-punkte { display: grid; grid-template-columns: repeat(10, 1fr); gap: 5px; max-width: 360px; }
+.sm-punkt { font: inherit; font-size: 13px; font-weight: 700; aspect-ratio: 1; padding: 0; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
+.sm-punkt.ok { background: var(--green); border-color: var(--green); color: #fff; }
+.sm-punkt.gesehen { background: var(--gold-soft); border-color: var(--gold); color: #4E3A10; }
+.sm-punkt.jetzt { outline: 3px solid var(--navy); outline-offset: 1px; }
+.es-board .sm-flucht { box-shadow: inset 0 0 0 4px var(--red); }

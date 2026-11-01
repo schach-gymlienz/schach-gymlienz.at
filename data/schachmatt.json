@@ -1,0 +1,1742 @@
+{
+ "kategorien": [
+  {
+   "id": "dame_koenig",
+   "titel": "Dame + König",
+   "unter": "Der König deckt die Dame",
+   "tipp": "Steht die Dame direkt neben dem König, könnte er sie schlagen. Darum braucht sie einen Helfer, der sie deckt: dein König. Such das Feld neben dem König, das dein König schon bewacht!",
+   "aufgaben": [
+    {
+     "fen": "8/8/8/8/8/2K5/4Q3/1k6 w - - 0 1",
+     "loesung": "e2b2",
+     "jahr": 2017
+    },
+    {
+     "fen": "8/8/8/8/1Q6/2K5/8/k7 w - - 0 1",
+     "loesung": "b4b2",
+     "jahr": 2014
+    },
+    {
+     "fen": "8/6Q1/5K2/7k/8/8/8/8 w - - 0 1",
+     "loesung": "g7g5",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/8/8/6Q1/8/5K2/8/7k w - - 0 1",
+     "loesung": "g5g2",
+     "jahr": 2025
+    },
+    {
+     "fen": "k7/4Q3/2K5/8/8/2B5/8/8 w - - 0 1",
+     "loesung": "e7b7",
+     "jahr": 2015
+    },
+    {
+     "fen": "7k/8/5KQ1/8/8/8/5P2/8 w - - 0 1",
+     "loesung": "g6g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/8/5P2/5P2/5K1Q/8/6k1 w - - 0 1",
+     "loesung": "h3g2",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/6Q1/8/8/p4K2/P6k/1P6/8 w - - 0 1",
+     "loesung": "g7g3",
+     "jahr": 2010
+    },
+    {
+     "fen": "k7/8/2K5/5p2/5P1P/1Q6/8/8 w - - 0 1",
+     "loesung": "b3b7",
+     "jahr": 1998
+    },
+    {
+     "fen": "8/2B5/8/8/8/7Q/3RK2P/2k5 w - - 0 1",
+     "loesung": "h3f1",
+     "jahr": 2024
+    },
+    {
+     "fen": "k7/5Q2/2K5/8/8/p4p2/P4P2/8 w - - 0 1",
+     "loesung": "f7b7",
+     "jahr": 2000
+    },
+    {
+     "fen": "7Q/8/8/p5P1/7P/1P6/k1K5/8 w - - 0 1",
+     "loesung": "h8b2",
+     "jahr": 2014
+    },
+    {
+     "fen": "5k2/8/4K1Q1/7p/6p1/8/P6P/8 w - - 0 1",
+     "loesung": "g6f7",
+     "jahr": 2003
+    },
+    {
+     "fen": "7k/5Q2/5K2/6pp/6P1/7P/8/8 w - - 0 1",
+     "loesung": "f7g7",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/8/8/8/8/P4Q2/KPkp4/2q5 w - - 0 1",
+     "loesung": "f3b3",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/4B3/8/8/4p1P1/Q1K2P2/8/1k6 w - - 0 1",
+     "loesung": "a3b2",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/8/2N5/2P5/p7/P4K2/4Q3/7k w - - 0 1",
+     "loesung": "e2g2",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/8/8/p7/5p2/1P1K1kpp/7Q/8 w - - 0 1",
+     "loesung": "h2e2",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/p7/8/1P6/P6p/4K1QP/5p2/5k2 w - - 0 1",
+     "loesung": "g3f2",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/2Q5/krp5/p1K5/8/8/5PPP/8 w - - 0 1",
+     "loesung": "c7b6",
+     "jahr": 2007
+    },
+    {
+     "fen": "7k/2p2Q2/2B2K2/2P4p/p7/8/P5P1/8 w - - 0 1",
+     "loesung": "f7g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "1k6/3Q4/2K5/6p1/6Pp/1P3P1P/P7/8 w - - 0 1",
+     "loesung": "d7b7",
+     "jahr": 1999
+    },
+    {
+     "fen": "8/8/p1Q5/3pp3/3q4/P2k4/1P3P2/1K6 w - - 0 1",
+     "loesung": "c6c2",
+     "jahr": 2003
+    },
+    {
+     "fen": "8/1p3K1k/p5p1/5p1p/3Q4/7P/P5P1/8 w - - 0 1",
+     "loesung": "d4g7",
+     "jahr": 2006
+    },
+    {
+     "fen": "8/p7/n6P/q1p5/2P1p3/4k3/6Q1/5BK1 w - - 0 1",
+     "loesung": "g2f2",
+     "jahr": 2024
+    },
+    {
+     "fen": "k7/2Q3B1/1pK5/p1p5/P2p4/1P1P4/2P5/8 w - - 0 1",
+     "loesung": "c7b7",
+     "jahr": 2025
+    },
+    {
+     "fen": "4Q3/1KB5/2p3p1/3k3p/3P4/2P5/1P5P/5q2 w - - 0 1",
+     "loesung": "e8c6",
+     "jahr": 2012
+    },
+    {
+     "fen": "6r1/5pk1/7p/3pP2K/5QPP/4P3/1P6/6r1 w - - 0 1",
+     "loesung": "f4h6",
+     "jahr": 2025
+    },
+    {
+     "fen": "6R1/p6p/2P2p2/3Q4/8/6Pk/1r2qP1P/6K1 w - - 0 1",
+     "loesung": "d5g2",
+     "jahr": 1902
+    },
+    {
+     "fen": "8/8/2b1p2p/p2p2p1/3P3k/3B1Q2/2p3K1/2r5 w - - 0 1",
+     "loesung": "f3h3",
+     "jahr": 2020
+    }
+   ]
+  },
+  {
+   "id": "dame_turm",
+   "titel": "Dame + Turm",
+   "unter": "Der Turm deckt die Dame",
+   "tipp": "Steht die Dame direkt neben dem König, könnte er sie schlagen. Darum braucht sie einen Helfer, der sie deckt: dein Turm. Such das Feld neben dem König, das dein Turm schon bewacht!",
+   "aufgaben": [
+    {
+     "fen": "5Q2/7k/8/4K3/8/8/8/6R1 w - - 0 1",
+     "loesung": "f8g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "2Q5/k7/8/8/8/8/6K1/1R6 w - - 0 1",
+     "loesung": "c8b7",
+     "jahr": 2014
+    },
+    {
+     "fen": "6k1/7R/1K6/5Q1P/8/8/8/8 w - - 0 1",
+     "loesung": "f5f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/1R6/2Q5/k7/5P2/4P3/8/6K1 w - - 0 1",
+     "loesung": "c6b5",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/1R6/6K1/6P1/r7/8/5Q2/k7 w - - 0 1",
+     "loesung": "f2b2",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/7R/6k1/6b1/K1Q5/4q3/8/8 w - - 0 1",
+     "loesung": "c4f7",
+     "jahr": 2019
+    },
+    {
+     "fen": "5K2/2P5/8/6P1/2Q5/8/R7/1k6 w - - 0 1",
+     "loesung": "c4c2",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/8/8/8/5B2/R2Q4/1k4P1/6K1 w - - 0 1",
+     "loesung": "d3b3",
+     "jahr": 2004
+    },
+    {
+     "fen": "8/6K1/6P1/8/2Q5/8/4R3/3k2r1 w - - 0 1",
+     "loesung": "c4c2",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/8/7k/5Q2/2P3R1/1P1K4/8 w - - 0 1",
+     "loesung": "f4g5",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/8/p7/8/k7/p1QKp3/8/1R6 w - - 0 1",
+     "loesung": "c3b4",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/5Q2/5R2/6k1/6p1/P2K2P1/8/8 w - - 0 1",
+     "loesung": "f7g6",
+     "jahr": 2013
+    },
+    {
+     "fen": "7Q/8/8/6PK/pP6/P7/7R/1k6 w - - 0 1",
+     "loesung": "h8b2",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/8/1p6/p7/7k/5Q2/PP4R1/6K1 w - - 0 1",
+     "loesung": "f3g4",
+     "jahr": 2025
+    },
+    {
+     "fen": "6R1/8/1P6/1r1p4/6Q1/3K4/7k/4q3 w - - 0 1",
+     "loesung": "g4g2",
+     "jahr": 2025
+    },
+    {
+     "fen": "5k2/4R3/8/p5Qp/7P/8/5PK1/8 w - - 0 1",
+     "loesung": "g5g7",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/6R1/8/6Q1/2N4p/1K2p2k/7P/8 w - - 0 1",
+     "loesung": "g5g2",
+     "jahr": 1993
+    },
+    {
+     "fen": "6k1/4R3/5Q2/6p1/6Pp/8/PKP5/8 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2008
+    },
+    {
+     "fen": "6R1/8/8/p7/P7/KP3q2/4rk2/Q7 w - - 0 1",
+     "loesung": "a1g1",
+     "jahr": 1997
+    },
+    {
+     "fen": "6k1/p2R4/6p1/8/5p1Q/7P/P7/7K w - - 0 1",
+     "loesung": "h4d8",
+     "jahr": 2000
+    },
+    {
+     "fen": "3Q4/6kp/5R1p/1p1N4/np1K4/7P/8/8 w - - 0 1",
+     "loesung": "d8f8",
+     "jahr": 2023
+    },
+    {
+     "fen": "5Q2/p1R4p/4k3/4bNp1/8/4P1PP/7K/8 w - - 0 1",
+     "loesung": "f8f7",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/p5pk/1p5p/8/1P1Q4/P4q2/4p1RP/7K w - - 0 1",
+     "loesung": "d4g7",
+     "jahr": 2018
+    },
+    {
+     "fen": "7r/1R2Q3/2k1p3/3p4/4p2p/P7/4bP1P/6K1 w - - 0 1",
+     "loesung": "e7c7",
+     "jahr": 2021
+    },
+    {
+     "fen": "3r4/6R1/7r/1p2Q3/4Pppk/2P5/1P3KP1/8 w - - 0 1",
+     "loesung": "e5g5",
+     "jahr": 2025
+    },
+    {
+     "fen": "4r3/4k3/2Q2R2/3p3p/4p3/P2nb3/6PP/7K w - - 0 1",
+     "loesung": "c6d6",
+     "jahr": 2024
+    },
+    {
+     "fen": "5bk1/p4r2/3p1P2/3P3Q/7R/8/q4N2/6NK w - - 0 1",
+     "loesung": "h5h8",
+     "jahr": 2019
+    },
+    {
+     "fen": "1r6/6R1/7k/1B2Q3/P2P4/P3P1P1/3q3P/1K6 w - - 0 1",
+     "loesung": "e5g5",
+     "jahr": 2024
+    },
+    {
+     "fen": "4rR2/p1r3pk/7p/3Q4/4q3/1P6/P5RK/8 w - - 0 1",
+     "loesung": "d5g8",
+     "jahr": 2019
+    },
+    {
+     "fen": "3k4/R2n2Q1/1q2p3/3p4/3P4/6PP/6PK/5r2 w - - 0 1",
+     "loesung": "g7d7",
+     "jahr": 1996
+    }
+   ]
+  },
+  {
+   "id": "dame_laeufer",
+   "titel": "Dame + Läufer",
+   "unter": "Der Läufer deckt die Dame",
+   "tipp": "Steht die Dame direkt neben dem König, könnte er sie schlagen. Darum braucht sie einen Helfer, der sie deckt: dein Läufer. Such das Feld neben dem König, das dein Läufer schon bewacht!",
+   "aufgaben": [
+    {
+     "fen": "8/8/8/4B3/2K5/8/4Q3/1k6 w - - 0 1",
+     "loesung": "e2b2",
+     "jahr": 2018
+    },
+    {
+     "fen": "6k1/4Q3/5B2/5K2/8/8/8/8 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/5K2/8/4B3/8/8/4Q3/1k6 w - - 0 1",
+     "loesung": "e2b2",
+     "jahr": 1994
+    },
+    {
+     "fen": "8/8/7k/5B2/4P1Q1/1K6/8/8 w - - 0 1",
+     "loesung": "g4g6",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/7k/5Q2/8/1K4P1/8/1B6/8 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2007
+    },
+    {
+     "fen": "6Q1/8/2K4k/5B2/8/4P3/8/8 w - - 0 1",
+     "loesung": "g8g6",
+     "jahr": 2006
+    },
+    {
+     "fen": "6k1/4Q3/2K2B2/5P2/8/6p1/8/8 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2003
+    },
+    {
+     "fen": "8/8/8/6K1/1Q1B2P1/8/k4P2/8 w - - 0 1",
+     "loesung": "b4b2",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/8/8/2pp4/3k1B2/1K4Q1/8/8 w - - 0 1",
+     "loesung": "g3e3",
+     "jahr": 2001
+    },
+    {
+     "fen": "1Q6/8/P4K2/k7/2B1P3/8/8/8 w - - 0 1",
+     "loesung": "b8b5",
+     "jahr": 2018
+    },
+    {
+     "fen": "8/8/8/p7/P1K5/5B1P/3Q4/6k1 w - - 0 1",
+     "loesung": "d2g2",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/6R1/7p/6B1/5Q2/4P2k/8/5K2 w - - 0 1",
+     "loesung": "f4h4",
+     "jahr": 2021
+    },
+    {
+     "fen": "1k6/3Q4/2B5/4p3/8/5PP1/6K1/2q5 w - - 0 1",
+     "loesung": "d7b7",
+     "jahr": 2003
+    },
+    {
+     "fen": "8/8/8/1p6/p5K1/P1B3P1/3Q4/1k6 w - - 0 1",
+     "loesung": "d2b2",
+     "jahr": 2008
+    },
+    {
+     "fen": "4Q3/8/5P2/1P6/2Q5/1K5k/R7/2B5 w - - 0 1",
+     "loesung": "e8e3",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/k7/B1Q5/p2Kp3/8/1P6/p7/8 w - - 0 1",
+     "loesung": "c6b7",
+     "jahr": 2017
+    },
+    {
+     "fen": "6k1/4Q3/5B2/6PP/8/3P4/5P2/6K1 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2016
+    },
+    {
+     "fen": "2k5/4Q3/3B2p1/6p1/P5P1/8/P7/6K1 w - - 0 1",
+     "loesung": "e7c7",
+     "jahr": 2012
+    },
+    {
+     "fen": "8/K4p2/8/8/7p/5QP1/5P1p/6kB w - - 0 1",
+     "loesung": "f3g2",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/8/2B5/knQ3P1/7p/3N3P/6K1/8 w - - 0 1",
+     "loesung": "c5b5",
+     "jahr": 2019
+    },
+    {
+     "fen": "6k1/5pb1/3pq3/6Q1/3B4/5P2/6P1/6K1 w - - 0 1",
+     "loesung": "g5g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/1p5p/p7/5p2/k7/2Q3P1/3B3P/6K1 w - - 0 1",
+     "loesung": "c3b4",
+     "jahr": 2024
+    },
+    {
+     "fen": "3k4/1Bp1r3/1p6/4b3/8/P2P3Q/4KP2/8 w - - 0 1",
+     "loesung": "h3c8",
+     "jahr": 2006
+    },
+    {
+     "fen": "7k/5Q2/6pp/8/2B5/p3P2P/5PPK/8 w - - 0 1",
+     "loesung": "f7g8",
+     "jahr": 2005
+    },
+    {
+     "fen": "5k2/3Q4/4B1p1/5p1p/8/2P3P1/5PP1/6K1 w - - 0 1",
+     "loesung": "d7f7",
+     "jahr": 2021
+    },
+    {
+     "fen": "3Q4/6kp/p5p1/5qP1/KP6/PB6/8/8 w - - 0 1",
+     "loesung": "d8g8",
+     "jahr": 2024
+    },
+    {
+     "fen": "5Q2/8/4k1p1/1K1p1p2/1B3P2/4P3/8/6nq w - - 0 1",
+     "loesung": "f8e7",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/1p4Q1/5p1p/3r3k/3n2q1/7B/P7/5R1K w - - 0 1",
+     "loesung": "g7g4",
+     "jahr": 2019
+    },
+    {
+     "fen": "3r1k2/p5p1/4Q2p/2PB4/8/1P2p3/6PP/6K1 w - - 0 1",
+     "loesung": "e6f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "3B4/5b1p/5Q2/4p1pk/8/2Pq1P1P/6PK/8 w - - 0 1",
+     "loesung": "f6g5",
+     "jahr": 2023
+    }
+   ]
+  },
+  {
+   "id": "dame_springer",
+   "titel": "Dame + Springer",
+   "unter": "Der Springer deckt die Dame",
+   "tipp": "Steht die Dame direkt neben dem König, könnte er sie schlagen. Darum braucht sie einen Helfer, der sie deckt: dein Springer. Such das Feld neben dem König, das dein Springer schon bewacht!",
+   "aufgaben": [
+    {
+     "fen": "8/8/8/6K1/2N5/Q7/8/1k6 w - - 0 1",
+     "loesung": "a3b2",
+     "jahr": 2021
+    },
+    {
+     "fen": "4k3/2Q5/1K6/3N4/8/8/8/8 w - - 0 1",
+     "loesung": "c7e7",
+     "jahr": 2013
+    },
+    {
+     "fen": "8/k4K2/3N4/1Q6/8/8/8/8 w - - 0 1",
+     "loesung": "b5b7",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/8/8/2K5/6Q1/4N3/5p1k/8 w - - 0 1",
+     "loesung": "g4g2",
+     "jahr": 2020
+    },
+    {
+     "fen": "7k/5Q2/7N/6P1/8/5K2/8/8 w - - 0 1",
+     "loesung": "f7g8",
+     "jahr": 2020
+    },
+    {
+     "fen": "Q7/2Nk4/1P6/2Q5/8/8/8/7K w - - 0 1",
+     "loesung": "a8e8",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/5KP1/6Q1/5N2/1q6/7k/8 w - - 0 1",
+     "loesung": "g5g2",
+     "jahr": 2006
+    },
+    {
+     "fen": "3k4/8/4Q3/2N5/2P5/1P4K1/8/8 w - - 0 1",
+     "loesung": "e6d7",
+     "jahr": 2007
+    },
+    {
+     "fen": "3k4/8/8/2N5/8/6pQ/4K1P1/8 w - - 0 1",
+     "loesung": "h3d7",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/8/8/8/7p/3KNQ2/2p4k/8 w - - 0 1",
+     "loesung": "f3g2",
+     "jahr": 2007
+    },
+    {
+     "fen": "8/3K4/k7/3N3p/1Q6/7P/6P1/8 w - - 0 1",
+     "loesung": "b4b6",
+     "jahr": 2015
+    },
+    {
+     "fen": "8/1Q6/7p/k7/8/2N3KP/6P1/8 w - - 0 1",
+     "loesung": "b7b5",
+     "jahr": 2021
+    },
+    {
+     "fen": "3k4/8/2Q5/4N3/8/1P3P1p/5K1P/8 w - - 0 1",
+     "loesung": "c6d7",
+     "jahr": 2018
+    },
+    {
+     "fen": "8/8/2Q5/k3P2p/3N3P/3K3P/8/8 w - - 0 1",
+     "loesung": "c6b5",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/3K4/8/8/1Q6/3N1p1p/5P1P/k7 w - - 0 1",
+     "loesung": "b4b2",
+     "jahr": 2014
+    },
+    {
+     "fen": "6Q1/1p1k4/p3N3/3K4/8/2P5/5r2/8 w - - 0 1",
+     "loesung": "g8d8",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/3K1Q2/7k/5pN1/5Pp1/6P1/8/8 w - - 0 1",
+     "loesung": "f7h7",
+     "jahr": 1998
+    },
+    {
+     "fen": "8/7P/8/8/8/P2NP3/P3Q3/1k4K1 w - - 0 1",
+     "loesung": "e2b2",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/7k/2K1NQ2/P5pp/6P1/7P/8/8 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2018
+    },
+    {
+     "fen": "8/8/1PQ5/4k3/3N2p1/4K1Pp/7P/8 w - - 0 1",
+     "loesung": "c6e6",
+     "jahr": 2025
+    },
+    {
+     "fen": "1Q6/3N1p2/k6p/8/2p3P1/2P2P2/5K2/8 w - - 0 1",
+     "loesung": "b8b6",
+     "jahr": 2024
+    },
+    {
+     "fen": "6k1/3Q4/K7/4pN2/4P2P/P4P2/1P4P1/8 w - - 0 1",
+     "loesung": "d7g7",
+     "jahr": 2015
+    },
+    {
+     "fen": "b5k1/p7/7Q/5N2/2pPp3/8/P4K1P/8 w - - 0 1",
+     "loesung": "h6g7",
+     "jahr": 2015
+    },
+    {
+     "fen": "6k1/p3Q3/8/1p1p1N2/8/2P5/PP3P2/6K1 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2010
+    },
+    {
+     "fen": "5rk1/1p6/p5bQ/3p1N2/8/1P6/P2B2K1/8 w - - 0 1",
+     "loesung": "h6g7",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/Q1p3p1/2Nq1p2/1k6/8/1r1P3P/6P1/2R4K w - - 0 1",
+     "loesung": "a7a5",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/1p5k/2p1N2r/8/1P1p2Q1/6K1/P1Pr2P1/8 w - - 0 1",
+     "loesung": "g4g7",
+     "jahr": 2025
+    },
+    {
+     "fen": "3k4/pQ2q1r1/3N4/8/5Pp1/1K2P1P1/1P3P2/8 w - - 0 1",
+     "loesung": "b7c8",
+     "jahr": 2017
+    },
+    {
+     "fen": "5r2/p1R2p1k/1p3p2/5N2/6Q1/8/q5BP/6K1 w - - 0 1",
+     "loesung": "g4g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "3Q4/1k6/bpN1P3/7p/1P6/P5PP/6BK/8 w - - 0 1",
+     "loesung": "d8b8",
+     "jahr": 2012
+    }
+   ]
+  },
+  {
+   "id": "dame_bauer",
+   "titel": "Dame + Bauer",
+   "unter": "Der Bauer deckt die Dame",
+   "tipp": "Steht die Dame direkt neben dem König, könnte er sie schlagen. Darum braucht sie einen Helfer, der sie deckt: dein Bauer. Such das Feld neben dem König, das dein Bauer schon bewacht!",
+   "aufgaben": [
+    {
+     "fen": "6Q1/5K2/8/7k/7P/8/8/8 w - - 0 1",
+     "loesung": "g8g5",
+     "jahr": 2017
+    },
+    {
+     "fen": "4k3/7Q/5P2/7K/8/8/8/8 w - - 0 1",
+     "loesung": "h7e7",
+     "jahr": 1994
+    },
+    {
+     "fen": "5R2/1k6/3Q3K/2P5/8/8/8/8 w - - 0 1",
+     "loesung": "d6b6",
+     "jahr": 2022
+    },
+    {
+     "fen": "6k1/5b2/3K1Q1P/8/8/8/8/8 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2017
+    },
+    {
+     "fen": "k7/3Q4/2P2B2/8/8/2P5/8/6K1 w - - 0 1",
+     "loesung": "d7b7",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/6K1/6Q1/8/5p1k/5P2/6P1/8 w - - 0 1",
+     "loesung": "g6g4",
+     "jahr": 2007
+    },
+    {
+     "fen": "7k/4Q3/7P/6b1/B3K3/8/8/8 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/k2K4/P1Q5/2P5/2P5/8/8/8 w - - 0 1",
+     "loesung": "c6b7",
+     "jahr": 2010
+    },
+    {
+     "fen": "5Q2/7k/7P/p6K/P7/8/8/8 w - - 0 1",
+     "loesung": "f8g7",
+     "jahr": 2009
+    },
+    {
+     "fen": "8/8/6P1/7k/7P/6Q1/5P2/6K1 w - - 0 1",
+     "loesung": "g3g5",
+     "jahr": 2024
+    },
+    {
+     "fen": "1Q6/8/8/3p4/4p3/k1p5/2P1K3/8 w - - 0 1",
+     "loesung": "b8b3",
+     "jahr": 2012
+    },
+    {
+     "fen": "1K6/7r/2Q5/kP6/6R1/8/1P6/8 w - - 0 1",
+     "loesung": "c6a6",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/8/8/7P/2P4Q/3KNkP1/8 w - - 0 1",
+     "loesung": "h3f3",
+     "jahr": 2019
+    },
+    {
+     "fen": "8/4Q3/6pp/7k/8/6P1/5PK1/8 w - - 0 1",
+     "loesung": "e7h4",
+     "jahr": 2023
+    },
+    {
+     "fen": "6k1/8/2K2Q1P/8/2p5/p1P5/P7/8 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2025
+    },
+    {
+     "fen": "q7/P7/8/6p1/7k/7P/4QP1K/8 w - - 0 1",
+     "loesung": "e2g4",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/4Q3/Pk6/3p4/1K2p3/4P3/8/7q w - - 0 1",
+     "loesung": "e7b7",
+     "jahr": 1988
+    },
+    {
+     "fen": "8/8/8/p7/P3k1Pp/1B5K/3Q1P2/8 w - - 0 1",
+     "loesung": "d2e3",
+     "jahr": 2000
+    },
+    {
+     "fen": "5k2/p2Q4/1p2P3/8/1P6/2K2P2/1P6/8 w - - 0 1",
+     "loesung": "d7f7",
+     "jahr": 2020
+    },
+    {
+     "fen": "5Q2/6p1/3r2kp/4b3/R5P1/4K3/8/8 w - - 0 1",
+     "loesung": "f8f5",
+     "jahr": 2019
+    },
+    {
+     "fen": "4k3/b1Q5/3P4/p7/P1P5/8/6PP/7K w - - 0 1",
+     "loesung": "c7e7",
+     "jahr": 2023
+    },
+    {
+     "fen": "7k/4Q3/5P2/pp5p/8/6P1/PP4P1/6K1 w - - 0 1",
+     "loesung": "e7g7",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/k7/P1Q5/7p/1P2pPP1/4P3/6PK/8 w - - 0 1",
+     "loesung": "c6b7",
+     "jahr": 2016
+    },
+    {
+     "fen": "3Q4/8/6p1/R4p1k/7p/1P4P1/5P1P/5K2 w - - 0 1",
+     "loesung": "d8h4",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/2q3p1/3k1p1p/2p2P1P/4Q1PK/8/8 w - - 0 1",
+     "loesung": "e3e5",
+     "jahr": 2015
+    },
+    {
+     "fen": "5k2/3Q4/3p2P1/2pP4/1pP5/1P6/PKB5/8 w - c6 0 1",
+     "loesung": "d7f7",
+     "jahr": 2016
+    },
+    {
+     "fen": "5k2/p3p3/2ppQnP1/8/5r2/8/PKP5/8 w - - 0 1",
+     "loesung": "e6f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "2Q5/5p2/5pkp/3P3N/P3P3/8/3K1P1P/8 w - - 0 1",
+     "loesung": "c8f5",
+     "jahr": 2006
+    },
+    {
+     "fen": "3Q2B1/6np/6pk/2b1P3/5P2/6P1/6KP/1r6 w - - 0 1",
+     "loesung": "d8g5",
+     "jahr": 2002
+    },
+    {
+     "fen": "3b1k2/3Q4/3PP1p1/4q2p/7P/6P1/1P3PK1/8 w - - 0 1",
+     "loesung": "d7f7",
+     "jahr": 2023
+    }
+   ]
+  },
+  {
+   "id": "dame_fern",
+   "titel": "Dame aus der Ferne",
+   "unter": "Die Dame braucht keinen Helfer",
+   "tipp": "Die Dame gibt aus der Entfernung Schach. Prüfe drei Dinge: Kann der König wegziehen? Kann jemand die Dame schlagen? Kann jemand dazwischenziehen?",
+   "aufgaben": [
+    {
+     "fen": "8/8/8/8/5K1k/8/7p/7Q w - - 0 1",
+     "loesung": "h1h2",
+     "jahr": 2020
+    },
+    {
+     "fen": "5QQ1/8/8/8/7k/3K4/8/8 w - - 0 1",
+     "loesung": "f8h6",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/6K1/8/8/8/7Q/6R1/5k2 w - - 0 1",
+     "loesung": "h3h1",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/8/2N5/8/2K5/5Q1p/7k w - - 0 1",
+     "loesung": "f2f1",
+     "jahr": 2021
+    },
+    {
+     "fen": "3Q4/8/2K5/8/8/7Q/8/1r4k1 w - - 0 1",
+     "loesung": "d8d4",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/k7/1R4p1/2Q5/2K5/7p/8 w - - 0 1",
+     "loesung": "c4a4",
+     "jahr": 2010
+    },
+    {
+     "fen": "5k2/5r2/7P/6PK/8/3Q4/8/8 w - - 0 1",
+     "loesung": "d3d8",
+     "jahr": 2010
+    },
+    {
+     "fen": "5k2/1R6/2Q5/8/8/6P1/1P6/2K5 w - - 0 1",
+     "loesung": "c6c8",
+     "jahr": 2019
+    },
+    {
+     "fen": "8/8/8/kpK5/1p6/1Q6/p7/8 w - - 0 1",
+     "loesung": "b3a2",
+     "jahr": 2025
+    },
+    {
+     "fen": "5Q2/6R1/4K3/7k/3B4/8/8/q7 w - - 0 1",
+     "loesung": "f8h8",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/8/8/1K6/5Q1p/r5pk/2R5/8 w - - 0 1",
+     "loesung": "f4f5",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/1Q6/2B5/1p3K1k/1P6/8/P7/8 w - - 0 1",
+     "loesung": "b7h7",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/7P/8/8/p1Kb4/k1p5/8/1Q6 w - - 0 1",
+     "loesung": "b1a1",
+     "jahr": 2012
+    },
+    {
+     "fen": "8/8/5B2/8/5P2/5KPk/5P2/4Q3 w - - 0 1",
+     "loesung": "e1h1",
+     "jahr": 2017
+    },
+    {
+     "fen": "5k2/8/4K3/4Q3/2p5/3q2P1/7P/8 w - - 0 1",
+     "loesung": "e5h8",
+     "jahr": 2020
+    },
+    {
+     "fen": "6k1/1R6/2K3p1/7p/8/4Q1P1/7P/8 w - - 0 1",
+     "loesung": "e3e8",
+     "jahr": 2024
+    },
+    {
+     "fen": "7Q/1p6/2k5/2P5/P3KP2/6p1/8/8 w - - 0 1",
+     "loesung": "h8c8",
+     "jahr": 2016
+    },
+    {
+     "fen": "6rk/5K2/3P4/5Q1p/4P2P/8/8/8 w - - 0 1",
+     "loesung": "f5h5",
+     "jahr": 2014
+    },
+    {
+     "fen": "6k1/6p1/1n4Q1/8/2q1BP2/6P1/6K1/8 w - - 0 1",
+     "loesung": "g6e8",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/8/8/2p5/p3Q3/8/PP3R1P/3k3K w - - 0 1",
+     "loesung": "e4b1",
+     "jahr": 2011
+    },
+    {
+     "fen": "1Q4Q1/5p2/5k2/5p1p/7P/5BP1/1P3PK1/8 w - - 0 1",
+     "loesung": "b8d6",
+     "jahr": 2013
+    },
+    {
+     "fen": "5Q2/7P/4Q3/2Np4/PP1P4/8/5R1B/2k4K w - - 0 1",
+     "loesung": "e6e1",
+     "jahr": 2005
+    },
+    {
+     "fen": "1Q6/5p2/2K2p1k/5P2/R5PP/p7/4P3/2b5 w - - 0 1",
+     "loesung": "b8h8",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/7p/4Q1p1/pp4B1/5P1P/7R/n5k1/4K3 w - - 0 1",
+     "loesung": "e6g4",
+     "jahr": 2001
+    },
+    {
+     "fen": "8/5Q1p/1p2B1pk/4P3/5P1K/p5PP/4q3/8 w - - 0 1",
+     "loesung": "f7f8",
+     "jahr": 2016
+    },
+    {
+     "fen": "3Q4/p1pR4/1p5k/4qP2/4B2p/P1r5/8/5K2 w - - 0 1",
+     "loesung": "d8h4",
+     "jahr": 2023
+    },
+    {
+     "fen": "r4rk1/p7/1p6/2p1B2Q/8/1P2p3/P1P5/1K6 w - - 0 1",
+     "loesung": "h5g6",
+     "jahr": 2025
+    },
+    {
+     "fen": "5kbQ/p3b3/2p3B1/8/qP3P2/4P1P1/6K1/8 w - - 0 1",
+     "loesung": "h8h6",
+     "jahr": 2016
+    },
+    {
+     "fen": "6Q1/N3Npp1/7k/7p/5P2/P3n1P1/5K1P/8 w - - 0 1",
+     "loesung": "g8h8",
+     "jahr": 2013
+    },
+    {
+     "fen": "5k2/1p3p1q/1p3Q1P/2p5/8/P1P5/5PPK/8 w - - 0 1",
+     "loesung": "f6d8",
+     "jahr": 2004
+    }
+   ]
+  },
+  {
+   "id": "turm",
+   "titel": "Der Turm setzt matt",
+   "unter": "Oft auf der letzten Reihe",
+   "tipp": "Steht der König am Rand und seine eigenen Bauern versperren ihm die Fluchtfelder, reicht oft ein Turmschach auf der Grundreihe.",
+   "aufgaben": [
+    {
+     "fen": "6R1/8/8/8/8/8/5K1k/8 w - - 0 1",
+     "loesung": "g8h8",
+     "jahr": 2014
+    },
+    {
+     "fen": "8/8/8/8/7R/5K2/8/5k2 w - - 0 1",
+     "loesung": "h4h1",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/5K2/2Q5/k7/2R5/8/8 w - - 0 1",
+     "loesung": "c3a3",
+     "jahr": 2025
+    },
+    {
+     "fen": "5R2/6R1/8/8/7k/8/1K6/8 w - - 0 1",
+     "loesung": "f8h8",
+     "jahr": 2005
+    },
+    {
+     "fen": "6Q1/5R2/7k/4K3/8/7p/8/8 w - - 0 1",
+     "loesung": "f7h7",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/B7/K7/8/8/4R3/5Q2/2k5 w - - 0 1",
+     "loesung": "e3e1",
+     "jahr": 2009
+    },
+    {
+     "fen": "7k/8/4PRPP/8/8/6K1/8/8 w - - 0 1",
+     "loesung": "f6f8",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/8/5pp1/8/5P1k/5K2/6R1 w - - 0 1",
+     "loesung": "g1h1",
+     "jahr": 2022
+    },
+    {
+     "fen": "3k4/R7/3K4/8/8/1p4P1/1P6/8 w - - 0 1",
+     "loesung": "a7a8",
+     "jahr": 2017
+    },
+    {
+     "fen": "1k6/6r1/PP6/2KR4/8/8/8/8 w - - 0 1",
+     "loesung": "d5d8",
+     "jahr": 2020
+    },
+    {
+     "fen": "R7/8/8/4Q3/1PN5/6P1/5k1K/8 w - - 0 1",
+     "loesung": "a8f8",
+     "jahr": 2014
+    },
+    {
+     "fen": "1R6/8/7p/8/2K5/k1N2n2/8/2r5 w - - 0 1",
+     "loesung": "b8b3",
+     "jahr": 2025
+    },
+    {
+     "fen": "3k4/6R1/1P6/6p1/6P1/3K4/8/5R2 w - - 0 1",
+     "loesung": "f1f8",
+     "jahr": 2012
+    },
+    {
+     "fen": "2k5/R7/p1K5/8/8/2P5/P1P5/8 w - - 0 1",
+     "loesung": "a7a8",
+     "jahr": 2017
+    },
+    {
+     "fen": "4k3/6Q1/8/P4K2/8/8/1PP4R/8 w - - 0 1",
+     "loesung": "h2h8",
+     "jahr": 2021
+    },
+    {
+     "fen": "7k/R5p1/6Kp/8/6PP/8/8/8 w - - 0 1",
+     "loesung": "a7a8",
+     "jahr": 1998
+    },
+    {
+     "fen": "8/p7/2K5/k1Np1r2/3P4/8/8/1R6 w - - 0 1",
+     "loesung": "b1b5",
+     "jahr": 2025
+    },
+    {
+     "fen": "1R6/1P6/k7/7p/8/7P/1R4PK/6B1 w - - 0 1",
+     "loesung": "b8a8",
+     "jahr": 2021
+    },
+    {
+     "fen": "5k2/3R4/4PKP1/1p3P2/8/PP6/8/8 w - - 0 1",
+     "loesung": "d7d8",
+     "jahr": 2010
+    },
+    {
+     "fen": "6Q1/5R2/5P2/3P3k/7p/5P1P/6K1/8 w - - 0 1",
+     "loesung": "f7h7",
+     "jahr": 2010
+    },
+    {
+     "fen": "5k2/1p1R4/4PPK1/1r6/6P1/7P/p7/8 w - - 0 1",
+     "loesung": "d7d8",
+     "jahr": 2022
+    },
+    {
+     "fen": "1R6/4kp1p/2Q5/3P4/4p3/8/1K4P1/5r2 w - - 0 1",
+     "loesung": "b8e8",
+     "jahr": 2005
+    },
+    {
+     "fen": "5N2/p7/8/1p5p/6kP/6P1/PP4K1/5R2 w - - 0 1",
+     "loesung": "f1f4",
+     "jahr": 2007
+    },
+    {
+     "fen": "8/1Q6/6k1/2R5/7p/7P/PP3PP1/4R1K1 w - - 0 1",
+     "loesung": "e1e6",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/4N1pk/4n3/8/p1PPK3/3R4/1r5P/8 w - - 0 1",
+     "loesung": "d3h3",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/2R5/3p4/3P2p1/2P2P1k/7P/6PK/3r4 w - - 0 1",
+     "loesung": "c7h7",
+     "jahr": 1999
+    },
+    {
+     "fen": "5R2/7k/3n4/3r1Ppp/8/5P1P/6PK/B7 w - - 0 1",
+     "loesung": "f8h8",
+     "jahr": 2006
+    },
+    {
+     "fen": "2k3r1/RR6/p7/2N4p/PP4pK/6P1/8/3r4 w - - 0 1",
+     "loesung": "a7a8",
+     "jahr": 2012
+    },
+    {
+     "fen": "2k1r3/7R/R7/1P3n2/5B2/P2P1PP1/5K1P/8 w - - 0 1",
+     "loesung": "a6a8",
+     "jahr": 2018
+    },
+    {
+     "fen": "8/7p/1p2PR2/p4N1k/P7/6R1/1P1r3r/6K1 w - - 0 1",
+     "loesung": "f6h6",
+     "jahr": 1990
+    }
+   ]
+  },
+  {
+   "id": "laeufer",
+   "titel": "Der Läufer setzt matt",
+   "unter": "Schach über die Diagonale",
+   "tipp": "Der Läufer gibt Schach über die Diagonale. Die anderen Felder des Königs müssen schon bewacht oder von eigenen Figuren zugestellt sein.",
+   "aufgaben": [
+    {
+     "fen": "8/2B5/8/8/2K5/1Q6/8/k7 w - - 0 1",
+     "loesung": "c7e5",
+     "jahr": 2023
+    },
+    {
+     "fen": "1K2k3/8/3Q4/8/8/3B4/8/8 w - - 0 1",
+     "loesung": "d3g6",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/8/8/1B6/5K2/6Q1/8/7k w - - 0 1",
+     "loesung": "b5c6",
+     "jahr": 2014
+    },
+    {
+     "fen": "k7/2K5/8/2B5/2B5/8/8/8 w - - 0 1",
+     "loesung": "c4d5",
+     "jahr": 2014
+    },
+    {
+     "fen": "8/8/3B4/8/8/8/2K5/k1N5 w - - 0 1",
+     "loesung": "d6e5",
+     "jahr": 2024
+    },
+    {
+     "fen": "8/8/8/8/5B2/NK6/8/k7 w - - 0 1",
+     "loesung": "f4e5",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/8/8/1B6/8/2K5/k1N5 w - - 0 1",
+     "loesung": "b4c3",
+     "jahr": 2024
+    },
+    {
+     "fen": "1K6/8/8/8/8/6Q1/1p6/1B3k2 w - - 0 1",
+     "loesung": "b1d3",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/8/1p6/P1BK4/8/1Q6/8/k7 w - - 0 1",
+     "loesung": "c5d4",
+     "jahr": 2016
+    },
+    {
+     "fen": "7B/8/8/8/2Q2K2/1B2B3/8/4k3 w - - 0 1",
+     "loesung": "h8c3",
+     "jahr": 2017
+    },
+    {
+     "fen": "5Q2/7k/8/3B3p/5K1P/6P1/8/8 w - - 0 1",
+     "loesung": "d5e4",
+     "jahr": 2017
+    },
+    {
+     "fen": "8/1p6/kB5R/5B2/8/p1K5/8/8 w - - 0 1",
+     "loesung": "f5d3",
+     "jahr": 1993
+    },
+    {
+     "fen": "8/8/6Pk/2B5/4p1Q1/4P1K1/5P2/8 w - - 0 1",
+     "loesung": "c5f8",
+     "jahr": 2019
+    },
+    {
+     "fen": "5Q2/7k/8/7P/6n1/5B1K/3q3P/8 w - - 0 1",
+     "loesung": "f3e4",
+     "jahr": 2010
+    },
+    {
+     "fen": "8/2Q4B/5K1P/1k6/7R/8/4rP2/8 w - - 0 1",
+     "loesung": "h7d3",
+     "jahr": 2006
+    },
+    {
+     "fen": "8/8/8/7p/1R6/1B1P3k/Pr5P/7K w - - 0 1",
+     "loesung": "b3e6",
+     "jahr": 2024
+    },
+    {
+     "fen": "6k1/4b3/7Q/2p2B2/1n6/6P1/7K/q7 w - - 0 1",
+     "loesung": "f5e6",
+     "jahr": 2012
+    },
+    {
+     "fen": "8/p7/4B3/7k/1p1P1Q2/P1P5/5K2/8 w - - 0 1",
+     "loesung": "e6f7",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/5R2/p1k5/2P5/P2K4/3B1p2/1r6/8 w - - 0 1",
+     "loesung": "d3e4",
+     "jahr": 2003
+    },
+    {
+     "fen": "3B3k/7p/8/5pQ1/7R/6P1/5PK1/8 w - - 0 1",
+     "loesung": "d8f6",
+     "jahr": 2006
+    },
+    {
+     "fen": "2Q5/k7/3B4/5p2/P6p/8/5PPP/5K2 w - - 0 1",
+     "loesung": "d6c5",
+     "jahr": 2024
+    },
+    {
+     "fen": "5Knk/6pp/2r5/6P1/3B4/2p5/5P2/8 w - - 0 1",
+     "loesung": "d4g7",
+     "jahr": 2021
+    },
+    {
+     "fen": "3k4/1b1P4/1PB5/8/3B1p2/5P1p/5K1P/8 w - - 0 1",
+     "loesung": "d4f6",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/p6R/kp6/8/1PP3B1/3P3P/1K6/7r w - - 0 1",
+     "loesung": "g4c8",
+     "jahr": 2002
+    },
+    {
+     "fen": "8/5R2/B7/4N3/2p1kB2/P3P1P1/2K2P2/7q w - - 0 1",
+     "loesung": "a6b7",
+     "jahr": 2018
+    },
+    {
+     "fen": "b7/8/7p/5Q2/1p5k/1P2p3/PB4PK/4q3 w - - 0 1",
+     "loesung": "b2f6",
+     "jahr": 2020
+    },
+    {
+     "fen": "2Q5/3q1p2/4kP2/p2pP3/3P4/1b2K3/p5B1/8 w - - 0 1",
+     "loesung": "g2h3",
+     "jahr": 2022
+    },
+    {
+     "fen": "1k6/8/Q1p2B2/1p1N2K1/4P3/3P4/P1P2R2/R7 w - - 0 1",
+     "loesung": "f6e5",
+     "jahr": 2012
+    },
+    {
+     "fen": "4r3/p4R1p/1p1kB2B/3P4/1Kb5/1P6/6r1/8 w - - 0 1",
+     "loesung": "h6f4",
+     "jahr": 2002
+    },
+    {
+     "fen": "4k3/8/5Q1p/3B4/2pP2P1/2P3P1/1q2rPK1/8 w - - 0 1",
+     "loesung": "d5c6",
+     "jahr": 2019
+    }
+   ]
+  },
+  {
+   "id": "springer",
+   "titel": "Der Springer setzt matt",
+   "unter": "Über andere Figuren hinweg",
+   "tipp": "Ein Springerschach kann man nicht durch Dazwischenziehen abwehren! Schau, ob der König eingesperrt ist.",
+   "aufgaben": [
+    {
+     "fen": "7k/7P/6K1/4N3/8/8/8/8 w - - 0 1",
+     "loesung": "e5f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "7k/7P/6K1/6N1/8/8/8/8 w - - 0 1",
+     "loesung": "g5f7",
+     "jahr": 2022
+    },
+    {
+     "fen": "3N3k/7P/6K1/2p5/8/8/8/8 w - - 0 1",
+     "loesung": "d8f7",
+     "jahr": 1993
+    },
+    {
+     "fen": "7k/8/6Q1/4N2r/4K3/8/8/8 w - - 0 1",
+     "loesung": "e5f7",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/8/8/8/7p/3N1p1k/7P/6K1 w - - 0 1",
+     "loesung": "d3f2",
+     "jahr": 2012
+    },
+    {
+     "fen": "6k1/6B1/6K1/5N1r/6P1/8/8/8 w - - 0 1",
+     "loesung": "f5e7",
+     "jahr": 2019
+    },
+    {
+     "fen": "5rk1/7R/7K/3N4/7P/8/8/8 w - - 0 1",
+     "loesung": "d5e7",
+     "jahr": 2024
+    },
+    {
+     "fen": "6k1/5R2/4K3/1r1N4/3B4/8/8/8 w - - 0 1",
+     "loesung": "d5e7",
+     "jahr": 2024
+    },
+    {
+     "fen": "7k/4KQ2/8/4N1p1/6P1/8/8/8 w - - 0 1",
+     "loesung": "e5g6",
+     "jahr": 2015
+    },
+    {
+     "fen": "3r3k/7P/6RK/6N1/8/8/8/8 w - - 0 1",
+     "loesung": "g5f7",
+     "jahr": 2020
+    },
+    {
+     "fen": "3N3k/8/6Q1/5P2/6PP/5K2/8/8 w - - 0 1",
+     "loesung": "d8f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "2N5/8/8/3p4/2k5/P3Q3/8/2BK4 w - - 0 1",
+     "loesung": "c8d6",
+     "jahr": 2024
+    },
+    {
+     "fen": "k7/8/3PN3/1Q6/8/4B1K1/1p4P1/8 w - - 0 1",
+     "loesung": "e6c7",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/8/5K2/7P/3N4/1Q1PP3/5P2/k7 w - - 0 1",
+     "loesung": "d4c2",
+     "jahr": 2017
+    },
+    {
+     "fen": "5Q2/7k/8/p2N2K1/P2P2P1/8/8/8 w - - 0 1",
+     "loesung": "d5f6",
+     "jahr": 2013
+    },
+    {
+     "fen": "7k/3K1Q2/1p6/1P2N1P1/8/1P6/8/8 w - - 0 1",
+     "loesung": "e5g6",
+     "jahr": 2021
+    },
+    {
+     "fen": "7k/7P/6K1/4N2P/3P4/1p3P2/8/8 w - - 0 1",
+     "loesung": "e5f7",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/5K1p/5N1k/4bPp1/6P1/7P/8/8 w - - 0 1",
+     "loesung": "f6g8",
+     "jahr": 2020
+    },
+    {
+     "fen": "8/8/8/p2R4/4pNP1/1r2k1K1/4b3/8 w - - 0 1",
+     "loesung": "f4g2",
+     "jahr": 2020
+    },
+    {
+     "fen": "3Q4/8/4p1p1/4k1N1/4P2K/6P1/6B1/8 w - - 0 1",
+     "loesung": "g5f7",
+     "jahr": 2024
+    },
+    {
+     "fen": "7k/8/6Q1/4N1p1/p1p3P1/P7/1P3KP1/8 w - - 0 1",
+     "loesung": "e5f7",
+     "jahr": 2018
+    },
+    {
+     "fen": "4N3/6R1/1p6/5pPk/5P1p/6PK/8/1r6 w - - 0 1",
+     "loesung": "e8f6",
+     "jahr": 2005
+    },
+    {
+     "fen": "k7/P7/1PK5/3N3p/2P1n1p1/6P1/7P/8 w - - 0 1",
+     "loesung": "d5c7",
+     "jahr": 2019
+    },
+    {
+     "fen": "8/p7/1p1N4/3n2p1/P5Bk/1P1p1K1P/8/8 w - - 0 1",
+     "loesung": "d6f5",
+     "jahr": 2005
+    },
+    {
+     "fen": "7k/1b3Q2/1p2p2p/4N1p1/1PK2P2/6q1/8/8 w - - 0 1",
+     "loesung": "e5g6",
+     "jahr": 2023
+    },
+    {
+     "fen": "1k6/1P6/1K2b3/3pN2p/2p2pp1/2P3P1/7P/8 w - - 0 1",
+     "loesung": "e5c6",
+     "jahr": 2016
+    },
+    {
+     "fen": "8/5p1p/5n1k/p5R1/N2N1P2/7P/1P1b4/7K w - - 0 1",
+     "loesung": "d4f5",
+     "jahr": 1995
+    },
+    {
+     "fen": "5rk1/6p1/8/3N1p1Q/2Pp3P/3P3K/3q3P/8 w - - 0 1",
+     "loesung": "d5e7",
+     "jahr": 2003
+    },
+    {
+     "fen": "8/8/1n6/2Np2p1/p2P1k1n/2PB1P2/1P3K2/8 w - - 0 1",
+     "loesung": "c5e6",
+     "jahr": 1998
+    },
+    {
+     "fen": "6k1/R5P1/3p4/3Np3/1P2P2p/3P3P/1P6/6K1 w - - 0 1",
+     "loesung": "d5f6",
+     "jahr": 2021
+    }
+   ]
+  },
+  {
+   "id": "bauer",
+   "titel": "Der Bauer setzt matt",
+   "unter": "Auch der Kleinste kann es",
+   "tipp": "Ein Bauer gibt schräg nach vorne Schach. Oft hilft ein anderer Bauer oder der König, damit man ihn nicht schlagen kann.",
+   "aufgaben": [
+    {
+     "fen": "k7/3K4/PPN5/8/8/8/8/8 w - - 0 1",
+     "loesung": "b6b7",
+     "jahr": 2010
+    },
+    {
+     "fen": "7k/8/6PK/7P/8/1B6/8/8 w - - 0 1",
+     "loesung": "g6g7",
+     "jahr": 2022
+    },
+    {
+     "fen": "8/kBK5/8/1P6/p7/8/8/8 w - - 0 1",
+     "loesung": "b5b6",
+     "jahr": 2019
+    },
+    {
+     "fen": "1k6/1Pb5/P1K5/2B5/8/8/8/8 w - - 0 1",
+     "loesung": "a6a7",
+     "jahr": 2013
+    },
+    {
+     "fen": "r3R3/7k/5P2/6PK/8/8/8/8 w - - 0 1",
+     "loesung": "g5g6",
+     "jahr": 2019
+    },
+    {
+     "fen": "6k1/6P1/5KBP/8/8/8/8/1q6 w - - 0 1",
+     "loesung": "h6h7",
+     "jahr": 2014
+    },
+    {
+     "fen": "1R6/6k1/6P1/6KP/8/8/8/3r4 w - - 0 1",
+     "loesung": "h5h6",
+     "jahr": 2024
+    },
+    {
+     "fen": "7k/5P2/5nPK/8/6N1/8/8/8 w - - 0 1",
+     "loesung": "g6g7",
+     "jahr": 2009
+    },
+    {
+     "fen": "7k/4K3/5PP1/4B3/4P3/8/8/8 w - - 0 1",
+     "loesung": "f6f7",
+     "jahr": 2022
+    },
+    {
+     "fen": "1R6/6k1/6P1/5PK1/8/8/8/r7 w - - 0 1",
+     "loesung": "f5f6",
+     "jahr": 2023
+    },
+    {
+     "fen": "5N2/8/5K1k/6pp/7P/6P1/8/8 w - - 0 1",
+     "loesung": "h4g5",
+     "jahr": 2016
+    },
+    {
+     "fen": "2k5/2B5/1PK5/2P4p/7P/p7/8/8 w - - 0 1",
+     "loesung": "b6b7",
+     "jahr": 2003
+    },
+    {
+     "fen": "7k/5Kb1/7P/2pn4/8/1p1B4/8/8 w - - 0 1",
+     "loesung": "h6g7",
+     "jahr": 2021
+    },
+    {
+     "fen": "6k1/6B1/5PK1/6P1/p7/P7/1P6/8 w - - 0 1",
+     "loesung": "f6f7",
+     "jahr": 2024
+    },
+    {
+     "fen": "3bk3/8/3PK3/p1B5/3P4/8/P7/8 w - - 0 1",
+     "loesung": "d6d7",
+     "jahr": 2008
+    },
+    {
+     "fen": "2k5/2P5/1PK5/8/6p1/6p1/5P1P/8 w - - 0 1",
+     "loesung": "b6b7",
+     "jahr": 2015
+    },
+    {
+     "fen": "6k1/6P1/3p1K1P/3P4/8/8/1p6/1B6 w - - 0 1",
+     "loesung": "h6h7",
+     "jahr": 2021
+    },
+    {
+     "fen": "8/1R6/5k2/1p3P2/1P3KP1/2r5/8/8 w - - 0 1",
+     "loesung": "g4g5",
+     "jahr": 2023
+    },
+    {
+     "fen": "6k1/6P1/5K1P/3P2N1/3P4/P7/1P6/8 w - - 0 1",
+     "loesung": "h6h7",
+     "jahr": 2008
+    },
+    {
+     "fen": "5Q2/2n5/6p1/6k1/5N2/4P1K1/2q4P/8 w - - 0 1",
+     "loesung": "h2h4",
+     "jahr": 2003
+    },
+    {
+     "fen": "1k6/1P5p/PK6/1B2Pb2/8/8/7P/3q4 w - - 0 1",
+     "loesung": "a6a7",
+     "jahr": 2025
+    },
+    {
+     "fen": "2k5/2P5/2PPN3/5p2/6p1/7P/6P1/6K1 w - - 0 1",
+     "loesung": "d6d7",
+     "jahr": 2014
+    },
+    {
+     "fen": "r7/8/6p1/PR5p/3pkn2/R7/5P1P/6K1 w - - 0 1",
+     "loesung": "f2f3",
+     "jahr": 2013
+    },
+    {
+     "fen": "8/8/7p/4RKpk/2p4P/4PnP1/r7/4B3 w - - 0 1",
+     "loesung": "g3g4",
+     "jahr": 2012
+    },
+    {
+     "fen": "8/7p/2R3p1/4k3/1rp3PP/2N1PP2/1n6/6K1 w - - 0 1",
+     "loesung": "f3f4",
+     "jahr": 2000
+    },
+    {
+     "fen": "3B4/p7/1p4pp/4N2k/3K4/2P5/b4PPP/8 w - - 0 1",
+     "loesung": "g2g4",
+     "jahr": 2025
+    },
+    {
+     "fen": "8/6p1/R6p/3Nnpk1/8/P4BPP/7K/4r3 w - - 0 1",
+     "loesung": "h3h4",
+     "jahr": 2020
+    },
+    {
+     "fen": "5Rr1/6Bk/p3N3/1p3KP1/1P2P3/P7/6P1/8 w - - 0 1",
+     "loesung": "g5g6",
+     "jahr": 2013
+    },
+    {
+     "fen": "8/8/1pQ4R/2q1rp2/P4kpP/8/5PPK/8 w - - 0 1",
+     "loesung": "g2g3",
+     "jahr": 2025
+    },
+    {
+     "fen": "7R/4k3/p3P3/1p1PKp2/1P2bNr1/2P5/8/8 w - - 0 1",
+     "loesung": "d5d6",
+     "jahr": 1991
+    }
+   ]
+  },
+  {
+   "id": "mix",
+   "titel": "Gemischt",
+   "unter": "Wie in einer echten Partie",
+   "tipp": "Wer kann Schach geben? Bei jedem Schach fragen: Kann der König weg? Kann man den Jäger schlagen? Kann jemand dazwischenziehen?",
+   "aufgaben": [
+    {
+     "fen": "5Q2/Q7/4N3/1k1p4/3P2K1/7P/8/8 w - - 0 1",
+     "loesung": "f8c5",
+     "jahr": 2017
+    },
+    {
+     "fen": "2Q5/8/4Q3/p7/1p1k4/1P5K/P2qp3/8 w - - 0 1",
+     "loesung": "c8c4",
+     "jahr": 2011
+    },
+    {
+     "fen": "6Q1/1R5p/8/5p1k/8/5pP1/5P1P/R5K1 w - - 0 1",
+     "loesung": "b7h7",
+     "jahr": 2020
+    },
+    {
+     "fen": "3k4/1pp2R2/4PKN1/1P6/p6p/8/8/4r3 w - - 0 1",
+     "loesung": "f7f8",
+     "jahr": 2020
+    },
+    {
+     "fen": "5bk1/5p2/6p1/4B3/6P1/7R/5P2/1r3bK1 w - - 0 1",
+     "loesung": "h3h8",
+     "jahr": 2021
+    },
+    {
+     "fen": "2R5/4R3/7k/6pp/7P/6P1/PP3P2/6K1 w - - 0 1",
+     "loesung": "c8c6",
+     "jahr": 2022
+    },
+    {
+     "fen": "6N1/1p6/1n6/p4R2/2P5/PP6/3p1K2/7k w - - 0 1",
+     "loesung": "f5h5",
+     "jahr": 2008
+    },
+    {
+     "fen": "3k4/R7/1R6/6p1/P7/4P3/1P3PPP/1B1K4 w - - 0 1",
+     "loesung": "b6b8",
+     "jahr": 2019
+    },
+    {
+     "fen": "7k/3R4/p4N2/6p1/P7/4BpP1/5P1K/5q2 w - - 0 1",
+     "loesung": "d7h7",
+     "jahr": 2018
+    },
+    {
+     "fen": "7k/5Q2/2N3pp/8/8/p1r5/5PPP/3R2K1 w - - 0 1",
+     "loesung": "d1d8",
+     "jahr": 2013
+    },
+    {
+     "fen": "6Q1/8/2pk4/1p2pK2/pP1pP2P/3P4/1PP5/8 w - - 0 1",
+     "loesung": "g8d8",
+     "jahr": 2020
+    },
+    {
+     "fen": "6k1/5ppp/4p3/p2p4/Pp3P2/1r4PP/8/2R3K1 w - - 0 1",
+     "loesung": "c1c8",
+     "jahr": 2017
+    },
+    {
+     "fen": "6k1/4R1r1/p2p4/1p5Q/5R1P/Pq4P1/1P3P1K/8 w - - 0 1",
+     "loesung": "e7e8",
+     "jahr": 2024
+    },
+    {
+     "fen": "7r/6kP/p1pN4/2P3P1/3p4/3B4/PPP5/2K2R2 w - - 0 1",
+     "loesung": "f1f7",
+     "jahr": 2003
+    },
+    {
+     "fen": "6k1/6pp/3N1p2/8/pp2R3/3P1PK1/PPr4P/8 w - - 0 1",
+     "loesung": "e4e8",
+     "jahr": 2010
+    },
+    {
+     "fen": "8/5q2/R6R/3p1p2/1krP1P2/1PpQ4/P1KB4/6r1 w - - 0 1",
+     "loesung": "h6b6",
+     "jahr": 2023
+    },
+    {
+     "fen": "8/1p2r3/p5p1/2pppkN1/7P/1P1P2K1/P1P5/4R3 w - - 0 1",
+     "loesung": "e1f1",
+     "jahr": 2014
+    },
+    {
+     "fen": "5k2/4Rp2/1p3Qp1/p2p1p2/1qpP4/7P/5PP1/7K w - - 0 1",
+     "loesung": "f6f7",
+     "jahr": 2024
+    },
+    {
+     "fen": "7k/1q3p2/1p2nN1b/pP6/P3P3/5N2/1r5P/6RK w - - 0 1",
+     "loesung": "g1g8",
+     "jahr": 2011
+    },
+    {
+     "fen": "3rk3/1b3p1N/3np1B1/2r5/5b2/q7/4Q1PP/2RR2K1 w - - 0 1",
+     "loesung": "e2e6",
+     "jahr": 2013
+    },
+    {
+     "fen": "r6k/p2RQ3/2p3p1/6P1/1p6/1B5P/PbP1bqP1/7K w - - 0 1",
+     "loesung": "e7h7",
+     "jahr": 2007
+    },
+    {
+     "fen": "8/p5Q1/1p5p/4N2k/6q1/3PP1P1/PPrB3P/R4RK1 w - - 0 1",
+     "loesung": "g7g4",
+     "jahr": 2010
+    },
+    {
+     "fen": "r2r3k/4RQp1/3q3p/3p4/2pP4/2p3P1/P4PP1/4R1K1 w - - 0 1",
+     "loesung": "f7g7",
+     "jahr": 2010
+    },
+    {
+     "fen": "6r1/p3pN1k/1p2P3/2pB1pQ1/8/4n1P1/P1qb1P2/5RK1 w - - 0 1",
+     "loesung": "g5h6",
+     "jahr": 2021
+    },
+    {
+     "fen": "r7/pp1Q4/1q1b1r1p/8/1n1p3k/8/PP3PPP/R1B3K1 w - - 0 1",
+     "loesung": "d7h3",
+     "jahr": 1967
+    },
+    {
+     "fen": "1r3rk1/1pp1R3/p1n3pp/2PP1p2/7P/2Q3P1/PP3P2/3R2K1 w - - 0 1",
+     "loesung": "c3g7",
+     "jahr": 2018
+    },
+    {
+     "fen": "6rk/ppp5/3pQ2p/2b1pNr1/4P3/P1PP3P/1P3PP1/2R3K1 w - - 0 1",
+     "loesung": "e6h6",
+     "jahr": 2021
+    },
+    {
+     "fen": "rn5k/pppbnR1q/3p3Q/1B1PP3/P3r3/2P5/1P4P1/RN4K1 w - - 0 1",
+     "loesung": "h6h7",
+     "jahr": 2010
+    },
+    {
+     "fen": "r5k1/pppq1p2/2n1rQpB/3p4/3P4/2PBP3/P4PPP/1R3RK1 w - - 0 1",
+     "loesung": "f6g7",
+     "jahr": 2024
+    },
+    {
+     "fen": "4r1k1/p1p2ppp/1p6/3r4/Q1pPp1bq/P3P3/1P1B1PP1/2K2RR1 w - - 0 1",
+     "loesung": "a4e8",
+     "jahr": 2022
+    }
+   ]
+  }
+ ]
+}
