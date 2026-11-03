@@ -1,1 +1,390 @@
-{"kategorien": [{"id": "test", "titel": "Vorbereiten und zuschlagen", "unter": "Test", "tipp": "Test-Tipp", "aufgaben": [{"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}, {"fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21", "zuege": ["f5g6", "f7g6", "f4f7"], "taktik": "Gabel", "partie": "Test", "jahr": 2019}, {"fen": "2k4r/pp2r1p1/2b1R1Qp/2p1Pp2/P1P5/1q2B3/5PPP/R5K1 b - - 0 27", "zuege": ["c6e8", "g6f5", "e8d7"], "taktik": "Fesselung", "partie": "Test", "jahr": 2019}]}]}
+{
+ "hinweis": "Taktik für Fortgeschrittene (kombinationen.html). Je Kategorie 30 Aufgaben: 1–10 Leicht, 11–20 Mittel, 21–30 Schwer. Stellungen aus der Mega Database 2026 (ChessBase), Lösungen mit Stockfish geprüft.",
+ "kategorien": [
+  {
+   "id": "vorbereiten",
+   "titel": "Vorbereiten und zuschlagen",
+   "unter": "Erst ablenken, anlocken oder Schach geben – dann gewinnt eine einfache Taktik.",
+   "tipp": "Die Taktik geht noch nicht sofort. Welche gegnerische Figur steht im Weg oder deckt zu viel? Mit einem Schach, einem Abtausch oder einem Opfer lockst du sie weg – danach kommt die Gabel oder das Abzugsschach.",
+   "stufen": [
+    "Leicht: 2 Züge, der erste ist ein Schach",
+    "Mittel: 2 Züge",
+    "Schwer: 2–3 Züge, oft mit ruhigem ersten Zug"
+   ],
+   "aufgaben": [
+    {
+     "fen": "1n1r2k1/pqN1bp1p/1p6/4n1p1/Q7/1p3PP1/PP4KP/3RR3 w - - 0 23",
+     "zuege": [
+      "d1d8",
+      "e7d8",
+      "a4e8"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Die Dame greift den König und den Springer gleichzeitig an.",
+     "partie": "Ruiz Gomez – Ostolazaga Barragan",
+     "jahr": 2019
+    },
+    {
+     "fen": "2r2r2/1bq2pk1/p2p1np1/4p2p/1Q2PN1P/1N1BnP2/PPP5/1KR3R1 w - - 0 23",
+     "zuege": [
+      "g1g6",
+      "f7g6",
+      "f4e6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und die Dame gleichzeitig an.",
+     "partie": "Srija – Burke",
+     "jahr": 2019
+    },
+    {
+     "fen": "5k2/r4pp1/p6p/Ppb5/nNp5/2P5/1P3PPP/2BR1K2 w - - 6 29",
+     "zuege": [
+      "d1d8",
+      "f8e7",
+      "b4c6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Carlo – Sanna",
+     "jahr": 2020
+    },
+    {
+     "fen": "r1bq1rk1/pp3p2/2pbp2p/8/2PPN2B/8/PP3PPP/R2Q1RK1 b - - 0 14",
+     "zuege": [
+      "d6h2",
+      "g1h2",
+      "d8h4"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Die Dame greift den König und den Springer gleichzeitig an.",
+     "partie": "Steenstrup – Nordenbaek",
+     "jahr": 2019
+    },
+    {
+     "fen": "r2q1rk1/1b1nb1p1/2n4p/p2pp3/1p1P1P1N/3BB3/1PQN2PP/R4RK1 w - - 0 19",
+     "zuege": [
+      "d3h7",
+      "g8h8",
+      "h4g6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Homs – Schulte",
+     "jahr": 2018
+    },
+    {
+     "fen": "3r3r/pb3k2/1p2pnNp/2q5/5Qp1/2P5/PP3PPP/2KR3R w - - 1 25",
+     "zuege": [
+      "g6h8",
+      "d8h8",
+      "d1d7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Turm greift den König und den Läufer gleichzeitig an.",
+     "partie": "Brito Carrascal – Marches Rios",
+     "jahr": 2023
+    },
+    {
+     "fen": "6k1/2qbp1b1/1n4pp/3p4/3P4/1QPBBP1P/8/R5K1 b - - 0 26",
+     "zuege": [
+      "c7g3",
+      "g1f1",
+      "g3f3"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Die Dame greift den König und den Läufer gleichzeitig an.",
+     "partie": "Rubsamen – Alber",
+     "jahr": 2019
+    },
+    {
+     "fen": "4r2r/5pk1/pB1P1n1p/1p1B1Pp1/8/8/PPPR2PP/2K5 b - - 0 27",
+     "zuege": [
+      "e8e1",
+      "d2d1",
+      "e1d1"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Turm greift den König und den Läufer gleichzeitig an.",
+     "partie": "Ersoz – Mijatovic",
+     "jahr": 2023
+    },
+    {
+     "fen": "r2qrbk1/pb4pp/1pn5/3p4/3P4/P3BQ2/BP3PPP/3R1RK1 w - - 2 19",
+     "zuege": [
+      "a2d5",
+      "g8h8",
+      "d5c6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Läufer greift den Turm und den Läufer gleichzeitig an.",
+     "partie": "Luque Saiz – Gavarrete",
+     "jahr": 2023
+    },
+    {
+     "fen": "3nr2k/pp1b2qp/6p1/2P1p1N1/2Bp1R2/7P/PP1Q2P1/7K w - - 0 26",
+     "zuege": [
+      "g5f7",
+      "d8f7",
+      "f4f7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Turm greift die Dame und den Läufer gleichzeitig an.",
+     "partie": "Ilinca Ilinca – Juan Lepp",
+     "jahr": 2022
+    },
+    {
+     "fen": "r3r1k1/pp1b1pbn/3p2p1/2pPqP1p/4PQ1B/2N3NP/PP4P1/R4R1K w - - 3 21",
+     "zuege": [
+      "f5g6",
+      "f7g6",
+      "f4f7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Die Dame greift den König und den Turm gleichzeitig an.",
+     "partie": "Pedersen – Schmidt",
+     "jahr": 2019
+    },
+    {
+     "fen": "r1b1rbk1/1p3ppp/8/pN1qp3/3n4/P2PB1P1/3NPP1P/1R1Q1RK1 w - - 0 18",
+     "zuege": [
+      "e3d4",
+      "e5d4",
+      "b5c7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift die Dame und den Turm gleichzeitig an.",
+     "partie": "Hiebler – Urh",
+     "jahr": 2018
+    },
+    {
+     "fen": "5rk1/1p3pbp/p3p1p1/2Pp2q1/PP1n4/8/4BPPP/2RQ1RK1 b - - 4 23",
+     "zuege": [
+      "g5c1",
+      "d1c1",
+      "d4e2"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und die Dame gleichzeitig an.",
+     "partie": "Gal – Gaal",
+     "jahr": 2018
+    },
+    {
+     "fen": "rn3rk1/1p3pp1/p2p3p/P2Pp3/1Q4nq/4B3/1PP1BP1P/R3K2R b KQ - 1 19",
+     "zuege": [
+      "g4e3",
+      "b4h4",
+      "e3g2"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und die Dame gleichzeitig an.",
+     "partie": "Zakrzewski – Kagramanianz",
+     "jahr": 2019
+    },
+    {
+     "fen": "2rqr1k1/pb1nbpp1/1p5p/3pN3/3P1B2/2N2Q2/PP3PPP/2R2RK1 w - - 0 16",
+     "zuege": [
+      "e5f7",
+      "g8f7",
+      "f4c7"
+     ],
+     "taktik": "Abzugsschach",
+     "erklaerung": "Ein Abzugsschach: Der König steht im Schach, und gleichzeitig greift die gezogene Figur an.",
+     "partie": "Vuelban – Pegno",
+     "jahr": 2020
+    },
+    {
+     "fen": "4r1k1/1p2rp2/p1p2npp/1n1p4/1q1P4/1PN1PP1P/P2QR1P1/1BR3K1 w - - 2 23",
+     "zuege": [
+      "c3e4",
+      "b4d2",
+      "e4f6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Chitlange – Induwara",
+     "jahr": 2024
+    },
+    {
+     "fen": "2krr3/ppp2p1p/1b3p2/8/1qN1b1P1/2P5/PP2Q1P1/R1B1KB1R b KQ - 0 18",
+     "zuege": [
+      "b4c4",
+      "e2c4",
+      "e4d3"
+     ],
+     "taktik": "Abzugsschach",
+     "erklaerung": "Ein Abzugsschach: Der König steht im Schach, und gleichzeitig greift die gezogene Figur an.",
+     "partie": "Scrimgour – Parker",
+     "jahr": 2019
+    },
+    {
+     "fen": "1r3r1k/pNp3pp/Q1n2q2/5p2/4P3/2P2N2/1P2R1PP/2B3K1 b - - 0 21",
+     "zuege": [
+      "c6d4",
+      "a6f6",
+      "d4e2"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Läufer gleichzeitig an.",
+     "partie": "Zakaryan – Frolov",
+     "jahr": 2019
+    },
+    {
+     "fen": "rn2k2r/pp1b1p2/4p3/3pP2p/n2N4/5P2/2PB3P/R3KB1R w KQkq - 0 19",
+     "zuege": [
+      "d4b5",
+      "d7b5",
+      "f1b5"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Läufer greift den König und den Springer gleichzeitig an.",
+     "partie": "Campelo – Mariani",
+     "jahr": 2019
+    },
+    {
+     "fen": "r2q1r1k/pb5p/1p3p2/4nR2/3pPN1P/3B4/P2Q2P1/2R3K1 w - - 3 22",
+     "zuege": [
+      "f5e5",
+      "f6e5",
+      "f4g6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Siekanska – Sala",
+     "jahr": 2023
+    },
+    {
+     "fen": "1b2r1k1/5p1p/p6q/1p1R4/4n1n1/3BPN2/PP3PP1/1Q2B1K1 b - - 2 27",
+     "zuege": [
+      "b8h2",
+      "g1f1",
+      "e4g3",
+      "f2g3",
+      "g4e3"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Gasa – Haring",
+     "jahr": 2019
+    },
+    {
+     "fen": "3r1r1k/pb2qnpp/3bpn2/1Ppp2N1/8/1PN1P3/PBQ1BPPP/R2R2K1 w - - 3 16",
+     "zuege": [
+      "c3d5",
+      "e6d5",
+      "b2f6",
+      "f7g5",
+      "f6e7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Läufer greift den Turm und den Springer gleichzeitig an.",
+     "partie": "Janzelj – Torngren",
+     "jahr": 2018
+    },
+    {
+     "fen": "6k1/pppr1ppp/5n2/7q/2B2P2/1P6/P1Q2P1P/2B3RK b - - 0 24",
+     "zuege": [
+      "h5f3",
+      "g1g2",
+      "d7d1",
+      "c2d1",
+      "f3d1"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Die Dame greift den König und den Läufer gleichzeitig an.",
+     "partie": "Sertic – Mesic",
+     "jahr": 2024
+    },
+    {
+     "fen": "3q2rk/r2nbp1p/pN1R1p2/4p3/1p2P3/1P6/1PP3QP/2K2BR1 w - - 2 23",
+     "zuege": [
+      "g2g8",
+      "d8g8",
+      "g1g8",
+      "h8g8",
+      "d6d7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Turm greift den Turm und den Läufer gleichzeitig an.",
+     "partie": "Vershinin – Argote Heredia",
+     "jahr": 2023
+    },
+    {
+     "fen": "2rqk2r/1b1nppb1/p2p1np1/1p2P1Np/3p3P/2NBBP2/PPPQ2P1/2KR3R w k - 0 13",
+     "zuege": [
+      "e5e6",
+      "d4c3",
+      "e6f7",
+      "e8f8",
+      "g5e6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und die Dame gleichzeitig an.",
+     "partie": "Guara Neto – Lima",
+     "jahr": 2019
+    },
+    {
+     "fen": "rnb2rk1/pp2bpp1/4p2p/2pp4/3P2Nq/3BP3/PPPN1PPP/R2QK2R w KQ - 2 10",
+     "zuege": [
+      "g2g3",
+      "h4h3",
+      "d3f1",
+      "h3h5",
+      "g4f6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und die Dame gleichzeitig an.",
+     "partie": "Nguyen – Dang",
+     "jahr": 2022
+    },
+    {
+     "fen": "q2rn1k1/p5bp/1p2p1p1/2n1N1P1/2P2P2/2N2Q2/PB5P/5RK1 w - - 0 24",
+     "zuege": [
+      "e5c6",
+      "d8c8",
+      "c6e7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Lacasa Diaz – Kirszenberg",
+     "jahr": 2024
+    },
+    {
+     "fen": "r3kbnr/pp2pppp/2n5/8/3NqP2/7b/PPP1N1PP/R1BQKB1R w KQkq - 1 9",
+     "zuege": [
+      "d4b5",
+      "h3d7",
+      "b5c7"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Verwoert – Bui",
+     "jahr": 2022
+    },
+    {
+     "fen": "r1b5/pp2kppp/4p3/5n2/2B1KP2/P2NP2P/1P4P1/2R5 b - - 7 22",
+     "zuege": [
+      "b7b5",
+      "c4b5",
+      "f5d6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Läufer gleichzeitig an.",
+     "partie": "Malinovsky – Grant",
+     "jahr": 2018
+    },
+    {
+     "fen": "2r1r1k1/pp3pbp/1q1p2p1/n4b2/P3NN2/1P2R1P1/Q4P1P/3R1BK1 w - - 0 24",
+     "zuege": [
+      "f4d5",
+      "b6d8",
+      "e4f6"
+     ],
+     "taktik": "Gabel",
+     "erklaerung": "Der Springer greift den König und den Turm gleichzeitig an.",
+     "partie": "Kierzek – Sand",
+     "jahr": 2018
+    }
+   ]
+  }
+ ]
+}

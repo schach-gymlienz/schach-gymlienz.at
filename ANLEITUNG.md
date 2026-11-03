@@ -110,7 +110,7 @@ In `data/teilnehmer.json` **oben** in `jahre` einen Eintrag ergänzen (Aufbau wi
 ### Kombinationen (Taktik für Fortgeschrittene)
 `data/kombinationen.json`: `kategorien` mit `id`, `titel`, `unter`, `tipp`, `aufgaben` (genau 30: Aufgaben 1–10 = Leicht, 11–20 = Mittel, 21–30 = Schwer).
 Eine Aufgabe: `fen` (Seite am Zug = Lösende), `zuege` (UCI, abwechselnd eigener Zug und Antwort, endet mit dem eigenen Schlusszug), `taktik` (z. B. „Gabel“), optional `erklaerung`, `partie`, `jahr`.
-Kategorie 1 „Vorbereiten und zuschlagen“ stammt aus der Mega Database 2026 (ChessBase); jede Lösung ist mit Stockfish geprüft (der geforderte Zug ist jeweils klar der beste). Neue Kategorien bitte genauso prüfen.
+Kategorie 1 „Vorbereiten und zuschlagen“ (30 Aufgaben) stammt aus der Mega Database 2026 (ChessBase, Partien 2018–2026, Elo 1900–2400); jede Lösung ist mit Stockfish geprüft (der geforderte Zug ist jeweils klar der beste). Neue Kategorien bitte genauso prüfen.
 
 ### Rätsel-Rallye
 - Ursprünglich von Prof. Amon für die alte Seite entwickelt; jetzt läuft alles lokal (keine CDNs).
