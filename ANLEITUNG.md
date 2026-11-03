@@ -40,6 +40,14 @@ teilnehmer.html            Teilnehmer:innen der Schachgruppen seit 2017/18 (Date
 assets/js/rallye.js        Rallye-Logik, Konfiguration ganz oben (Freischaltcode, MS-Forms-Link)
 assets/rallye/             Schachbrett-Bibliotheken, Figuren, Rätsel-Pools (alles lokal)
 tools/import_termin.py     wandelt Swiss-Manager-Exporte in die JSON-Daten um
+schachmatt.html            Matt in 1 für Anfänger:innen: 11 Kategorien × 30 Aufgaben (data/schachmatt.json), 3 Stufen je Kategorie
+assets/js/schachmatt.js    Freispielen: nächste Kategorie nach den ersten 10 der vorigen; Lehrkräfte: schachmatt.html?alle schaltet alles frei
+endspiele.html             Grundmatts üben (Treppenmatt, Dame, Turm): Video + Spiel gegen den König, alle sofort spielbar
+assets/js/endspiele.js     Endspiel-Logik, Themen ganz oben (THEMEN)
+assets/js/fortschritt.js   gemeinsamer Fortschritt von Schachmatt und Endspielen (Browser), Sichern/Laden als eine Datei
+assets/endspiele/*.bin     Endspieltafeln „Matt in N“, erzeugt mit `node tools/endspieltafeln.js`
+assets/video/endspiele/    Erklärvideos zu den Endspielen (+ Vorschaubild .jpg)
+assets/js/menue.js         aufklappbares Menü „Training“ in der Kopfzeile
 ```
 
 **Kopf- und Fußzeile** stehen in jeder HTML-Datei gleich (markiert mit `<!-- KOPFZEILE -->` und `<!-- FUSSZEILE -->`).
