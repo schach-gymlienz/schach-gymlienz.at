@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taktik für Fortgeschrittene – Schach am Gymnasium Lienz</title>
+<meta name="description" content="Taktik für Fortgeschrittene: Kombinationen aus echten Turnierpartien – erst vorbereiten, dann mit Gabel, Spieß oder Fesselung gewinnen.">
+<link rel="icon" href="assets/img/emblem-schachteam.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- KOPFZEILE (auf allen Seiten gleich) -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/img/emblem-schachteam.png" alt="" width="56" height="54">
+      <span><strong>Schach am Gym Lienz</strong><span>BG/BRG Lienz · Schulschach Osttirol</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a href="index.html">Start</a>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a>
+      <a href="termine.html">Termine</a>
+      <div class="nav-drop">
+        <button type="button" class="nav-drop-btn" aria-expanded="false" aria-controls="nav-training">Training</button>
+        <div class="nav-sub" id="nav-training">
+          <a href="training.html">Übersicht</a>
+          <a href="schachmatt.html">Schachmatt (Anfänger:innen)</a>
+          <a href="endspiele.html">Endspiele</a>
+          <a href="kombinationen.html" aria-current="page">Taktik (Fortgeschrittene)</a>
+          <a href="taktik.html">Taktik: Rätsel-Rallye</a>
+        </div>
+      </div>
+      <a href="archiv.html">Archiv</a>
+      <a href="ueber-uns.html">Über uns</a>
+      <a href="faq.html">Kontakt</a>
+    </nav>
+    <script src="assets/js/menue.js" defer></script>
+  </div>
+</header>
+
+<main id="inhalt">
+  <link rel="stylesheet" href="assets/rallye/lib/chessboard-1.0.0.css">
+  <section class="hero page-hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="pill pill-red">für Fortgeschrittene</span>
+        <h1>Taktik für Fortgeschrittene</h1>
+        <div class="rule" aria-hidden="true"><span></span></div>
+        <p class="small">Die Taktik ist schon da – sie muss nur noch vorbereitet werden. Echte Stellungen aus Turnierpartien: Erst lenkst du ab, lockst an oder gibst Schach, dann gewinnt eine einfache Taktik wie eine Gabel oder ein Abzugsschach. Löst du in einer Stufe alle 10, wird die nächste frei.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KATEGORIEN: aus data/kombinationen.json, Karten baut assets/js/kombinationen.js -->
+  <section class="section" id="auswahl">
+    <div class="wrap">
+      <div class="section-head"><h2>Wähle eine Kategorie</h2><span class="muted small">Je Kategorie 3 Stufen: leicht, mittel, schwer</span></div>
+      <div class="sm-karten" data-kb-karten><p class="muted">Aufgaben werden geladen …</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="aufgabe" hidden>
+    <div class="wrap">
+      <div class="section-head"><h2 data-kb-titel></h2><a class="small" href="#auswahl">‹ zur Auswahl</a></div>
+      <div class="card">
+        <div class="puzzle">
+          <div class="puzzle-board"><div id="kb-board" class="es-board"></div></div>
+          <div class="puzzle-side">
+            <span class="pill pill-gold" data-kb-ziel></span>
+            <h3 data-kb-nummer></h3>
+            <div class="sm-punkte" data-kb-punkte role="group" aria-label="Aufgaben dieser Stufe"></div>
+            <p class="notice" data-kb-msg aria-live="polite"></p>
+            <div class="btn-row"><button type="button" class="btn btn-navy" data-kb-weiter hidden>Nächste Aufgabe ▶</button><button type="button" class="btn btn-soft" data-kb-loesung hidden>Lösung zeigen</button></div>
+            <p class="small"><strong>Tipp:</strong> <span data-kb-tipp></span></p>
+            <p class="muted small">Ziehen oder klicken: erst die Figur, dann das Zielfeld. Die Antworten des Gegners spielt die Seite. <span data-kb-quelle></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="fortschritt">
+    <div class="wrap">
+      <div class="card es-fortschritt">
+        <div>
+          <h2>Dein Fortschritt</h2>
+          <p class="muted">Was du bei der Taktik, beim Schachmatt und bei den Endspielen geschafft hast, merkt sich nur dieser Browser auf diesem Gerät – wir bekommen davon nichts mit. Willst du an einem anderen Gerät weitermachen? Sichere deinen Fortschritt als Datei (USB-Stick, OneDrive oder per Mail an dich) und lade ihn dort wieder.</p>
+        </div>
+        <div class="btn-row"><button type="button" class="btn btn-navy" data-fs-sichern>Fortschritt sichern</button><button type="button" class="btn btn-soft" data-fs-laden>Fortschritt laden</button></div>
+        <input type="file" accept=".txt,.json,text/plain" data-fs-datei hidden>
+        <p class="notice" data-fs-msg hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card card-dark" style="display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between">
+        <div style="flex:999 1 380px"><h2>Noch mehr Taktik?</h2><p class="muted">Bei der Rätsel-Rallye geht es auf Zeit: 10 Rätsel, 2 Minuten pro Rätsel.</p></div>
+        <div class="btn-row"><a class="btn btn-gold" href="taktik.html">Zur Rätsel-Rallye</a></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/rallye/lib/jquery-3.7.1.min.js"></script>
+  <script src="assets/rallye/lib/chess-0.10.3.js"></script>
+  <script src="assets/rallye/lib/chessboard-1.0.0.js"></script>
+  <script src="assets/js/fortschritt.js"></script>
+  <script src="assets/js/kombinationen.js"></script>
+</main>
+
+<!-- FUSSZEILE (auf allen Seiten gleich) -->
+<footer class="site-footer" id="kontakt">
+  <div class="wrap cols">
+    <div>
+      <img class="logo" src="assets/img/logo-schachteam.png" alt="Logo: Schachteam Gymnasium Lienz BG/BRG" width="170" height="160">
+      <b>Schach am Gymnasium Lienz</b>
+      Gymnasium Lienz BG/BRG<br>Maximilianstraße 11, 9900 Lienz
+    </div>
+    <div>
+      <b>Kontakt</b>
+      <a href="mailto:info@schach-gymlienz.at">info@schach-gymlienz.at</a><br>
+      <a href="faq.html">Fragen &amp; Antworten</a><br>
+      Prof. Mag. Christopher Stadler, RS – Fortgeschrittene<br>
+      Prof. Mag. Hannes Amon – Anfänger:innen
+    </div>
+    <div>
+      <b>Links</b>
+      <a href="jahresmeisterschaft.html">Jahresmeisterschaft</a><br>
+      <a href="termine.html">Termine</a><br>
+      <a href="archiv.html">Turnierarchiv</a><br>
+      <a href="ueber-uns.html#unterlagen">Unterlagen für Turniere</a><br>
+      <a href="ueber-uns.html">Über uns &amp; Chronik</a><br>
+      <a href="teilnehmer.html">Teilnehmer:innen seit 2017/18</a><br>
+      <a href="https://www.gymlienz.at/" rel="noopener">Homepage des Gymnasium Lienz</a>
+
+    </div>
+  </div>
+  <div class="wrap thanks">Mit freundlicher Unterstützung der <strong>Lienzer Sparkasse</strong></div>
+  <div class="wrap bottom">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <span>© Schachteam Gymnasium Lienz BG/BRG</span>
+  </div>
+</footer>
+</body>
+</html>
