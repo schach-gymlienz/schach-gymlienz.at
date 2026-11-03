@@ -75,7 +75,7 @@
    "kat": "Kl2"
   },
   "Lerchbaumer Leon": {
-   "kat": null
+   "kat": "Kl2"
   },
   "Marizzi David": {
    "kat": "Kl5"
@@ -838,6 +838,806 @@
      "bh_swiss": "0"
     },
     "Lerchbaumer Leon": {
+     "rang": null,
+     "runden": [],
+     "pkte_swiss": "0",
+     "bh_swiss": "0"
+    },
+    "Marizzi David": {
+     "rang": null,
+     "runden": [],
+     "pkte_swiss": "0",
+     "bh_swiss": "0"
+    }
+   }
+  },
+  {
+   "datum": "03.11.2026",
+   "ergebnisse": {
+    "Stocker Simon": {
+     "rang": 1,
+     "runden": [
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Gruber Joel",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Frey Luis",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "5",
+     "bh_swiss": "20"
+    },
+    "Steininger Valentin": {
+     "rang": 2,
+     "runden": [
+      {
+       "gegner": "Lo Piccolo Maceo",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Frey Luis",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Gruber Joel",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "s",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "5",
+     "bh_swiss": "19"
+    },
+    "Ladstaetter Benjamin": {
+     "rang": 3,
+     "runden": [
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "s",
+       "punkte": 0.5
+      },
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "s",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "4½",
+     "bh_swiss": "24.5"
+    },
+    "Stadler Konstantin": {
+     "rang": 4,
+     "runden": [
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "w",
+       "punkte": 0.5
+      },
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Frey Luis",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "4½",
+     "bh_swiss": "24"
+    },
+    "Frey Luis": {
+     "rang": 5,
+     "runden": [
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "4",
+     "bh_swiss": "22.5"
+    },
+    "Gasser Noah": {
+     "rang": 6,
+     "runden": [
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lerchbaumer Leon",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Reiterer Paul",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "4",
+     "bh_swiss": "17"
+    },
+    "Kurnik Timo": {
+     "rang": 7,
+     "runden": [
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "s",
+       "punkte": 0.5
+      },
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Dobnig David",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "w",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "3½",
+     "bh_swiss": "23"
+    },
+    "Scheiber Elija": {
+     "rang": 8,
+     "runden": [
+      {
+       "gegner": "Lerchbaumer Leon",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "w",
+       "punkte": 0.5
+      },
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "w",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "3½",
+     "bh_swiss": "19.5"
+    },
+    "Reiterer Peter": {
+     "rang": 9,
+     "runden": [
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stadler Konstantin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Frey Luis",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "3",
+     "bh_swiss": "21.5"
+    },
+    "Manhart Elena": {
+     "rang": 10,
+     "runden": [
+      {
+       "gegner": "Dobnig David",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Ladstaetter Benjamin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "3",
+     "bh_swiss": "19.5"
+    },
+    "Lamprecht David": {
+     "rang": 11,
+     "runden": [
+      {
+       "gegner": "Frey Luis",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lo Piccolo Maceo",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Dobnig David",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "3",
+     "bh_swiss": "17.5"
+    },
+    "Stadler Gregor": {
+     "rang": 12,
+     "runden": [
+      {
+       "gegner": "Lang Paul",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Gruber Joel",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "3",
+     "bh_swiss": "16.5"
+    },
+    "Dobnig David": {
+     "rang": 13,
+     "runden": [
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lerchbaumer Leon",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Kurnik Timo",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lang Paul",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Reiterer Paul",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "3",
+     "bh_swiss": "14.5"
+    },
+    "Gruber Joel": {
+     "rang": 14,
+     "runden": [
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Reiterer Paul",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": null,
+       "spielfrei": true,
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "19"
+    },
+    "Lerchbaumer Leon": {
+     "rang": 15,
+     "runden": [
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Dobnig David",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": null,
+       "spielfrei": true,
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "16.5"
+    },
+    "Ivanov Martin": {
+     "rang": 16,
+     "runden": [
+      {
+       "gegner": "Stocker Simon",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Reiterer Paul",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lerchbaumer Leon",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Lo Piccolo Maceo",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "16"
+    },
+    "Ebner Luca": {
+     "rang": 17,
+     "runden": [
+      {
+       "gegner": "Reiterer Peter",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lang Paul",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Manhart Elena",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lo Piccolo Maceo",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Scheiber Elija",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "15.5"
+    },
+    "Lo Piccolo Maceo": {
+     "rang": 18,
+     "runden": [
+      {
+       "gegner": "Steininger Valentin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lamprecht David",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": null,
+       "spielfrei": true,
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lang Paul",
+       "farbe": "w",
+       "punkte": 1.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "15"
+    },
+    "Reiterer Paul": {
+     "rang": 18,
+     "runden": [
+      {
+       "gegner": null,
+       "spielfrei": false,
+       "punkte": 0.0
+      },
+      {
+       "gegner": null,
+       "spielfrei": false,
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Gruber Joel",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Dobnig David",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "15"
+    },
+    "Steininger Filippa": {
+     "rang": 18,
+     "runden": [
+      {
+       "gegner": "Gruber Joel",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ivanov Martin",
+       "farbe": "s",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Lang Paul",
+       "farbe": "w",
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Frey Luis",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Gasser Noah",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lerchbaumer Leon",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "2",
+     "bh_swiss": "15"
+    },
+    "Lang Paul": {
+     "rang": 21,
+     "runden": [
+      {
+       "gegner": "Stadler Gregor",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Ebner Luca",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Steininger Filippa",
+       "farbe": "s",
+       "punkte": 0.0
+      },
+      {
+       "gegner": null,
+       "spielfrei": true,
+       "punkte": 1.0
+      },
+      {
+       "gegner": "Dobnig David",
+       "farbe": "w",
+       "punkte": 0.0
+      },
+      {
+       "gegner": "Lo Piccolo Maceo",
+       "farbe": "s",
+       "punkte": 0.0
+      }
+     ],
+     "pkte_swiss": "1",
+     "bh_swiss": "13"
+    },
+    "Amon Markus": {
+     "rang": null,
+     "runden": [],
+     "pkte_swiss": "0",
+     "bh_swiss": "0"
+    },
+    "Biasco Marlon": {
      "rang": null,
      "runden": [],
      "pkte_swiss": "0",

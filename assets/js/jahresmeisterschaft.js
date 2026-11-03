@@ -55,7 +55,7 @@
         r.wp[ti] = w; r.total += w;
         r.pp += e.runden.reduce(function (s, g) { return s + g.punkte; }, 0);
         r.bh += num(e.bh_swiss);
-        e.runden.forEach(function (g) { r.gegen[g.gegner] = (r.gegen[g.gegner] || 0) + g.punkte; });
+        e.runden.forEach(function (g) { if (g.gegner) r.gegen[g.gegner] = (r.gegen[g.gegner] || 0) + g.punkte; });
       });
     });
     var list = Object.keys(rows).map(function (k) { return rows[k]; });
@@ -128,6 +128,9 @@
       var body = namen.map(function (n) {
         var e = erg[n];
         var cells = e.runden.map(function (g) {
+          if (!g.gegner) return g.spielfrei
+            ? '<td><div class="c res-1" title="spielfrei (Freilos)">frei <strong>1</strong></div></td>'
+            : '<td><div class="c" title="in dieser Runde nicht dabei">–</div></td>';
           var cls = g.punkte === 1 ? "res-1" : g.punkte === 0 ? "res-0" : "res-h";
           var res = g.punkte === 1 ? "1" : g.punkte === 0 ? "0" : "½";
           var gr = erg[g.gegner] && erg[g.gegner].rang ? erg[g.gegner].rang : "?";
