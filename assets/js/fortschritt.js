@@ -1,4 +1,4 @@
-/* Gemeinsamer Fortschritt der Übungsseiten (schachmatt.html, endspiele.html, kombinationen.html).
+/* Gemeinsamer Fortschritt der Übungsseiten (schachmatt.html, endspiele.html).
    Alles bleibt im Browser (localStorage). „Fortschritt sichern“ lädt EINE Datei mit allen
    Bereichen herunter, „Fortschritt laden“ führt eine solche Datei mit dem Stand hier zusammen
    (das Bessere gewinnt, nichts geht verloren). Die Prüfsumme hält nur neugierige Änderungen ab.
@@ -36,7 +36,6 @@
       }
     }
   };
-  BEREICHE.kombinationen = BEREICHE.schachmatt;   // kombinationen.html: { kategorie: [Nummern der gelösten Aufgaben] }
   function sauber(x) { var s = {}; Object.keys(BEREICHE).forEach(function (b) { s[b] = BEREICHE[b].sauber(x && x[b]); }); return s; }
 
   var stand = sauber(null);
@@ -61,9 +60,7 @@
       var x; try { x = JSON.parse(r.result); } catch (e) { x = null; }
       if (!x || x.app !== APP || !x.fortschritt) { meldung("Das ist keine Fortschritts-Datei dieser Seite.", false); return; }
       var neu = sauber(x.fortschritt);
-      // Prüfsumme nur über die Bereiche, die in der Datei stehen (ältere Dateien kennen neuere Bereiche nicht)
-      var teil = {}; Object.keys(BEREICHE).forEach(function (b) { if (x.fortschritt[b] !== undefined) teil[b] = neu[b]; });
-      if (pruef(teil) !== x.pruef) { meldung("Diese Datei wurde verändert oder ist beschädigt und kann nicht geladen werden.", false); return; }
+      if (pruef(neu) !== x.pruef) { meldung("Diese Datei wurde verändert oder ist beschädigt und kann nicht geladen werden.", false); return; }
       Object.keys(BEREICHE).forEach(function (b) { stand[b] = BEREICHE[b].zusammen(stand[b], neu[b]); });
       speichern();
       document.dispatchEvent(new Event("fortschritt-geladen"));

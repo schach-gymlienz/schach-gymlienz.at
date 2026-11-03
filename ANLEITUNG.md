@@ -44,9 +44,9 @@ schachmatt.html            Matt in 1 für Anfänger:innen: 11 Kategorien × 30 A
 assets/js/schachmatt.js    Freispielen: nächste Kategorie nach den ersten 10 der vorigen; Lehrkräfte: schachmatt.html?alle schaltet alles frei
 endspiele.html             Grundmatts üben (Treppenmatt, Dame, Turm): Video + Spiel gegen den König, alle sofort spielbar
 assets/js/endspiele.js     Endspiel-Logik, Themen ganz oben (THEMEN)
-kombinationen.html         Taktik für Fortgeschrittene: Kombinationen aus Turnierpartien (data/kombinationen.json), aufgebaut wie Schachmatt
-assets/js/kombinationen.js Zugfolgen (eigener Zug, Antwort, eigener Zug …), Freispielen wie Schachmatt; kombinationen.html?alle schaltet alles frei
-assets/js/fortschritt.js   gemeinsamer Fortschritt von Schachmatt, Endspielen und Kombinationen (Browser), Sichern/Laden als eine Datei
+kombinationen.html         Taktik (Fortgeschrittene), Menü Training: Kombinationen aus Turnierpartien (data/kombinationen.json), aufgebaut wie Schachmatt
+assets/js/kombinationen.js Zugfolgen (eigener Zug, Antwort, eigener Zug …), Freispielen wie Schachmatt, eigener Fortschritt im Browser; kombinationen.html?alle schaltet alles frei
+assets/js/fortschritt.js   gemeinsamer Fortschritt von Schachmatt und Endspielen (Browser), Sichern/Laden als eine Datei
 assets/endspiele/*.bin     Endspieltafeln „Matt in N“, erzeugt mit `node tools/endspieltafeln.js`
 assets/video/endspiele/    Erklärvideos zu den Endspielen (+ Vorschaubild .jpg)
 assets/js/menue.js         aufklappbares Menü „Training“ in der Kopfzeile

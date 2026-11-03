@@ -6,7 +6,7 @@
    der jeweils geforderte Zug ist klar der beste.
    Freispielen wie bei Schachmatt: Kategorie 1 offen, nächste Stufe/Kategorie nach 10 gelösten.
    Lehrkräfte: kombinationen.html?alle schaltet alles frei (nur für diesen Aufruf).
-   benötigt jQuery, chess.js, chessboard.js (assets/rallye/lib/) und assets/js/fortschritt.js */
+   benötigt jQuery, chess.js, chessboard.js (assets/rallye/lib/). Fortschritt: eigener Eintrag im Browser (localStorage). */
 (function () {
   "use strict";
   var PIECES = "assets/rallye/pieces/{piece}.png";
@@ -17,8 +17,11 @@
   function de(san) { return san.replace(/[KQRBN]/g, function (c) { return { K: "K", Q: "D", R: "T", B: "L", N: "S" }[c]; }); }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
-  /* ---------- Fortschritt und Freispielen ---------- */
-  function geloest(kat) { var s = Fortschritt.lesen("kombinationen"); if (!s[kat.id]) s[kat.id] = []; return s[kat.id]; }
+  /* ---------- Fortschritt (nur in diesem Browser) und Freispielen ---------- */
+  var SPEICHER = "schach-gymlienz-kombinationen", STAND = {};
+  try { STAND = JSON.parse(localStorage.getItem(SPEICHER)) || {}; } catch (e) { STAND = {}; }
+  var Fortschritt = { speichern: function () { try { localStorage.setItem(SPEICHER, JSON.stringify(STAND)); } catch (e) { /* privates Fenster */ } } };
+  function geloest(kat) { if (!Array.isArray(STAND[kat.id])) STAND[kat.id] = []; return STAND[kat.id]; }
   function anzahl(kat, st) { return geloest(kat).filter(function (n) { return Math.floor(n / JE_STUFE) === st; }).length; }
   function stufeFertig(kat, st) { return anzahl(kat, st) >= JE_STUFE; }
   function katOffen(i) { return ALLE_OFFEN || i === 0 || stufeFertig(KATS[i - 1], 0) || geloest(KATS[i]).length > 0; }
@@ -185,6 +188,5 @@
       else if (b.hasAttribute("data-kb-loesung")) loesung();
       else if (b.hasAttribute("data-kb-weiter")) naechste();
     });
-    document.addEventListener("fortschritt-geladen", function () { if (KATS.length) { karten(); if (K) punkte(); } });
   });
 })();
