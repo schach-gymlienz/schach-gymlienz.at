@@ -44,7 +44,9 @@ schachmatt.html            Matt in 1 für Anfänger:innen: 11 Kategorien × 30 A
 assets/js/schachmatt.js    Freispielen: nächste Kategorie nach den ersten 10 der vorigen; Lehrkräfte: schachmatt.html?alle schaltet alles frei
 endspiele.html             Grundmatts üben (Treppenmatt, Dame, Turm): Video + Spiel gegen den König, alle sofort spielbar
 assets/js/endspiele.js     Endspiel-Logik, Themen ganz oben (THEMEN)
-assets/js/fortschritt.js   gemeinsamer Fortschritt von Schachmatt und Endspielen (Browser), Sichern/Laden als eine Datei
+kombinationen.html         Taktik für Fortgeschrittene: Kombinationen aus Turnierpartien (data/kombinationen.json), aufgebaut wie Schachmatt
+assets/js/kombinationen.js Zugfolgen (eigener Zug, Antwort, eigener Zug …), Freispielen wie Schachmatt; kombinationen.html?alle schaltet alles frei
+assets/js/fortschritt.js   gemeinsamer Fortschritt von Schachmatt, Endspielen und Kombinationen (Browser), Sichern/Laden als eine Datei
 assets/endspiele/*.bin     Endspieltafeln „Matt in N“, erzeugt mit `node tools/endspieltafeln.js`
 assets/video/endspiele/    Erklärvideos zu den Endspielen (+ Vorschaubild .jpg)
 assets/js/menue.js         aufklappbares Menü „Training“ in der Kopfzeile
@@ -104,6 +106,11 @@ Stehen in `ueber-uns.html` (Abschnitt `id="rekorde"`) und werden am Schuljahrese
 
 ### Teilnehmer:innen des neuen Schuljahres eintragen
 In `data/teilnehmer.json` **oben** in `jahre` einen Eintrag ergänzen (Aufbau wie die bestehenden): `jahr`, optional `text`, und `gruppen` mit `titel` (z. B. „Anfänger:innen“), optional `leitung`, `zeit`, `namen` (`{ "n": "Nachname Vorname", "k": "1c" }`, alphabetisch) und `fotos` (`{ "src": "assets/teilnehmer/2026-27/01.jpg", "alt": "Name" }`). Fotos max. 1400 px, JPEG. Fehlt eine Liste: `"hinweis": "Liste fehlt"`. Das neueste Schuljahr wird automatisch zuerst angezeigt.
+
+### Kombinationen (Taktik für Fortgeschrittene)
+`data/kombinationen.json`: `kategorien` mit `id`, `titel`, `unter`, `tipp`, `aufgaben` (genau 30: Aufgaben 1–10 = Leicht, 11–20 = Mittel, 21–30 = Schwer).
+Eine Aufgabe: `fen` (Seite am Zug = Lösende), `zuege` (UCI, abwechselnd eigener Zug und Antwort, endet mit dem eigenen Schlusszug), `taktik` (z. B. „Gabel“), optional `erklaerung`, `partie`, `jahr`.
+Kategorie 1 „Vorbereiten und zuschlagen“ stammt aus der Mega Database 2026 (ChessBase); jede Lösung ist mit Stockfish geprüft (der geforderte Zug ist jeweils klar der beste). Neue Kategorien bitte genauso prüfen.
 
 ### Rätsel-Rallye
 - Ursprünglich von Prof. Amon für die alte Seite entwickelt; jetzt läuft alles lokal (keine CDNs).
