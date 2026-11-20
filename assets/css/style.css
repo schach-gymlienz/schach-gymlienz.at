@@ -112,19 +112,28 @@ p { margin: 0; }
 .row { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
 .grow { flex: 999 1 460px; min-width: 0; }
 .side { flex: 1 1 260px; min-width: 0; }
+.row.gleich-hoch { align-items: stretch; }                          /* Karten einer Zeile gleich hoch (Startseite: Rangliste, Reel, Termine) */
+.row.gleich-hoch > .side { display: flex; flex-direction: column; flex-basis: 296px; }
+.row.gleich-hoch > .side .dates li { gap: 12px; }
+.row.gleich-hoch > .side .dates .day { width: 50px; }
+.row.gleich-hoch > .side > a:last-child { margin-top: auto !important; padding-top: 14px; align-self: flex-start; }
 .reel { flex: 1 1 250px; max-width: 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px; padding: 18px; }
 .reel video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 10px; background: #000; }
 .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
 .news article { display: flex; flex-direction: column; gap: 10px; }
 .kicker { font-size: 14px; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: .05em; }
-.training { display: flex; flex-wrap: wrap; gap: 28px; align-items: center; }
+.training { display: flex; flex-wrap: wrap; gap: 36px; align-items: center; }
 .training img { width: 200px; height: auto; flex: 0 0 auto; }
-.training .tiles { flex: 1 1 460px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.training-text { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px; }   /* Text, Zeiten, Knöpfe untereinander in EINER Spalte */
+.training-text p.muted { max-width: 72ch; margin: 0; }
+.training-text .btn-row { margin: 0; }
+.training .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 640px; }
 .tile { background: var(--soft); border-radius: 12px; padding: 18px; }
 .tile b { display: block; font-family: var(--font-display); font-size: 22px; margin: 2px 0; }
 .tile small { font-weight: 700; color: var(--navy); text-transform: uppercase; letter-spacing: .05em; font-size: 13px; }
 .dates { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
 .dates li { display: flex; gap: 14px; align-items: center; }
+.dates li > div:last-child { min-width: 0; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }  /* lange Wörter („Jahresmeisterschaft,“) nicht über den Kartenrand */
 .dates .day { width: 58px; flex: none; text-align: center; border-radius: 10px; background: var(--soft); padding: 7px 0; font-family: var(--font-display); font-size: 20px; line-height: 1.1; }
 .dates .day small { display: block; font-family: var(--font); font-size: 12px; font-weight: 700; color: var(--navy); text-transform: uppercase; }
 .dates .day.gold { background: var(--gold-soft); }
