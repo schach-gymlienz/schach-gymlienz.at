@@ -126,14 +126,27 @@ p { margin: 0; }
 .training img { width: 200px; height: auto; flex: 0 0 auto; }
 .training-text { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px; }   /* Text, Zeiten, Knöpfe untereinander in EINER Spalte */
 .training-text p.muted { max-width: 72ch; margin: 0; }
-.training-text .btn-row { margin: 0; }
+.training-text .btn-row { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 640px; }  /* Knöpfe gleich breit, genau unter den Zeitkästen */
+.training-text .btn-row .btn { text-align: center; }
+.hero-fakten { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 18px; max-width: 760px; font-size: 17px; line-height: 1.45; color: #E3E8F2; }   /* Eckdaten statt Fließtext mit „·“ */
+.hero-fakten li { display: contents; }
+.hero-fakten .ganz { white-space: nowrap; }      /* umgebrochen wird nur zwischen den Sinnstücken */
+.hero-rechts { text-align: right; }
+@media (max-width: 600px) {                       /* Handy: Beschriftung über dem Text, damit die Sinnstücke Platz haben */
+  .hero-rechts { text-align: left; }               /* untereinander: alles an derselben linken Kante */
+  .hero-fakten { grid-template-columns: 1fr; gap: 2px; }
+  .hero-fakten b { padding-top: 10px; }
+}
+.hero-fakten b { color: var(--gold); font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding-top: 3px; }
 .training .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 640px; }
 .tile { background: var(--soft); border-radius: 12px; padding: 18px; }
 .tile b { display: block; font-family: var(--font-display); font-size: 22px; margin: 2px 0; }
 .tile small { font-weight: 700; color: var(--navy); text-transform: uppercase; letter-spacing: .05em; font-size: 13px; }
 .dates { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
 .dates li { display: flex; gap: 14px; align-items: center; }
-.dates li > div:last-child { min-width: 0; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }  /* lange Wörter („Jahresmeisterschaft,“) nicht über den Kartenrand */
+.dates li > div:last-child { min-width: 0; }   /* Text neben dem Datum darf schmaler werden, statt über den Kartenrand zu laufen */
+.dates .ganz { white-space: nowrap; }          /* Datum, Uhrzeit, Link: nie mitten drin umbrechen, keine Silbentrennung */
+.dates .stuecke-zeilen .ganz { display: block; }   /* Startseite: jedes Stück in eigener Zeile */
 .dates .day { width: 58px; flex: none; text-align: center; border-radius: 10px; background: var(--soft); padding: 7px 0; font-family: var(--font-display); font-size: 20px; line-height: 1.1; }
 .dates .day small { display: block; font-family: var(--font); font-size: 12px; font-weight: 700; color: var(--navy); text-transform: uppercase; }
 .dates .day.gold { background: var(--gold-soft); }

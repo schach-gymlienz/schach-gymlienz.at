@@ -88,7 +88,8 @@
 
   function standText(data) {
     var n = data.termine.length, last = data.termine[n - 1];
-    return "Zwischenstand nach " + n + (n === 1 ? " Termin" : " Terminen") + " · Stand " + last.datum;
+    // kurz genug für eine Zeile am Handy (vorher „… · Stand 17.11.2026“ brach mitten im Stand um)
+    return "Zwischenstand nach " + n + (n === 1 ? " Termin" : " Terminen") + " (" + last.datum + ")";
   }
 
   function renderGesamt(el, data, list, limit) {

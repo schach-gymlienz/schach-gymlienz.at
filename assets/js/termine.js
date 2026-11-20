@@ -19,15 +19,20 @@
     var a = d(t.datum);
     return '<div class="day' + (t.ebene === "bund" || t.ebene === "land" ? " red" : "") + '"><small>' + MON[a.getMonth()] + "</small>" + a.getDate() + "</div>";
   }
+  /* Umbrüche nur an sinnvollen Stellen (Hannes 20.11.2026): Datum, Uhrzeit, Ort und Link sind je ein
+     unteilbares Stück. Startseite (kurz): jedes Stück in eigener Zeile, ohne Trennpunkte.
+     Termine-Seite: Stücke nebeneinander mit „·“, umgebrochen wird nur zwischen den Stücken. */
   function zeile(t, kurz) {
     var meta = [];
-    if (t.datum) meta.push(lang(t) + (t.zeit ? ", " + esc(t.zeit) + " Uhr" : "")); else if (t.wann) meta.push(esc(t.wann));
-    if (t.ort && !kurz) meta.push(esc(t.ort));
-    if (vorbei(t)) meta.push("gespielt");
-    var link = t.link ? ' · <a href="' + esc(t.link) + '">' + esc(t.linktext || "Mehr") + "</a>" : "";
-    return "<li" + (vorbei(t) ? ' class="past"' : "") + ">" + tag(t) + "<div><strong>" + esc(t.titel) + "</strong>" +
+    if (t.datum) meta.push(lang(t)); else if (t.wann) meta.push(esc(t.wann));
+    if (t.zeit) meta.push(esc(t.zeit) + " Uhr");
+    var ort = t.ort && !kurz ? meta.push(esc(t.ort)) - 1 : -1;      // Ort darf (lang) in sich umbrechen
+    if (t.link) meta.push('<a href="' + esc(t.link) + '">' + esc(t.linktext || "Mehr") + "</a>");
+    var stuecke = meta.map(function (m, i) { return '<span class="' + (i === ort ? "ort" : "ganz") + '">' + m + "</span>"; });
+    var titel = esc(t.titel).replace(/ (\d+)$/, "&nbsp;$1");          // „Termin 3“ nie auseinanderreißen
+    return "<li" + (vorbei(t) ? ' class="past"' : "") + ">" + tag(t) + "<div><strong>" + titel + "</strong>" +
       (!kurz && t.ebene ? ' <span class="pill pill-soft small">' + EBENE[t.ebene] + "</span>" : "") +
-      '<div class="muted small">' + meta.join(" · ") + link + "</div>" +
+      '<div class="muted small' + (kurz ? " stuecke-zeilen" : "") + '">' + stuecke.join(kurz ? "" : " · ") + "</div>" +
       (t.info && !kurz ? '<div class="muted small">' + esc(t.info) + "</div>" : "") + "</div></li>";
   }
   function sortiert(list) {
