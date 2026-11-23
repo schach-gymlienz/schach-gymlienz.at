@@ -75,13 +75,13 @@
           <h2>Preise</h2>
           <p>Für jede Gruppe: Pokale, Medaillen, Sachpreise und Trostpreise.</p>
           <h2>Anmeldung</h2>
-          <p>Per E-Mail an <a href="mailto:info@schach-gymlienz.at?subject=Anmeldung%20Weihnachtsturnier%202026">info@schach-gymlienz.at</a> (bitte Name, Schule und Klasse angeben) oder im Gymnasium am Infotisch (Pausenraum 1. Stock) – bis spätestens <strong>14. Dezember 2026</strong>.</p>
-          <p class="muted small">Mit der Teilnahme stimmen die Teilnehmer:innen der Veröffentlichung ihres Namens und der Verwendung von Turnierfotos zu.</p>
+          <p>Am einfachsten mit dem <a href="#anmelden">Anmeldeformular</a> weiter unten, oder im Gymnasium am Infotisch (Pausenraum 1. Stock) – bis spätestens <strong>14. Dezember 2026</strong>.</p>
+          <p class="muted small">Mit der Teilnahme stimmen die Teilnehmer:innen der Veröffentlichung ihres Namens und der Verwendung von Turnierfotos zu. Die Anmeldedaten verwenden wir nur für die Organisation des Turniers und löschen sie danach.</p>
           <p>Auf dein Kommen freuen sich die Schulschachbetreuer des Gymnasiums, Prof. Stadler und Prof. Amon.</p>
           
         </div>
         <div class="btn-row">
-          <a class="btn btn-gold" href="mailto:info@schach-gymlienz.at?subject=Anmeldung%20Weihnachtsturnier%202026">Jetzt anmelden</a>
+          <a class="btn btn-gold" href="#anmelden">Jetzt anmelden</a>
           <a class="btn btn-navy" href="assets/turniere/weihnachtsturnier-2026-ausschreibung.pdf" download>Ausschreibung als PDF</a>
           <a class="btn btn-soft" href="archiv.html?kat=Weihnachtsturnier">Berichte der letzten Jahre</a>
         </div>
@@ -91,7 +91,63 @@
       </aside>
     </div>
   </section>
+
+  <section class="section" id="anmelden">
+    <div class="wrap">
+      <div class="card anmeldung">
+        <h2>Anmeldung</h2>
+        <dl class="anmelde-eckdaten">
+          <div><dt>Wann</dt><dd>Montag, 21.12.2026,<br>7:45&nbsp;–&nbsp;ca.&nbsp;14:30&nbsp;Uhr</dd></div>
+          <div><dt>Wo</dt><dd>Gymnasium Lienz, Festsaal<br>(Maximilianstraße&nbsp;11)</dd></div>
+          <div><dt>Modus</dt><dd>9&nbsp;Runden Schweizer System,<br>15&nbsp;Minuten pro Spieler:in und Partie</dd></div>
+          <div><dt>Nenngeld</dt><dd>5&nbsp;€ (am Turniertag mitbringen),<br>Pausenjause mit Getränk inklusive</dd></div>
+          <div><dt>Nennungsschluss</dt><dd>Montag, 14.12.2026</dd></div>
+        </dl>
+
+        <form id="anmeldeformular" class="anmelde-form" novalidate
+              data-turnier="weihnachtsturnier-2026" data-titel="Weihnachtsturnier 2026" data-schluss="2026-12-14"
+              data-ziel="https://anmeldung.amon-online.de/anmeldung">
+          <label class="field" for="an-vorname">Vorname<input id="an-vorname" name="vorname" type="text" required maxlength="50" autocomplete="given-name"></label>
+          <label class="field" for="an-nachname">Nachname<input id="an-nachname" name="nachname" type="text" required maxlength="50" autocomplete="family-name"></label>
+          <label class="field" for="an-schule">Schule<input id="an-schule" name="schule" type="text" required minlength="2" maxlength="100" placeholder="z. B. Gymnasium Lienz, MS Sillian, VS Dölsach"></label>
+          <label class="field" for="an-klasse">Klasse
+            <select id="an-klasse" name="klasse" required>
+              <option value="">bitte wählen</option>
+              <option value="VS">Volksschule</option>
+              <optgroup label="Mittelschule / Gymnasium">
+                <option value="1">1. Klasse</option>
+                <option value="2">2. Klasse</option>
+                <option value="3">3. Klasse</option>
+                <option value="4">4. Klasse</option>
+              </optgroup>
+              <optgroup label="Oberstufe I">
+                <option value="5">5. Klasse</option>
+                <option value="6">6. Klasse</option>
+              </optgroup>
+              <optgroup label="Oberstufe II">
+                <option value="7">7. Klasse</option>
+                <option value="8">8. Klasse</option>
+                <option value="9">9. Klasse</option>
+              </optgroup>
+            </select>
+          </label>
+          <fieldset class="field anmelde-wahl">
+            <legend>Mädchen</legend>
+            <label><input type="radio" name="weiblich" value="ja" required> ja</label>
+            <label><input type="radio" name="weiblich" value="nein"> nein</label>
+          </fieldset>
+          <label class="anmelde-haken"><input type="checkbox" name="einverstanden" required>
+            <span>Einverstanden: Mein Name und Turnierfotos dürfen veröffentlicht werden. Meine Anmeldedaten werden nur für die Organisation des Turniers verwendet und danach gelöscht (<a href="datenschutz.html#anmeldung">Datenschutz</a>).</span></label>
+          <label class="anmelde-honig" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+          <div class="btn-row"><button type="submit" class="btn btn-gold">Anmeldung absenden</button></div>
+        </form>
+        <div id="anmelde-meldung" class="anmelde-meldung" role="status" tabindex="-1" hidden></div>
+        <p class="muted small">Lieber per Mail? Schreib an <a href="mailto:info@schach-gymlienz.at?subject=Anmeldung%20Weihnachtsturnier%202026">info@schach-gymlienz.at</a> (Vorname, Nachname, Schule, Klasse).</p>
+      </div>
+    </div>
+  </section>
 </main>
+<script src="assets/js/anmeldung.js" defer></script>
 
 <!-- FUSSZEILE (auf allen Seiten gleich) -->
 <footer class="site-footer" id="kontakt">

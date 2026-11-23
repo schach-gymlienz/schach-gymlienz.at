@@ -101,6 +101,17 @@ In `data/partien.json` oben einen Eintrag mit `titel`, `weiss`, `schwarz`, `jahr
 ### Weihnachtsturnier / Hinweis-Kasten auf der Startseite
 Der Kasten `id="weihnachtsturnier"` in `index.html` wirbt für das Turnier. Nach dem Turnier entfernen (oder auf den neuen Bericht verlinken) und `weihnachtsturnier.html` fürs nächste Jahr anpassen.
 
+### Online-Anmeldung zu Turnieren (seit November 2026)
+- Formular `#anmelden` auf `weihnachtsturnier.html`, Programm `assets/js/anmeldung.js`. Einstellungen als
+  data-Attribute am `<form>`: `data-turnier` (Kennung), `data-titel`, `data-schluss` (Nennungsschluss, danach
+  schließt sich das Formular von selbst), `data-ziel` (Server).
+- Die Angaben gehen an **anmeldung.amon-online.de** (Hannes' Server, NICHT GitHub). Dort muss das Turnier in
+  `05_Sonstiges\Server\setup\feedback\turniere.json` (Claude-Ordner) eingetragen sein, sonst lehnt der Server ab;
+  danach `bash 19_anmeldung.sh`. Ist der Server nicht erreichbar, bietet das Formular eine fertige Mail an info@ an.
+- In die Anmelde-Excel holen: `python -X utf8 anmeldungen_in_excel.py <turnier-kennung>` (im selben Ordner).
+- Datenschutzerklärung Punkt 7 beschreibt das; **spätestens einen Monat nach dem Turnier am Server löschen.**
+- Neues Turnier mit Anmeldung: Formular-Abschnitt kopieren, Kennung/Titel/Schluss/Eckdaten anpassen.
+
 ### Zahlen & Rekorde
 Stehen in `ueber-uns.html` (Abschnitt `id="rekorde"`) und werden am Schuljahresende von Hand nachgezählt.
 
@@ -185,6 +196,7 @@ Lehrkräfte als „Prof. Nachname“ bzw. im Impressum mit vollem Titel.
 - [ ] Teilnehmer:innen 2026/27 in `data/teilnehmer.json` eintragen.
 - [ ] Termine Bezirksfinale und Landesfinale 2026/27 in `data/termine.json` eintragen.
 - [ ] Hinweis-Kasten Weihnachtsturnier nach dem 21.12.2026 von der Startseite nehmen.
+- [ ] Online-Anmeldungen Weihnachtsturnier bis 21.01.2027 am Server löschen (`/srv/feedback/anmeldungen.jsonl`).
 - [ ] Eigene Partien (Landes-/Bundesfinale) in `data/partien.json` ergänzen.
 - [ ] Anfänger:innen-Listen 2022/23–2024/25 fehlen (schon auf der alten Seite).
 
